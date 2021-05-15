@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Archotech Ruinseeker -->
+        <ThingDef ParentName="ArtifactBase">
+            <defName>RS_ArchotechRuinseeker</defName>
+            <label>archotech ruinseeker</label>
+            <description>.</description> <!-- Adjust -->
+            <graphicData>
+                <texPath>Things/Item/Artifact/ArchotechRuinseeker</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <resourceReadoutPriority>Middle</resourceReadoutPriority>
+            <stackLimit>1</stackLimit>
+            <tradeNeverStack>true</tradeNeverStack>
+            <useHitPoints>true</useHitPoints>
+            <statBases>
+                <MarketValue>1000</MarketValue>
+                <MaxHitPoints>80</MaxHitPoints>
+            </statBases>
+            <drawGUIOverlay>false</drawGUIOverlay>
+            <comps></comps> <!-- Adjust -->
+        </ThingDef>
+
+</Defs>

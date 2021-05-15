@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ResearchProjectDef>
+        <defName>RS_SolusArsenal</defName>
+        <label>solus arsenal</label>
+        <description>.</description> <!-- Adjust -->
+        <baseCost>3000</baseCost>
+        <tab>RimSol</tab>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>ChargedShot</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>0.15</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Shock -->
+        <DamageDef ParentName="Bomb">
+            <defName>RG_Shock</defName>
+            <label>shock</label>
+            <deathMessage>{0} has been shocked to death.</deathMessage>
+            <harmsHealth>true</harmsHealth>
+            <impactSoundType>Electric</impactSoundType>
+            <defaultDamage>22</defaultDamage>
+            <explosionSnowMeltAmount>0</explosionSnowMeltAmount>
+            <explosionCellMote>Mote_BlastEMP</explosionCellMote>
+            <explosionColorCenter>(150, 60, 160)</explosionColorCenter>
+            <explosionColorEdge>(150, 60, 160)</explosionColorEdge>
+            <explosionInteriorMote>Mote_ElectricalSpark</explosionInteriorMote>
+            <soundExplosion>Explosion_EMP</soundExplosion>
+            <combatLogRules>Damage_Bomb</combatLogRules>
+        </DamageDef>
+
+</Defs>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Solus Rocket Launcher -->
+        <ThingDef ParentName="BaseGun">
+            <defName>RS_SolusRocketLauncher</defName>
+            <label>solus rocket launcher</label>
+            <description>.</description> <!-- Adjust -->
+            <tickerType>Normal</tickerType>
+            <techLevel>Spacer</techLevel>
+            <graphicData>
+                <texPath>Things/Item/Equipment/WeaponRanged/SolusRocketLauncher</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <shaderType>TransparentPostLight</shaderType>
+                <drawSize>1.22</drawSize>
+            </graphicData>
+            <statBases>
+                <WorkToMake>100000</WorkToMake>
+                <MarketValue>1000</MarketValue>
+                <Mass>12</Mass>
+                <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+            </statBases>
+            <equippedAngleOffset>45</equippedAngleOffset>
+            <costList>
+                <Plasteel>120</Plasteel>
+                <ComponentSpacer>2</ComponentSpacer>
+                <Shell_AntigrainWarhead>1</Shell_AntigrainWarhead>
+            </costList>
+            <recipeMaker>
+                <recipeUsers>
+                    <li>RS_SolusFabricationBench</li>
+                </recipeUsers>
+                <skillRequirements>
+                    <Crafting>12</Crafting>
+                </skillRequirements>
+            </recipeMaker>
+            <weaponTags>
+                <li>GunHeavy</li>
+            </weaponTags>
+            <tradeTags>
+                <li>ExoticMisc</li>
+            </tradeTags>
+            <thingSetMakerTags>
+                <li>SingleUseWeapon</li>
+            </thingSetMakerTags>
+            <verbs>
+                <li>
+                    <verbClass>Verb_ShootOneUse</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>RS_Rocket_Solus</defaultProjectile>
+                    <burstShotCount>1</burstShotCount>
+                    <forcedMissRadius>0.9</forcedMissRadius>
+                    <warmupTime>6</warmupTime>
+                    <range>145.9</range>
+                    <soundCast>InfernoCannon_Fire</soundCast>
+                    <soundCastTail>GunTail_Heavy</soundCastTail>
+                    <onlyManualCast>true</onlyManualCast>
+                    <targetParams>
+                        <canTargetLocations>true</canTargetLocations>
+                        <canTargetPawns>false</canTargetPawns>
+                    </targetParams>
+                    <muzzleFlashScale>30</muzzleFlashScale>
+                    <ai_AvoidFriendlyFireRadius>44</ai_AvoidFriendlyFireRadius>
+                    <minRange>40</minRange>
+                    <requireLineOfSight>false</requireLineOfSight>
+                </li>
+            </verbs>
+            <tools>
+                <li>
+                    <label>barrel</label>
+                    <capacities>
+                        <li>Blunt</li>
+                    </capacities>
+                    <power>10</power>
+                    <cooldownTime>2.6</cooldownTime>
+                </li>
+            </tools>
+            <comps>
+                <li Class="CompProperties_Explosive">
+                    <explosiveRadius>11.9</explosiveRadius>
+                    <explosiveDamageType>Bomb</explosiveDamageType>
+                    <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+                </li>
+                <li>
+                    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+                </li>
+            </comps>
+        </ThingDef>
+
+        <ThingDef ParentName="BaseBullet">
+            <defName>RS_Rocket_Solus</defName>
+            <label>solus rocket</label>
+            <graphicData>
+                <texPath>Things/Projectile/SolusRocket</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <shaderType>TransparentPostLight</shaderType>
+            </graphicData>
+            <thingClass>Projectile_Explosive</thingClass>
+            <projectile>
+                <damageDef>RG_Shock</damageDef>
+                <explosionRadius>15.8</explosionRadius>
+                <speed>45</speed>
+            </projectile>
+        </ThingDef>
+
+</Defs>
