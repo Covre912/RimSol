@@ -12,7 +12,7 @@
                 <graphicClass>Graphic_Single</graphicClass>
                 <shaderType>TransparentPostLight</shaderType>
             </graphicData>
-            <soundInteract>Interact_SolusRifle</soundInteract>
+            <soundInteract>Interact_Rifle</soundInteract>
             <statBases>
                 <Mass>4.6</Mass> 
                 <AccuracyTouch>0.60</AccuracyTouch>
@@ -27,8 +27,8 @@
                 <skillRequirements>
                     <Crafting>8</Crafting>
                 </skillRequirements>
-                <recipeUsers Inherit="False">
-                    <li>FabricationBench</li>
+                <recipeUsers>
+                    <li>RS_SolusFabricationBench</li>
                 </recipeUsers>
             </recipeMaker>
             <costList>
@@ -47,7 +47,7 @@
                     <range>25.9</range>
                     <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
                     <burstShotCount>3</burstShotCount>
-                    <soundCast>Shot_SolusAssaultRifle</soundCast>
+                    <soundCast>Bullet_SolusAssaultRifle</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                 </li>
@@ -77,7 +77,7 @@
             <defName>RS_Bullet_SolusAssaultRifle</defName>
             <label>solus rifle shot</label>
             <graphicData>
-                <texPath>Things/Projectile/Solus_Small</texPath>
+                <texPath>Things/Projectile/Solus_Bullet_Small</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
                 <shaderType>TransparentPostLight</shaderType>
             </graphicData>
@@ -100,23 +100,24 @@
                 <graphicClass>Graphic_Single</graphicClass>
                 <shaderType>TransparentPostLight</shaderType>
             </graphicData>
-            <soundInteract>Interact_SolusRifle</soundInteract>
+            <equippedAngleOffset>45</equippedAngleOffset>
+            <soundInteract>Interact_ChargeRifle</soundInteract>
             <statBases>
                 <Mass>4.6</Mass> 
-                <AccuracyTouch>0.60</AccuracyTouch>
-                <AccuracyShort>0.85</AccuracyShort>
-                <AccuracyMedium>0.76</AccuracyMedium>
-                <AccuracyLong>0.65</AccuracyLong>
+                <AccuracyTouch>0.65</AccuracyTouch>
+                <AccuracyShort>0.90</AccuracyShort>
+                <AccuracyMedium>0.81</AccuracyMedium>
+                <AccuracyLong>0.70</AccuracyLong>
                 <RangedWeapon_Cooldown>1.75</RangedWeapon_Cooldown>
-                <WorkToMake>14000</WorkToMake>
+                <WorkToMake>19000</WorkToMake>
             </statBases>
             <recipeMaker>
                 <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
                 <skillRequirements>
                     <Crafting>6</Crafting>
                 </skillRequirements>
-                <recipeUsers Inherit="False">
-                    <li>FabricationBench</li>
+                <recipeUsers>
+                    <li>RS_SolusFabricationBench</li>
                 </recipeUsers>
             </recipeMaker>
             <costList>
@@ -133,9 +134,7 @@
                     <defaultProjectile>RS_Bullet_SolusBoltActionRifle</defaultProjectile>
                     <warmupTime>1.7</warmupTime>
                     <range>30.9</range>
-                    <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-                    <burstShotCount>3</burstShotCount>
-                    <soundCast>Shot_SolusBoltActionRifle</soundCast>
+                    <soundCast>Bullet_SolusBoltActionRifle</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                 </li>
@@ -165,7 +164,7 @@
             <defName>RS_Bullet_SolusBoltActionRifle</defName>
             <label>solus rifle shot</label>
             <graphicData>
-                <texPath>Things/Projectile/Solus_Big</texPath>
+                <texPath>Things/Projectile/Solus_Bullet_Big</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
                 <shaderType>TransparentPostLight</shaderType>
             </graphicData>
@@ -174,6 +173,252 @@
                 <damageAmountBase>13</damageAmountBase>
                 <armorPenetrationBase>0.35</armorPenetrationBase>
                 <stoppingPower>1.5</stoppingPower>
+                <speed>70</speed>
+            </projectile>
+        </ThingDef>
+
+    <!-- Solus Bow -->
+        <ThingDef ParentName="BaseHumanMakeableGun">
+            <defName>RS_SolusBow</defName>
+            <label>solus bow</label>
+            <description>.</description> <!-- Adjust -->
+            <techLevel>Spacer</techLevel>
+            <graphicData>
+                <texPath>Things/Item/Equipment/WeaponRanged/SolusBow</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <shaderType>TransparentPostLight</shaderType>
+            </graphicData>
+            <soundInteract>Bow_Recurve</soundInteract>
+            <statBases>
+                <Mass>2.1</Mass> 
+                <AccuracyTouch>0.69</AccuracyTouch>
+                <AccuracyShort>0.76</AccuracyShort>
+                <AccuracyMedium>0.60</AccuracyMedium>
+                <AccuracyLong>0.42</AccuracyLong>
+                <RangedWeapon_Cooldown>1.95</RangedWeapon_Cooldown>
+                <WorkToMake>17000</WorkToMake>
+            </statBases>
+            <recipeMaker>
+                <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
+                <skillRequirements>
+                    <Crafting>7</Crafting>
+                </skillRequirements>
+                <recipeUsers>
+                    <li>RS_SolusFabricationBench</li>
+                </recipeUsers>
+            </recipeMaker>
+            <costList>
+                <Plasteel>30</Plasteel>
+                <ComponentSpacer>1</ComponentSpacer>
+            </costList>
+            <equippedStatOffsets>
+                <HuntingStealth>0.85</HuntingStealth>
+            </equippedStatOffsets>
+            <weaponTags>
+                <li>SpacerGun</li>
+                <li>SniperRifle</li>
+            </weaponTags>
+            <verbs>
+                <li>
+                    <verbClass>Verb_Shoot</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>RS_Arrow_SolusBow</defaultProjectile>
+                    <warmupTime>1.45</warmupTime>
+                    <range>24.9</range>
+                    <soundCast>Arrow_SolusBow</soundCast>
+                </li>
+            </verbs>
+            <tools>
+                <li>
+                    <label>limb</label>
+                    <capacities>
+                        <li>Blunt</li>
+                        <li>Poke</li>
+                    </capacities>
+                    <power>9</power>
+                    <cooldownTime>2</cooldownTime>
+                </li>
+            </tools>
+        </ThingDef>
+
+        <ThingDef ParentName="BaseBullet">
+            <defName>RS_Arrow_SolusBow</defName>
+            <label>solus bow arrow</label>
+            <graphicData>
+                <texPath>Things/Projectile/Solus_Arrow_Modern</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <shaderType>TransparentPostLight</shaderType>
+            </graphicData>
+            <projectile>
+                <flyOverhead>false</flyOverhead>
+                <damageDef>Arrow</damageDef>
+                <damageAmountBase>19</damageAmountBase>
+                <armorPenetrationBase>0.35</armorPenetrationBase>
+                <stoppingPower>1</stoppingPower>
+                <speed>52</speed>
+            </projectile>
+        </ThingDef>
+
+    <!-- Solus LMG -->
+        <ThingDef ParentName="BaseHumanMakeableGun">
+            <defName>RS_SolusLMG</defName>
+            <label>solus LMG</label>
+            <description>.</description> <!-- Adjust -->
+            <techLevel>Spacer</techLevel>
+            <graphicData>
+                <texPath>Things/Item/Equipment/WeaponRanged/SolusLMG</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <shaderType>TransparentPostLight</shaderType>
+            </graphicData>
+            <soundInteract>Interact_ChargeLance</soundInteract>
+            <statBases>
+                <Mass>8.5</Mass> 
+                <AccuracyTouch>0.45</AccuracyTouch>
+                <AccuracyShort>0.49</AccuracyShort>
+                <AccuracyMedium>0.35</AccuracyMedium>
+                <AccuracyLong>0.26</AccuracyLong>
+                <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+                <WorkToMake>550000</WorkToMake>
+            </statBases>
+            <recipeMaker>
+                <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
+                <skillRequirements>
+                    <Crafting>10</Crafting>
+                </skillRequirements>
+                <recipeUsers>
+                    <li>RS_SolusFabricationBench</li>
+                </recipeUsers>
+            </recipeMaker>
+            <costList>
+                <Plasteel>80</Plasteel>
+                <ComponentSpacer>4</ComponentSpacer>
+            </costList>
+            <weaponTags>
+                <li>SpacerGun</li>
+            </weaponTags>
+            <verbs>
+                <li>
+                    <verbClass>Verb_Shoot</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>RS_Bullet_SolusLMG</defaultProjectile>
+                    <warmupTime>1.8</warmupTime>
+                    <range>27.9</range>
+                    <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+                    <burstShotCount>12</burstShotCount>
+                    <soundCast>Bullet_SolusLMG</soundCast>
+                    <soundCastTail>GunTail_Heavy</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                </li>
+            </verbs>
+            <tools>
+                <li>
+                    <label>barrel</label>
+                    <capacities>
+                        <li>Blunt</li>
+                        <li>Poke</li>
+                    </capacities>
+                    <power>10</power>
+                    <cooldownTime>2</cooldownTime>
+                </li>
+            </tools>
+        </ThingDef>
+
+        <ThingDef ParentName="BaseBullet">
+            <defName>RS_Bullet_SolusLMG</defName>
+            <label>solus LMG shot</label>
+            <graphicData>
+                <texPath>Things/Projectile/Solus_Bullet_Big</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <shaderType>TransparentPostLight</shaderType>
+                <drawSize>0.8</drawSize>
+            </graphicData>
+            <projectile>
+                <damageDef>Bullet</damageDef>
+                <damageAmountBase>9</damageAmountBase>
+                <armorPenetrationBase>0.35</armorPenetrationBase>
+                <stoppingPower>1</stoppingPower>
+                <speed>60</speed>
+            </projectile>
+        </ThingDef>
+
+    <!-- Solus Pistol -->
+        <ThingDef ParentName="BaseHumanMakeableGun">
+            <defName>RS_SolusPistol</defName>
+            <label>solus pistol</label>
+            <description>.</description> <!-- Adjust -->
+            <techLevel>Spacer</techLevel>
+            <graphicData>
+                <texPath>Things/Item/Equipment/WeaponRanged/SolusPistol</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <shaderType>TransparentPostLight</shaderType>
+            </graphicData>
+            <soundInteract>Interact_Revolver</soundInteract>
+            <statBases>
+                <Mass>1.1</Mass> 
+                <AccuracyTouch>0.85</AccuracyTouch>
+                <AccuracyShort>0.75</AccuracyShort>
+                <AccuracyMedium>0.45</AccuracyMedium>
+                <AccuracyLong>0.35</AccuracyLong>
+                <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+                <WorkToMake>38000</WorkToMake>
+            </statBases>
+            <recipeMaker>
+                <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
+                <skillRequirements>
+                    <Crafting>10</Crafting>
+                </skillRequirements>
+                <recipeUsers>
+                    <li>RS_SolusFabricationBench</li>
+                </recipeUsers>
+            </recipeMaker>
+            <costList>
+                <Plasteel>30</Plasteel>
+                <ComponentSpacer>1</ComponentSpacer>
+            </costList>
+            <weaponTags>
+                <li>SpacerGun</li>
+            </weaponTags>
+            <verbs>
+                <li>
+                    <verbClass>Verb_Shoot</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>RS_Bullet_SolusPistol</defaultProjectile>
+                    <warmupTime>0.3</warmupTime>
+                    <range>22.9</range>
+                    <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+                    <burstShotCount>3</burstShotCount>
+                    <soundCast>Bullet_SolusPistol</soundCast>
+                    <soundCastTail>GunTail_Heavy</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                </li>
+            </verbs>
+            <tools>
+                <li>
+                    <label>barrel</label>
+                    <capacities>
+                        <li>Blunt</li>
+                        <li>Poke</li>
+                    </capacities>
+                    <power>9</power>
+                    <cooldownTime>2</cooldownTime>
+                </li>
+            </tools>
+        </ThingDef>
+
+        <ThingDef ParentName="BaseBullet">
+            <defName>RS_Bullet_SolusPistol</defName>
+            <label>solus pistol shot</label>
+            <graphicData>
+                <texPath>Things/Projectile/Solus_Bullet_Small</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <shaderType>TransparentPostLight</shaderType>
+                <drawSize>1.05</drawSize>
+            </graphicData>
+            <projectile>
+                <damageDef>Bullet</damageDef>
+                <damageAmountBase>8</damageAmountBase>
+                <armorPenetrationBase>0.35</armorPenetrationBase>
+                <stoppingPower>1</stoppingPower>
                 <speed>70</speed>
             </projectile>
         </ThingDef>

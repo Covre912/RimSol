@@ -27,6 +27,7 @@
                 <Shell_AntigrainWarhead>1</Shell_AntigrainWarhead>
             </costList>
             <recipeMaker>
+                <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
                 <recipeUsers>
                     <li>RS_SolusFabricationBench</li>
                 </recipeUsers>
