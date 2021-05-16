@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "TemperateForest"]/wildPlants</xpath>
+		<value>
+			<RS_Plant_TreeSnowberry>0.000001</RS_Plant_TreeSnowberry>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "AridShrubland"]/wildPlants</xpath>
+		<value>
+			<RS_Plant_TreeSnowberry>0.000001</RS_Plant_TreeSnowberry>
+		</value>
+	</Operation>
+	
+		<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "BorealForest"]/wildPlants</xpath>
+		<value>
+			<RS_Plant_TreeSnowberry>0.1</RS_Plant_TreeSnowberry>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "TemperateSwamp"]/wildPlants</xpath>
+		<value>
+			<RS_Plant_TreeSnowberry>0.000001</RS_Plant_TreeSnowberry>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "ColdBog"]/wildPlants</xpath>
+		<value>
+			<RS_Plant_TreeSnowberry>0.01</RS_Plant_TreeSnowberry>
+		</value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "Desert"]/wildPlants</xpath>
+		<value>
+			<RS_Plant_TreeSnowberry>0.000001</RS_Plant_TreeSnowberry>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "Tundra"]/wildPlants</xpath>
+		<value>
+			<RS_Plant_TreeSnowberry>0.01</RS_Plant_TreeSnowberry>
+		</value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/wildPlants</xpath>
+		<value>
+			<RS_Plant_TreeSnowberry>0.000001</RS_Plant_TreeSnowberry>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "TropicalSwamp"]/wildPlants</xpath>
+		<value>
+			<RS_Plant_TreeSnowberry>0.000001</RS_Plant_TreeSnowberry>
+		</value>
+	</Operation>	
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName = "ExtremeDesert"]/wildPlants</xpath>
+		<value>
+			<RS_Plant_TreeSnowberry>0.000001</RS_Plant_TreeSnowberry>
+		</value>
+	</Operation>	
+
+</Patch>
