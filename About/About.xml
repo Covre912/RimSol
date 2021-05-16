@@ -2,7 +2,7 @@
 
 <ModMetaData>
 	<name>RimSol</name>
-	<author>BirdiOne, Kitsune, Immortalus</author>
+	<author>BirdiOne, Kitsune, Immortalus, SirLalaPyon</author>
 	<supportedVersions><li>1.2</li></supportedVersions>
 	<packageId>RimSol.Core</packageId>
     <loadAfter>

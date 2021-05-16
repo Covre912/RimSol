@@ -3,12 +3,12 @@
 
     <!-- Shock -->
         <DamageDef ParentName="Bomb">
-            <defName>RG_Shock</defName>
+            <defName>RS_Shock</defName>
             <label>shock</label>
             <deathMessage>{0} has been shocked to death.</deathMessage>
             <harmsHealth>true</harmsHealth>
             <impactSoundType>Electric</impactSoundType>
-            <defaultDamage>22</defaultDamage>
+            <defaultDamage>12</defaultDamage>
             <explosionSnowMeltAmount>0</explosionSnowMeltAmount>
             <explosionCellMote>Mote_BlastEMP</explosionCellMote>
             <explosionColorCenter>(150, 60, 160)</explosionColorCenter>
