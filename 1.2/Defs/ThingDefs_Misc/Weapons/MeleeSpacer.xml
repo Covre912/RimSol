@@ -1,4 +1,271 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <!-- Solus Hammer -->
+        <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+            <defName>RS_SolusHammer</defName>
+            <label>solus hammer</label>
+            <description>.</description> <!-- Adjust -->
+            <techLevel>Spacer</techLevel>
+            <graphicData>
+                <texPath>Things/Item/Equipment/WeaponMelee/SolusHammer</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <shaderType>TransparentPostLight</shaderType>
+            </graphicData>
+            <equippedAngleOffset>-65</equippedAngleOffset>
+            <statBases>
+                <WorkToMake>40000</WorkToMake>
+                <Mass>5</Mass>
+            </statBases>
+            <recipeMaker>
+                <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
+                <skillRequirements>
+                    <Crafting>6</Crafting>
+                </skillRequirements>
+                <recipeUsers>
+                    <li>RS_SolusFabricationBench</li>
+                </recipeUsers>
+            </recipeMaker>
+            <costList>
+                <Plasteel>120</Plasteel>
+            </costList>
+            <tools>
+                <li>
+                    <label>handle</label>
+                    <capacities>
+                        <li>Poke</li>
+                    </capacities>
+                    <power>15</power>
+                    <cooldownTime>2</cooldownTime>
+                </li>
+                <li>
+                    <label>head</label>
+                    <labelUsedInLogging>false</labelUsedInLogging>
+                    <capacities>
+                        <li>Blunt</li>
+                    </capacities>
+                    <power>27</power>
+                    <cooldownTime>2</cooldownTime>
+                </li>
+            </tools>
+        </ThingDef>
+
+    <!-- Solus Katana -->
+        <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+            <defName>RS_SolusKatana</defName>
+            <label>solus katana</label>
+            <description>.</description> <!-- Adjust -->
+            <techLevel>Spacer</techLevel>
+            <graphicData>
+                <texPath>Things/Item/Equipment/WeaponMelee/SolusKatana</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <shaderType>TransparentPostLight</shaderType>
+            </graphicData>
+            <statBases>
+                <WorkToMake>40000</WorkToMake>
+                <Mass>2</Mass>
+            </statBases>
+            <recipeMaker>
+                <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
+                <skillRequirements>
+                    <Crafting>6</Crafting>
+                </skillRequirements>
+                <recipeUsers>
+                    <li>RS_SolusFabricationBench</li>
+                </recipeUsers>
+            </recipeMaker>
+            <costList>
+                <Plasteel>80</Plasteel>
+            </costList>
+            <tools>
+                <li>
+                    <label>handle</label>
+                    <capacities>
+                        <li>Blunt</li>
+                    </capacities>
+                    <power>12</power>
+                    <cooldownTime>1.6</cooldownTime>
+                </li>
+                <li>
+                    <label>point</label>
+                    <capacities>
+                        <li>Stab</li>
+                    </capacities>
+                    <power>31</power>
+                    <cooldownTime>2</cooldownTime>
+                </li>
+                <li>
+                    <label>edge</label>
+                    <capacities>
+                        <li>Cut</li>
+                    </capacities>
+                    <power>31</power>
+                    <cooldownTime>2</cooldownTime>
+                </li>
+            </tools>
+        </ThingDef>
+
+    <!-- Solus Power Claw -->
+        <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+            <defName>RS_SolusPowerClaw</defName>
+            <label>solus power claw</label>
+            <description>.</description> <!-- Adjust -->
+            <techLevel>Spacer</techLevel>
+            <graphicData>
+                <texPath>Things/Item/Equipment/WeaponMelee/SolusPowerClaw</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <shaderType>TransparentPostLight</shaderType>
+            </graphicData>
+            <uiIconScale>1.4</uiIconScale>
+            <statBases>
+                <WorkToMake>38000</WorkToMake>
+                <Mass>0.5</Mass>
+            </statBases>
+            <recipeMaker>
+                <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
+                <skillRequirements>
+                    <Crafting>6</Crafting>
+                </skillRequirements>
+                <recipeUsers>
+                    <li>RS_SolusFabricationBench</li>
+                </recipeUsers>
+            </recipeMaker>
+            <costList>
+                <Plasteel>30</Plasteel>
+            </costList>
+            <tools>
+                <li>
+                    <label>claws</label>
+                    <capacities>
+                        <li>Cut</li>
+                    </capacities>
+                    <power>16</power>
+                    <cooldownTime>1.2</cooldownTime>
+                </li>
+                <li>
+                    <label>blades</label>
+                    <capacities>
+                        <li>Stab</li>
+                    </capacities>
+                    <power>17</power>
+                    <cooldownTime>1.6</cooldownTime>
+                </li>
+            </tools>
+        </ThingDef>
+
+    <!-- Solus Scythe -->
+        <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+            <defName>RS_SolusScythe</defName>
+            <label>solus scythe</label>
+            <description>.</description> <!-- Adjust -->
+            <techLevel>Spacer</techLevel>
+            <graphicData>
+                <texPath>Things/Item/Equipment/WeaponMelee/SolusScythe</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <shaderType>TransparentPostLight</shaderType>
+            </graphicData>
+            <statBases>
+                <WorkToMake>38000</WorkToMake>
+                <Mass>0.85</Mass>
+            </statBases>
+            <equippedStatOffsets>
+                <PlantWorkSpeed>0.33</PlantWorkSpeed>
+            </equippedStatOffsets>
+            <recipeMaker>
+                <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
+                <skillRequirements>
+                    <Crafting>4</Crafting>
+                </skillRequirements>
+                <recipeUsers>
+                    <li>RS_SolusFabricationBench</li>
+                </recipeUsers>
+            </recipeMaker>
+            <costList>
+                <Plasteel>40</Plasteel>
+            </costList>
+            <tools>
+                <li>
+                    <label>handle</label>
+                    <capacities>
+                        <li>Blunt</li>
+                    </capacities>
+                    <power>12</power>
+                    <cooldownTime>1.6</cooldownTime>
+                </li>
+                <li>
+                    <label>point</label>
+                    <capacities>
+                        <li>Stab</li>
+                    </capacities>
+                    <power>21</power>
+                    <cooldownTime>1.6</cooldownTime>
+                </li>
+                <li>
+                    <label>edge</label>
+                    <capacities>
+                        <li>Cut</li>
+                    </capacities>
+                    <power>21</power>
+                    <cooldownTime>1.6</cooldownTime>
+                </li>
+            </tools>
+        </ThingDef>
+
+    <!-- Solus Spear -->
+        <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+            <defName>RS_SolusSpear</defName>
+            <label>solus spear</label>
+            <description>.</description> <!-- Adjust -->
+            <techLevel>Spacer</techLevel>
+            <graphicData>
+                <texPath>Things/Item/Equipment/WeaponMelee/SolusSpear</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <shaderType>TransparentPostLight</shaderType>
+            </graphicData>
+            <uiIconScale>1.2</uiIconScale>
+            <statBases>
+                <WorkToMake>28000</WorkToMake>
+                <Mass>1.1</Mass>
+            </statBases>
+            <recipeMaker>
+                <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
+                <skillRequirements>
+                    <Crafting>4</Crafting>
+                </skillRequirements>
+                <recipeUsers>
+                    <li>RS_SolusFabricationBench</li>
+                </recipeUsers>
+            </recipeMaker>
+            <costList>
+                <Plasteel>40</Plasteel>
+            </costList>
+            <tools>
+                <li>
+                    <label>handle</label>
+                    <capacities>
+                        <li>Blunt</li>
+                        <li>Poke</li>
+                    </capacities>
+                    <power>12</power>
+                    <cooldownTime>1.6</cooldownTime>
+                </li>
+                <li>
+                    <label>head</label>
+                    <capacities>
+                        <li>Stab</li>
+                    </capacities>
+                    <power>20</power>
+                    <cooldownTime>1.6</cooldownTime>
+                </li>
+                <li>
+                    <label>edge</label>
+                    <capacities>
+                        <li>Cut</li>
+                    </capacities>
+                    <power>20</power>
+                    <cooldownTime>1.6</cooldownTime>
+                </li>
+            </tools>
+        </ThingDef>
+
 </Defs>

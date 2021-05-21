@@ -47,7 +47,7 @@
                     <range>25.9</range>
                     <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
                     <burstShotCount>3</burstShotCount>
-                    <soundCast>Bullet_SolusAssaultRifle</soundCast>
+                    <soundCast>RS_Shot_SolusAssaultRifle</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                 </li>
@@ -134,7 +134,7 @@
                     <defaultProjectile>RS_Bullet_SolusBoltActionRifle</defaultProjectile>
                     <warmupTime>1.7</warmupTime>
                     <range>30.9</range>
-                    <soundCast>Bullet_SolusBoltActionRifle</soundCast>
+                    <soundCast>RS_Shot_SolusBoltActionRifle</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                 </li>
@@ -225,7 +225,7 @@
                     <defaultProjectile>RS_Arrow_SolusBow</defaultProjectile>
                     <warmupTime>1.45</warmupTime>
                     <range>24.9</range>
-                    <soundCast>Arrow_SolusBow</soundCast>
+                    <soundCast>RS_Bow_Solus</soundCast>
                 </li>
             </verbs>
             <tools>
@@ -305,7 +305,7 @@
                     <range>27.9</range>
                     <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
                     <burstShotCount>12</burstShotCount>
-                    <soundCast>Bullet_SolusLMG</soundCast>
+                    <soundCast>RS_Shot_SolusLMG</soundCast>
                     <soundCastTail>GunTail_Heavy</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                 </li>
@@ -388,7 +388,7 @@
                     <range>22.9</range>
                     <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                     <burstShotCount>3</burstShotCount>
-                    <soundCast>Bullet_SolusPistol</soundCast>
+                    <soundCast>RS_Shot_SolusPistol</soundCast>
                     <soundCastTail>GunTail_Light</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                 </li>
@@ -470,7 +470,7 @@
                     <range>14.9</range>
                     <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                     <burstShotCount>2</burstShotCount>
-                    <soundCast>Bullet_SolusShotgun</soundCast>
+                    <soundCast>RS_Shot_SolusShotgun</soundCast>
                     <soundCastTail>GunTail_Heavy</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                 </li>
@@ -553,7 +553,7 @@
                     <range>24.9</range>
                     <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                     <burstShotCount>3</burstShotCount>
-                    <soundCast>Bullet_SolusSMG</soundCast>
+                    <soundCast>RS_Shot_SolusSMG</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                 </li>
@@ -630,6 +630,7 @@
             </costList>
             <weaponTags>
                 <li>SpacerGun</li>
+                <li>SniperRifle</li>
             </weaponTags>
             <verbs>
                 <li>
@@ -640,7 +641,7 @@
                     <range>39.9</range>
                     <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
                     <burstShotCount>3</burstShotCount>
-                    <soundCast>Bullet_SolusSniperRifle</soundCast>
+                    <soundCast>RS_Shot_SolusSniperRifle</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                 </li>
