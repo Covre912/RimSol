@@ -147,4 +147,32 @@
         </subSounds>
     </SoundDef>
 
+    <SoundDef>
+        <defName>RS_Shot_SolusBeltFedShotgun</defName>  
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>  
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>Weapon/Solus</clipFolderPath>
+                    </li>
+                </grains>      
+                <volumeRange>94.70588~94.70588</volumeRange>      
+                <distRange>39.11765~70</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>Weapon/Shotgun/Rack</clipFolderPath>
+                    </li>
+                </grains>      
+                <volumeRange>10.58823~10.58823</volumeRange>      
+                <pitchRange>0.9311765~1.137647</pitchRange>      
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
 </Defs>

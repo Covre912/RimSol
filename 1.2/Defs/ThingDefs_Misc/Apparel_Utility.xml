@@ -5,7 +5,7 @@
         <ThingDef ParentName="ApparelNoQualityBase">
             <defName>RS_DefoliatorLance</defName>
             <label>defoliator lance</label>
-            <description>.</description> <!-- Adjust -->
+            <description>The defoliator lance was a gift to the Absol race from an ancient archotech Persona who has ever contacted them ever since. It is commonly used as a tool for manual terraforming attempts, mainly for deforestation to gain space for the expansion of construction projects. It harvests all plants in a designated area and places the process-ready resources on the ground. It is also suited for agricultural usage.</description>
             <techLevel>Archotech</techLevel>
             <graphicData>
                 <texPath>Things/Item/Artifact/DefoliatorLance</texPath>
@@ -83,7 +83,7 @@
         <ThingDef ParentName="ApparelNoQualityBase">
             <defName>RS_ArchotechAsteroidVectorizer</defName>
             <label>archotech asteroid vectorizer</label>
-            <description>.</description> <!-- Adjust -->
+            <description>The asteroid vectorizer is a device commonly used for planet-side resource mining, as it is through undiscovered means capable to redirect and accelerate orbiting asteroids to a selected location, redefining space mining. It could however also be used as a weapon too...</description>
             <graphicData>
                 <texPath>Things/Item/Artifact/ArchotechAsteroidVectorizer</texPath>
                 <graphicClass>Graphic_Single</graphicClass>

@@ -5,7 +5,7 @@
         <ThingDef ParentName="ArtifactBase">
             <defName>RS_ArchotechRuinseeker</defName>
             <label>archotech ruinseeker</label>
-            <description>.</description> <!-- Adjust -->
+            <description>The ruinseeker is an archotech device capable of scanning for signals and waves usually sent by ancient ruins that are usually not being picked up by regular scanners. When activated, it searches for abandoned places that are worth it to explore if you are capable of defending yourself from the dangers they contain. It was another gift to the Absol race that has found its place as a valuable gadget for researchers and treasure hunters alike.</description>
             <graphicData>
                 <texPath>Things/Item/Artifact/ArchotechRuinseeker</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
