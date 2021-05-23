@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
-    <ThingDef Name="RS_BaseWeapon_Bladelink" ParentName="BaseWeapon" Abstract="True">
+    <ThingDef Name="RS_RangedBaseWeapon_Bladelink" ParentName="BaseWeapon" Abstract="True">
         <tradeNeverStack>true</tradeNeverStack>
         <weaponTags>
             <li>Bladelink</li>
@@ -23,7 +23,7 @@
     </ThingDef>
 
     <!-- Solus Belt-Fed Shotgun -->
-        <ThingDef ParentName="RS_BaseWeapon_Bladelink">
+        <ThingDef ParentName="RS_RangedBaseWeapon_Bladelink">
             <defName>RS_SolusBeltFedShotgun_Bladelink</defName>
             <label>persona solus belt-fed shotgun</label>
             <description>.</description> <!-- Adjust -->
@@ -36,10 +36,10 @@
             <soundInteract>Interact_ChargeRifle</soundInteract>
             <statBases>
                 <Mass>4.6</Mass>
-                <AccuracyTouch>0.75</AccuracyTouch>
-                <AccuracyShort>0.72</AccuracyShort>
-                <AccuracyMedium>0.62</AccuracyMedium>
-                <AccuracyLong>0.59</AccuracyLong>
+                <AccuracyTouch>0.80</AccuracyTouch>
+                <AccuracyShort>0.77</AccuracyShort>
+                <AccuracyMedium>0.67</AccuracyMedium>
+                <AccuracyLong>0.64</AccuracyLong>
                 <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
             </statBases>
             <weaponTags>
@@ -83,7 +83,7 @@
             </graphicData>
             <projectile>
                 <damageDef>Bullet</damageDef>
-                <damageAmountBase>18</damageAmountBase>
+                <damageAmountBase>6</damageAmountBase>
                 <armorPenetrationBase>0.35</armorPenetrationBase>
                 <stoppingPower>3</stoppingPower>
                 <speed>60</speed>

@@ -139,7 +139,7 @@
                     <capacities>
                         <li>Cut</li>
                     </capacities>
-                    <power>16</power>
+                    <power>19</power>
                     <cooldownTime>1.2</cooldownTime>
                 </li>
                 <li>
@@ -147,7 +147,7 @@
                     <capacities>
                         <li>Stab</li>
                     </capacities>
-                    <power>17</power>
+                    <power>20</power>
                     <cooldownTime>1.6</cooldownTime>
                 </li>
             </tools>
@@ -197,7 +197,7 @@
                     <capacities>
                         <li>Stab</li>
                     </capacities>
-                    <power>21</power>
+                    <power>27</power>
                     <cooldownTime>1.6</cooldownTime>
                 </li>
                 <li>
@@ -205,7 +205,7 @@
                     <capacities>
                         <li>Cut</li>
                     </capacities>
-                    <power>21</power>
+                    <power>27</power>
                     <cooldownTime>1.6</cooldownTime>
                 </li>
             </tools>
@@ -254,7 +254,7 @@
                     <capacities>
                         <li>Stab</li>
                     </capacities>
-                    <power>20</power>
+                    <power>23</power>
                     <cooldownTime>1.6</cooldownTime>
                 </li>
                 <li>
@@ -262,7 +262,7 @@
                     <capacities>
                         <li>Cut</li>
                     </capacities>
-                    <power>20</power>
+                    <power>23</power>
                     <cooldownTime>1.6</cooldownTime>
                 </li>
             </tools>

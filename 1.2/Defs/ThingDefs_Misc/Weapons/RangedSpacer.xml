@@ -15,10 +15,10 @@
             <soundInteract>Interact_Rifle</soundInteract>
             <statBases>
                 <Mass>4.6</Mass> 
-                <AccuracyTouch>0.60</AccuracyTouch>
-                <AccuracyShort>0.69</AccuracyShort>
-                <AccuracyMedium>0.60</AccuracyMedium>
-                <AccuracyLong>0.50</AccuracyLong>
+                <AccuracyTouch>0.65</AccuracyTouch>
+                <AccuracyShort>0.74</AccuracyShort>
+                <AccuracyMedium>0.65</AccuracyMedium>
+                <AccuracyLong>0.55</AccuracyLong>
                 <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
                 <WorkToMake>50000</WorkToMake>
             </statBases>
@@ -104,10 +104,10 @@
             <soundInteract>Interact_ChargeRifle</soundInteract>
             <statBases>
                 <Mass>4.6</Mass> 
-                <AccuracyTouch>0.65</AccuracyTouch>
-                <AccuracyShort>0.90</AccuracyShort>
-                <AccuracyMedium>0.81</AccuracyMedium>
-                <AccuracyLong>0.70</AccuracyLong>
+                <AccuracyTouch>0.70</AccuracyTouch>
+                <AccuracyShort>0.95</AccuracyShort>
+                <AccuracyMedium>0.86</AccuracyMedium>
+                <AccuracyLong>0.75</AccuracyLong>
                 <RangedWeapon_Cooldown>1.75</RangedWeapon_Cooldown>
                 <WorkToMake>40000</WorkToMake>
             </statBases>
@@ -191,10 +191,10 @@
             <soundInteract>Bow_Recurve</soundInteract>
             <statBases>
                 <Mass>2.1</Mass> 
-                <AccuracyTouch>0.69</AccuracyTouch>
-                <AccuracyShort>0.76</AccuracyShort>
-                <AccuracyMedium>0.60</AccuracyMedium>
-                <AccuracyLong>0.42</AccuracyLong>
+                <AccuracyTouch>0.74</AccuracyTouch>
+                <AccuracyShort>0.81</AccuracyShort>
+                <AccuracyMedium>0.65</AccuracyMedium>
+                <AccuracyLong>0.47</AccuracyLong>
                 <RangedWeapon_Cooldown>1.95</RangedWeapon_Cooldown>
                 <WorkToMake>35000</WorkToMake>
             </statBases>
@@ -273,10 +273,10 @@
             <soundInteract>Interact_ChargeLance</soundInteract>
             <statBases>
                 <Mass>8.5</Mass> 
-                <AccuracyTouch>0.45</AccuracyTouch>
-                <AccuracyShort>0.49</AccuracyShort>
-                <AccuracyMedium>0.35</AccuracyMedium>
-                <AccuracyLong>0.26</AccuracyLong>
+                <AccuracyTouch>0.50</AccuracyTouch>
+                <AccuracyShort>0.54</AccuracyShort>
+                <AccuracyMedium>0.40</AccuracyMedium>
+                <AccuracyLong>0.31</AccuracyLong>
                 <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
                 <WorkToMake>550000</WorkToMake>
             </statBases>
@@ -356,10 +356,10 @@
             <soundInteract>Interact_Revolver</soundInteract>
             <statBases>
                 <Mass>1.1</Mass> 
-                <AccuracyTouch>0.85</AccuracyTouch>
-                <AccuracyShort>0.75</AccuracyShort>
-                <AccuracyMedium>0.45</AccuracyMedium>
-                <AccuracyLong>0.35</AccuracyLong>
+                <AccuracyTouch>0.90</AccuracyTouch>
+                <AccuracyShort>0.80</AccuracyShort>
+                <AccuracyMedium>0.50</AccuracyMedium>
+                <AccuracyLong>0.40</AccuracyLong>
                 <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
                 <WorkToMake>38000</WorkToMake>
             </statBases>
@@ -438,10 +438,10 @@
             <soundInteract>Interact_ChargeRifle</soundInteract>
             <statBases>
                 <Mass>4.6</Mass> 
-                <AccuracyTouch>0.75</AccuracyTouch>
-                <AccuracyShort>0.72</AccuracyShort>
-                <AccuracyMedium>0.62</AccuracyMedium>
-                <AccuracyLong>0.59</AccuracyLong>
+                <AccuracyTouch>0.80</AccuracyTouch>
+                <AccuracyShort>0.77</AccuracyShort>
+                <AccuracyMedium>0.67</AccuracyMedium>
+                <AccuracyLong>0.64</AccuracyLong>
                 <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
                 <WorkToMake>45000</WorkToMake>
             </statBases>
@@ -521,10 +521,10 @@
             <soundInteract>Interact_SMG</soundInteract>
             <statBases>
                 <Mass>3</Mass> 
-                <AccuracyTouch>0.9</AccuracyTouch>
-                <AccuracyShort>0.7</AccuracyShort>
-                <AccuracyMedium>0.4</AccuracyMedium>
-                <AccuracyLong>0.25</AccuracyLong>
+                <AccuracyTouch>0.95</AccuracyTouch>
+                <AccuracyShort>0.75</AccuracyShort>
+                <AccuracyMedium>0.45</AccuracyMedium>
+                <AccuracyLong>0.30</AccuracyLong>
                 <RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
                 <WorkToMake>40000</WorkToMake>
             </statBases>
@@ -608,10 +608,10 @@
             <soundInteract>Interact_ChargeLance</soundInteract>
             <statBases>
                 <Mass>4.6</Mass> 
-                <AccuracyTouch>0.75</AccuracyTouch>
-                <AccuracyShort>0.78</AccuracyShort>
-                <AccuracyMedium>0.91</AccuracyMedium>
-                <AccuracyLong>0.93</AccuracyLong>
+                <AccuracyTouch>0.80</AccuracyTouch>
+                <AccuracyShort>0.83</AccuracyShort>
+                <AccuracyMedium>0.96</AccuracyMedium>
+                <AccuracyLong>0.98</AccuracyLong>
                 <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
                 <WorkToMake>50000</WorkToMake>
             </statBases>
@@ -701,7 +701,7 @@
                 <WorkToMake>850000</WorkToMake>
                 <MarketValue>12000</MarketValue>
                 <Mass>12</Mass>
-                <RangedWeapon_Cooldown>6</RangedWeapon_Cooldown>
+                <RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
             </statBases>
             <equippedAngleOffset>45</equippedAngleOffset>
             <costList>
