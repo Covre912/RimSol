@@ -175,4 +175,55 @@
         </subSounds>
     </SoundDef>
 
+    <SoundDef>
+        <defName>RS_Shot_SolusMachinePistol</defName>  
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>  
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>Weapon/Solus</clipFolderPath>
+                    </li>
+                </grains>          
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>RS_Shot_SolusAutopistol</defName>  
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>  
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>Weapon/Solus</clipFolderPath>
+                    </li>
+                </grains>
+                <volumeRange>61.76471~61.76471</volumeRange>          
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>RS_Shot_SolusBattleRifle</defName>  
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>  
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>Weapon/Solus</clipFolderPath>
+                    </li>
+                </grains>          
+                <volumeRange>45.2941~45.2941</volumeRange>
+                <pitchRange>0.801765~0.834525</pitchRange>      
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
 </Defs>

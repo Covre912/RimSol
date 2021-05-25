@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimSol\1.2\Assemblies\RimSol.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimSol\1.2\Source\RimSol\RimSol\obj\Debug\RimSol.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimSol\1.2\Source\RimSol\RimSol\obj\Debug\RimSol.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimSol\1.2\Source\RimSol\RimSol\obj\Debug\RimSol.dll

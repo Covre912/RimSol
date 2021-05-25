@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <ThingDef Name="RS_BaseSolusWeaponRanged" ParentName="BaseHumanMakeableGun" Abstract="True">
+        <techLevel>Spacer</techLevel>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
+            <recipeUsers>
+                <li>RS_SolusFabricationBench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <weaponTags>
+            <li>SpacerGun</li>
+        </weaponTags>
+        <thingSetMakerTags>
+            <li>RewardStandardLowFreq</li>
+        </thingSetMakerTags>
+    </ThingDef>
+
     <!-- Solus Assault Rifle -->
-        <ThingDef ParentName="BaseHumanMakeableGun">
+        <ThingDef ParentName="RS_BaseSolusWeaponRanged">
             <defName>RS_SolusAssaultRifle</defName>
             <label>solus assault rifle</label>
             <description>.</description> <!-- Adjust -->
-            <techLevel>Spacer</techLevel>
             <graphicData>
                 <texPath>Things/Item/Equipment/WeaponRanged/SolusAssaultRifle</texPath>
-                <graphicClass>Graphic_Single</graphicClass>
-                <shaderType>TransparentPostLight</shaderType>
             </graphicData>
             <soundInteract>Interact_Rifle</soundInteract>
             <statBases>
@@ -23,21 +40,14 @@
                 <WorkToMake>50000</WorkToMake>
             </statBases>
             <recipeMaker>
-                <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
                 <skillRequirements>
                     <Crafting>8</Crafting>
                 </skillRequirements>
-                <recipeUsers>
-                    <li>RS_SolusFabricationBench</li>
-                </recipeUsers>
             </recipeMaker>
             <costList>
                 <Plasteel>50</Plasteel>
                 <ComponentSpacer>2</ComponentSpacer>
             </costList>
-            <weaponTags>
-                <li>SpacerGun</li>
-            </weaponTags>
             <verbs>
                 <li>
                     <verbClass>Verb_Shoot</verbClass>
@@ -90,15 +100,12 @@
         </ThingDef>
 
     <!-- Solus Bolt-Action Rifle -->
-        <ThingDef ParentName="BaseHumanMakeableGun">
+        <ThingDef ParentName="RS_BaseSolusWeaponRanged">
             <defName>RS_SolusBoltActionRifle</defName>
             <label>solus bolt-action rifle</label>
             <description>.</description> <!-- Adjust -->
-            <techLevel>Spacer</techLevel>
             <graphicData>
                 <texPath>Things/Item/Equipment/WeaponRanged/SolusBoltActionRifle</texPath>
-                <graphicClass>Graphic_Single</graphicClass>
-                <shaderType>TransparentPostLight</shaderType>
             </graphicData>
             <equippedAngleOffset>45</equippedAngleOffset>
             <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -112,21 +119,14 @@
                 <WorkToMake>40000</WorkToMake>
             </statBases>
             <recipeMaker>
-                <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
                 <skillRequirements>
                     <Crafting>6</Crafting>
                 </skillRequirements>
-                <recipeUsers>
-                    <li>RS_SolusFabricationBench</li>
-                </recipeUsers>
             </recipeMaker>
             <costList>
                 <Plasteel>50</Plasteel>
                 <ComponentSpacer>1</ComponentSpacer>
             </costList>
-            <weaponTags>
-                <li>SpacerGun</li>
-            </weaponTags>
             <verbs>
                 <li>
                     <verbClass>Verb_Shoot</verbClass>
@@ -178,34 +178,27 @@
         </ThingDef>
 
     <!-- Solus Bow -->
-        <ThingDef ParentName="BaseHumanMakeableGun">
+        <ThingDef ParentName="RS_BaseSolusWeaponRanged">
             <defName>RS_SolusBow</defName>
             <label>solus bow</label>
             <description>.</description> <!-- Adjust -->
-            <techLevel>Spacer</techLevel>
             <graphicData>
                 <texPath>Things/Item/Equipment/WeaponRanged/SolusBow</texPath>
-                <graphicClass>Graphic_Single</graphicClass>
-                <shaderType>TransparentPostLight</shaderType>
             </graphicData>
             <soundInteract>Bow_Recurve</soundInteract>
             <statBases>
                 <Mass>2.1</Mass> 
-                <AccuracyTouch>0.74</AccuracyTouch>
-                <AccuracyShort>0.81</AccuracyShort>
-                <AccuracyMedium>0.65</AccuracyMedium>
-                <AccuracyLong>0.47</AccuracyLong>
+                <AccuracyTouch>0.79</AccuracyTouch>
+                <AccuracyShort>0.86</AccuracyShort>
+                <AccuracyMedium>0.70</AccuracyMedium>
+                <AccuracyLong>0.52</AccuracyLong>
                 <RangedWeapon_Cooldown>1.95</RangedWeapon_Cooldown>
                 <WorkToMake>35000</WorkToMake>
             </statBases>
             <recipeMaker>
-                <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
                 <skillRequirements>
                     <Crafting>7</Crafting>
                 </skillRequirements>
-                <recipeUsers>
-                    <li>RS_SolusFabricationBench</li>
-                </recipeUsers>
             </recipeMaker>
             <costList>
                 <Plasteel>30</Plasteel>
@@ -215,7 +208,6 @@
                 <HuntingStealth>0.85</HuntingStealth>
             </equippedStatOffsets>
             <weaponTags>
-                <li>SpacerGun</li>
                 <li>SniperRifle</li>
             </weaponTags>
             <verbs>
@@ -252,23 +244,20 @@
             <projectile>
                 <flyOverhead>false</flyOverhead>
                 <damageDef>Arrow</damageDef>
-                <damageAmountBase>19</damageAmountBase>
-                <armorPenetrationBase>0.35</armorPenetrationBase>
+                <damageAmountBase>21</damageAmountBase>
+                <armorPenetrationBase>0.45</armorPenetrationBase>
                 <stoppingPower>1</stoppingPower>
                 <speed>52</speed>
             </projectile>
         </ThingDef>
 
     <!-- Solus LMG -->
-        <ThingDef ParentName="BaseHumanMakeableGun">
+        <ThingDef ParentName="RS_BaseSolusWeaponRanged">
             <defName>RS_SolusLMG</defName>
             <label>solus LMG</label>
             <description>.</description> <!-- Adjust -->
-            <techLevel>Spacer</techLevel>
             <graphicData>
                 <texPath>Things/Item/Equipment/WeaponRanged/SolusLMG</texPath>
-                <graphicClass>Graphic_Single</graphicClass>
-                <shaderType>TransparentPostLight</shaderType>
             </graphicData>
             <soundInteract>Interact_ChargeLance</soundInteract>
             <statBases>
@@ -281,21 +270,14 @@
                 <WorkToMake>550000</WorkToMake>
             </statBases>
             <recipeMaker>
-                <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
                 <skillRequirements>
                     <Crafting>10</Crafting>
                 </skillRequirements>
-                <recipeUsers>
-                    <li>RS_SolusFabricationBench</li>
-                </recipeUsers>
             </recipeMaker>
             <costList>
                 <Plasteel>80</Plasteel>
                 <ComponentSpacer>4</ComponentSpacer>
             </costList>
-            <weaponTags>
-                <li>SpacerGun</li>
-            </weaponTags>
             <verbs>
                 <li>
                     <verbClass>Verb_Shoot</verbClass>
@@ -342,15 +324,12 @@
         </ThingDef>
 
     <!-- Solus Pistol -->
-        <ThingDef ParentName="BaseHumanMakeableGun">
+        <ThingDef ParentName="RS_BaseSolusWeaponRanged">
             <defName>RS_SolusPistol</defName>
             <label>solus pistol</label>
             <description>.</description> <!-- Adjust -->
-            <techLevel>Spacer</techLevel>
             <graphicData>
                 <texPath>Things/Item/Equipment/WeaponRanged/SolusPistol</texPath>
-                <graphicClass>Graphic_Single</graphicClass>
-                <shaderType>TransparentPostLight</shaderType>
             </graphicData>
             <uiIconScale>1.4</uiIconScale>
             <soundInteract>Interact_Revolver</soundInteract>
@@ -364,21 +343,14 @@
                 <WorkToMake>38000</WorkToMake>
             </statBases>
             <recipeMaker>
-                <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
                 <skillRequirements>
                     <Crafting>10</Crafting>
                 </skillRequirements>
-                <recipeUsers>
-                    <li>RS_SolusFabricationBench</li>
-                </recipeUsers>
             </recipeMaker>
             <costList>
                 <Plasteel>30</Plasteel>
                 <ComponentSpacer>1</ComponentSpacer>
             </costList>
-            <weaponTags>
-                <li>SpacerGun</li>
-            </weaponTags>
             <verbs>
                 <li>
                     <verbClass>Verb_Shoot</verbClass>
@@ -425,15 +397,12 @@
         </ThingDef>
 
     <!-- Solus Shotgun -->
-        <ThingDef ParentName="BaseHumanMakeableGun">
+        <ThingDef ParentName="RS_BaseSolusWeaponRanged">
             <defName>RS_SolusShotgun</defName>
             <label>solus shotgun</label>
             <description>.</description> <!-- Adjust -->
-            <techLevel>Spacer</techLevel>
             <graphicData>
                 <texPath>Things/Item/Equipment/WeaponRanged/SolusShotgun</texPath>
-                <graphicClass>Graphic_Single</graphicClass>
-                <shaderType>TransparentPostLight</shaderType>
             </graphicData>
             <soundInteract>Interact_ChargeRifle</soundInteract>
             <statBases>
@@ -446,21 +415,14 @@
                 <WorkToMake>45000</WorkToMake>
             </statBases>
             <recipeMaker>
-                <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
                 <skillRequirements>
                     <Crafting>11</Crafting>
                 </skillRequirements>
-                <recipeUsers>
-                    <li>RS_SolusFabricationBench</li>
-                </recipeUsers>
             </recipeMaker>
             <costList>
                 <Plasteel>50</Plasteel>
                 <ComponentSpacer>2</ComponentSpacer>
             </costList>
-            <weaponTags>
-                <li>SpacerGun</li>
-            </weaponTags>
             <verbs>
                 <li>
                     <verbClass>Verb_Shoot</verbClass>
@@ -507,15 +469,12 @@
         </ThingDef>
 
     <!-- Solus SMG -->
-        <ThingDef ParentName="BaseHumanMakeableGun">
+        <ThingDef ParentName="RS_BaseSolusWeaponRanged">
             <defName>RS_SolusSMG</defName>
             <label>solus SMG</label>
             <description>.</description> <!-- Adjust -->
-            <techLevel>Spacer</techLevel>
             <graphicData>
                 <texPath>Things/Item/Equipment/WeaponRanged/SolusSMG</texPath>
-                <graphicClass>Graphic_Single</graphicClass>
-                <shaderType>TransparentPostLight</shaderType>
             </graphicData>
             <uiIconScale>1.4</uiIconScale>
             <soundInteract>Interact_SMG</soundInteract>
@@ -529,21 +488,14 @@
                 <WorkToMake>40000</WorkToMake>
             </statBases>
             <recipeMaker>
-                <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
                 <skillRequirements>
                     <Crafting>11</Crafting>
                 </skillRequirements>
-                <recipeUsers>
-                    <li>RS_SolusFabricationBench</li>
-                </recipeUsers>
             </recipeMaker>
             <costList>
                 <Plasteel>40</Plasteel>
                 <ComponentSpacer>2</ComponentSpacer>
             </costList>
-            <weaponTags>
-                <li>SpacerGun</li>
-            </weaponTags>
             <verbs>
                 <li>
                     <verbClass>Verb_Shoot</verbClass>
@@ -589,15 +541,12 @@
         </ThingDef>
 
     <!-- Solus Sniper Rifle -->
-        <ThingDef ParentName="BaseHumanMakeableGun">
+        <ThingDef ParentName="RS_BaseSolusWeaponRanged">
             <defName>RS_SolusSniperRifle</defName>
             <label>solus sniper rifle</label>
             <description>.</description> <!-- Adjust -->
-            <techLevel>Spacer</techLevel>
             <graphicData>
                 <texPath>Things/Item/Equipment/WeaponRanged/SolusSniperRifle</texPath>
-                <graphicClass>Graphic_Single</graphicClass>
-                <shaderType>TransparentPostLight</shaderType>
                 <drawSize>1.14</drawSize>
             </graphicData>
 	        <comps>
@@ -616,20 +565,15 @@
                 <WorkToMake>50000</WorkToMake>
             </statBases>
             <recipeMaker>
-                <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
                 <skillRequirements>
                     <Crafting>11</Crafting>
                 </skillRequirements>
-                <recipeUsers>
-                    <li>RS_SolusFabricationBench</li>
-                </recipeUsers>
             </recipeMaker>
             <costList>
                 <Plasteel>50</Plasteel>
                 <ComponentSpacer>3</ComponentSpacer>
             </costList>
             <weaponTags>
-                <li>SpacerGun</li>
                 <li>SniperRifle</li>
             </weaponTags>
             <verbs>
@@ -684,16 +628,13 @@
         </ThingDef>
 
     <!-- Solus Rocket Launcher -->
-        <ThingDef ParentName="BaseHumanMakeableGun">
+        <ThingDef ParentName="RS_BaseSolusWeaponRanged">
             <defName>RS_SolusRocketLauncher</defName>
             <label>solus rocket launcher</label>
             <description>.</description> <!-- Adjust -->
             <tickerType>Normal</tickerType>
-            <techLevel>Spacer</techLevel>
             <graphicData>
                 <texPath>Things/Item/Equipment/WeaponRanged/SolusRocketLauncher</texPath>
-                <graphicClass>Graphic_Single</graphicClass>
-                <shaderType>TransparentPostLight</shaderType>
                 <drawSize>1.22</drawSize>
             </graphicData>
             <soundInteract>Interact_ChargeLance</soundInteract>
@@ -710,10 +651,6 @@
                 <Shell_AntigrainWarhead>1</Shell_AntigrainWarhead>
             </costList>
             <recipeMaker>
-                <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
-                <recipeUsers>
-                    <li>RS_SolusFabricationBench</li>
-                </recipeUsers>
                 <skillRequirements>
                     <Crafting>12</Crafting>
                 </skillRequirements>

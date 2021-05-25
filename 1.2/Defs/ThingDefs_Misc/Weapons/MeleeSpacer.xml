@@ -29,6 +29,9 @@
             <costList>
                 <Plasteel>120</Plasteel>
             </costList>
+            <thingSetMakerTags>
+                <li>RewardStandardLowFreq</li>
+            </thingSetMakerTags>
             <tools>
                 <li>
                     <label>handle</label>
@@ -77,6 +80,9 @@
             <costList>
                 <Plasteel>80</Plasteel>
             </costList>
+            <thingSetMakerTags>
+                <li>RewardStandardLowFreq</li>
+            </thingSetMakerTags>
             <tools>
                 <li>
                     <label>handle</label>
@@ -133,6 +139,9 @@
             <costList>
                 <Plasteel>30</Plasteel>
             </costList>
+            <thingSetMakerTags>
+                <li>RewardStandardLowFreq</li>
+            </thingSetMakerTags>
             <tools>
                 <li>
                     <label>claws</label>
@@ -183,6 +192,9 @@
             <costList>
                 <Plasteel>40</Plasteel>
             </costList>
+            <thingSetMakerTags>
+                <li>RewardStandardLowFreq</li>
+            </thingSetMakerTags>
             <tools>
                 <li>
                     <label>handle</label>
@@ -239,6 +251,9 @@
             <costList>
                 <Plasteel>40</Plasteel>
             </costList>
+            <thingSetMakerTags>
+                <li>RewardStandardLowFreq</li>
+            </thingSetMakerTags>
             <tools>
                 <li>
                     <label>handle</label>
