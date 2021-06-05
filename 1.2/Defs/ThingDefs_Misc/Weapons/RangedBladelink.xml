@@ -4,7 +4,7 @@
     <ThingDef Name="RS_BaseWeaponRanged_Bladelink" ParentName="BaseWeapon" Abstract="True">
         <tradeNeverStack>true</tradeNeverStack>
         <weaponTags>
-            <li>Bladelink</li>
+            <li>SolusGunBladelink</li>
         </weaponTags>
         <comps>
             <li>
@@ -35,10 +35,10 @@
             <soundInteract>Interact_ChargeLance</soundInteract>
             <statBases>
                 <Mass>4.6</Mass>
-                <AccuracyTouch>0.80</AccuracyTouch>
-                <AccuracyShort>0.77</AccuracyShort>
-                <AccuracyMedium>0.67</AccuracyMedium>
-                <AccuracyLong>0.64</AccuracyLong>
+                <AccuracyTouch>0.90</AccuracyTouch>
+                <AccuracyShort>0.87</AccuracyShort>
+                <AccuracyMedium>0.77</AccuracyMedium>
+                <AccuracyLong>0.74</AccuracyLong>
                 <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
             </statBases>
             <weaponTags>
@@ -82,7 +82,7 @@
             </graphicData>
             <projectile>
                 <damageDef>Bullet</damageDef>
-                <damageAmountBase>6</damageAmountBase>
+                <damageAmountBase>12</damageAmountBase>
                 <armorPenetrationBase>0.35</armorPenetrationBase>
                 <stoppingPower>3</stoppingPower>
                 <speed>60</speed>
@@ -158,7 +158,7 @@
             </graphicData>
             <projectile>
                 <damageDef>Bullet</damageDef>
-                <damageAmountBase>8</damageAmountBase>
+                <damageAmountBase>10</damageAmountBase>
                 <armorPenetrationBase>0.35</armorPenetrationBase>
                 <speed>55</speed>
             </projectile>
@@ -179,8 +179,8 @@
             <soundInteract>Interact_ChargeRifle</soundInteract>
             <statBases>
                 <Mass>2.5</Mass>
-                <AccuracyTouch>0.65</AccuracyTouch>
-                <AccuracyShort>0.74</AccuracyShort>
+                <AccuracyTouch>0.75</AccuracyTouch>
+                <AccuracyShort>0.84</AccuracyShort>
                 <AccuracyMedium>0.65</AccuracyMedium>
                 <AccuracyLong>0.45</AccuracyLong>
                 <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
@@ -196,7 +196,7 @@
                     <warmupTime>0.3</warmupTime>
                     <range>25.9</range>
                     <ticksBetweenBurstShots>8</ticksBetweenBurstShots> 
-                    <burstShotCount>2</burstShotCount> 
+                    <burstShotCount>3</burstShotCount> 
                     <soundCast>RS_Shot_SolusAutopistol</soundCast>
                     <soundCastTail>GunTail_Light</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
@@ -234,13 +234,13 @@
             <thingClass>RimSol.CryoBullet</thingClass>
             <projectile>
                 <damageDef>RS_CryoBullet</damageDef>
-                <damageAmountBase>4</damageAmountBase>
+                <damageAmountBase>12</damageAmountBase>
                 <armorPenetrationBase>0.35</armorPenetrationBase>
                 <speed>55</speed>
             </projectile>
         </ThingDef>
 
-    <!-- Solus Autopistol -->
+    <!-- Solus Battle Rifle -->
         <ThingDef ParentName="RS_BaseWeaponRanged_Bladelink">
             <defName>RS_SolusBattleRifle_Bladelink</defName>
             <label>persona solus battle rifle</label>
@@ -271,7 +271,7 @@
                     <warmupTime>1.2</warmupTime>
                     <range>33.9</range>
                     <ticksBetweenBurstShots>10</ticksBetweenBurstShots> 
-                    <burstShotCount>2</burstShotCount> 
+                    <burstShotCount>3</burstShotCount> 
                     <soundCast>RS_Shot_SolusBattleRifle</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>12</muzzleFlashScale>
@@ -311,6 +311,71 @@
                 <damageAmountBase>16</damageAmountBase>
                 <armorPenetrationBase>0.35</armorPenetrationBase>
                 <speed>60</speed>
+            </projectile>
+        </ThingDef>
+
+    <!-- Solus Railgun -->
+        <ThingDef ParentName="RS_BaseWeaponRanged_Bladelink">
+            <defName>RS_SolusRailgun_Bladelink</defName>
+            <label>persona solus railgun</label>
+            <description>.</description> <!-- Adjust -->
+            <techLevel>Spacer</techLevel>
+            <graphicData>
+                <texPath>Things/Item/Equipment/WeaponRanged/SolusRailgun</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <shaderType>TransparentPostLight</shaderType>
+            </graphicData>
+            <soundInteract>Interact_ChargeLance</soundInteract>
+            <statBases>
+                <Mass>8</Mass>
+                <AccuracyTouch>0.75</AccuracyTouch>
+                <AccuracyShort>0.95</AccuracyShort>
+                <AccuracyMedium>0.95</AccuracyMedium>
+                <AccuracyLong>0.80</AccuracyLong>
+                <RangedWeapon_Cooldown>2.7</RangedWeapon_Cooldown>
+            </statBases>
+            <weaponTags>
+                <li>SpacerGun</li>
+            </weaponTags>
+            <verbs>
+                <li>
+                    <verbClass>Verb_Shoot</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>RS_Bullet_SolusRailgun</defaultProjectile>
+                    <warmupTime>1.7</warmupTime>
+                    <range>39.9</range>
+                    <soundCast>RS_Shot_SolusRailgun</soundCast>
+                    <soundCastTail>GunTail_Heavy</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                </li>
+            </verbs>
+            <tools>
+                <li>
+                    <label>barrel</label>
+                    <capacities>
+                        <li>Blunt</li>
+                        <li>Poke</li>
+                    </capacities>
+                    <power>10</power>
+                    <cooldownTime>2</cooldownTime>
+                </li>
+            </tools>
+        </ThingDef>
+
+        <ThingDef ParentName="BaseBullet">
+            <defName>RS_Bullet_SolusRailgun</defName>
+            <label>solus railgun shot</label>
+            <graphicData>
+                <texPath>Things/Projectile/Solus_Bullet_Lance</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <shaderType>TransparentPostLight</shaderType>
+            </graphicData>
+            <projectile>
+                <damageDef>Bullet</damageDef>
+                <damageAmountBase>30</damageAmountBase>
+                <stoppingPower>1.5</stoppingPower>
+                <armorPenetrationBase>0.35</armorPenetrationBase>
+                <speed>120</speed>
             </projectile>
         </ThingDef>
 

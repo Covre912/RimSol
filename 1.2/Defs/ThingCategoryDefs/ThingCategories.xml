@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingCategoryDef>
+        <defName>SolusMeleeWeapon</defName>
+        <label>solus melee weapons</label>
+    </ThingCategoryDef>    
+
+</Defs>

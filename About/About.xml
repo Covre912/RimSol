@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>RimSol</name>
-	<author>BirdiOne, Kitsune, Immortalus, SirLalaPyon</author>
+	<author>Hyo, Kitsune, Immortalus, SirLalaPyon, Stormtail, Magenta_Ivy</author>
 	<supportedVersions><li>1.2</li></supportedVersions>
 	<packageId>RimSol.Core</packageId>
 	<modDependencies>
 		<li>
-			<packageId>brrainz.harmony</packageId>
-			<displayName>Harmony</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>Humanoid Alien Races 2.0</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>Ludeon.RimWorld.Royalty</packageId>
+			<displayName>Royalty</displayName>
+			<steamWorkshopUrl>store.steampowered.com/app/1149640/</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2023507013</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>VanillaExpanded.VFEProduction</packageId>
+			<displayName>Vanilla Furniture Expanded - Production</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/1880253632</steamWorkshopUrl>
 		</li>
 	</modDependencies>
     <loadAfter>
-		<li>Ludeon.RimWorld</li>
-		<li>Ludeon.RimWorld.Royalty</li>
+		<li>erdelf.HumanoidAlienRaces</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>VanillaExpanded.VFEProduction</li>
 	</loadAfter>
 	<description>
 

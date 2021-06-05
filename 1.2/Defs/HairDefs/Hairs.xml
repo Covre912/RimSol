@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<HairDef>
+		<defName>RS_AbsolMale</defName>
+		<label>male absol</label>
+		<hairGender>Male</hairGender>
+		<texPath>Things/Pawn/Absol/Hair/AbsolMale</texPath>
+		<hairTags>
+            <li>Absol</li>
+		</hairTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>RS_AbsolFemale</defName>
+		<label>female absol</label>
+		<hairGender>Female</hairGender>
+		<texPath>Things/Pawn/Absol/Hair/AbsolFemale</texPath>
+		<hairTags>
+            <li>Absol</li>
+		</hairTags>
+	</HairDef>
+
+</Defs>

@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <ThingDef Name="RS_BaseSolusWeaponMelee_Sharp_Quality" ParentName="BaseMeleeWeapon_Sharp_Quality" Abstract="True">
+        <techLevel>Spacer</techLevel>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
+            <recipeUsers>
+                <li>RS_SolusFabricationBench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <weaponTags>
+            <li>SolusMeleeWeapon</li>
+        </weaponTags>
+        <thingSetMakerTags>
+            <li>RewardStandardLowFreq</li>
+        </thingSetMakerTags>
+    </ThingDef>
+
     <!-- Solus Hammer -->
         <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
             <defName>RS_SolusHammer</defName>
@@ -29,6 +49,9 @@
             <costList>
                 <Plasteel>120</Plasteel>
             </costList>
+            <weaponTags>
+                <li>SolusMeleeWeapon</li>
+            </weaponTags>
             <thingSetMakerTags>
                 <li>RewardStandardLowFreq</li>
             </thingSetMakerTags>
@@ -38,7 +61,7 @@
                     <capacities>
                         <li>Poke</li>
                     </capacities>
-                    <power>15</power>
+                    <power>17</power>
                     <cooldownTime>2</cooldownTime>
                 </li>
                 <li>
@@ -47,42 +70,35 @@
                     <capacities>
                         <li>Blunt</li>
                     </capacities>
-                    <power>27</power>
+                    <power>31</power>
                     <cooldownTime>2</cooldownTime>
                 </li>
             </tools>
         </ThingDef>
 
     <!-- Solus Katana -->
-        <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <ThingDef ParentName="RS_BaseSolusWeaponMelee_Sharp_Quality">
             <defName>RS_SolusKatana</defName>
             <label>solus katana</label>
             <description>.</description> <!-- Adjust -->
-            <techLevel>Spacer</techLevel>
             <graphicData>
                 <texPath>Things/Item/Equipment/WeaponMelee/SolusKatana</texPath>
-                <graphicClass>Graphic_Single</graphicClass>
-                <shaderType>TransparentPostLight</shaderType>
             </graphicData>
             <statBases>
                 <WorkToMake>40000</WorkToMake>
                 <Mass>2</Mass>
             </statBases>
             <recipeMaker>
-                <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
                 <skillRequirements>
                     <Crafting>6</Crafting>
                 </skillRequirements>
-                <recipeUsers>
-                    <li>RS_SolusFabricationBench</li>
-                </recipeUsers>
             </recipeMaker>
             <costList>
                 <Plasteel>80</Plasteel>
             </costList>
-            <thingSetMakerTags>
-                <li>RewardStandardLowFreq</li>
-            </thingSetMakerTags>
+            <weaponTags>
+                <li>SolusKatana</li>
+            </weaponTags>
             <tools>
                 <li>
                     <label>handle</label>
@@ -97,7 +113,7 @@
                     <capacities>
                         <li>Stab</li>
                     </capacities>
-                    <power>31</power>
+                    <power>32</power>
                     <cooldownTime>2</cooldownTime>
                 </li>
                 <li>
@@ -105,22 +121,19 @@
                     <capacities>
                         <li>Cut</li>
                     </capacities>
-                    <power>31</power>
+                    <power>32</power>
                     <cooldownTime>2</cooldownTime>
                 </li>
             </tools>
         </ThingDef>
 
     <!-- Solus Power Claw -->
-        <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <ThingDef ParentName="RS_BaseSolusWeaponMelee_Sharp_Quality">
             <defName>RS_SolusPowerClaw</defName>
             <label>solus power claw</label>
             <description>.</description> <!-- Adjust -->
-            <techLevel>Spacer</techLevel>
             <graphicData>
                 <texPath>Things/Item/Equipment/WeaponMelee/SolusPowerClaw</texPath>
-                <graphicClass>Graphic_Single</graphicClass>
-                <shaderType>TransparentPostLight</shaderType>
             </graphicData>
             <uiIconScale>1.4</uiIconScale>
             <statBases>
@@ -128,27 +141,21 @@
                 <Mass>0.5</Mass>
             </statBases>
             <recipeMaker>
-                <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
                 <skillRequirements>
                     <Crafting>6</Crafting>
                 </skillRequirements>
-                <recipeUsers>
-                    <li>RS_SolusFabricationBench</li>
-                </recipeUsers>
             </recipeMaker>
             <costList>
                 <Plasteel>30</Plasteel>
             </costList>
-            <thingSetMakerTags>
-                <li>RewardStandardLowFreq</li>
-            </thingSetMakerTags>
             <tools>
                 <li>
                     <label>claws</label>
                     <capacities>
                         <li>Cut</li>
                     </capacities>
-                    <power>19</power>
+                    <power>20</power>
+                    <armorPenetration>0.35</armorPenetration>
                     <cooldownTime>1.2</cooldownTime>
                 </li>
                 <li>
@@ -156,22 +163,20 @@
                     <capacities>
                         <li>Stab</li>
                     </capacities>
-                    <power>20</power>
+                    <power>21</power>
+                    <armorPenetration>0.35</armorPenetration>
                     <cooldownTime>1.6</cooldownTime>
                 </li>
             </tools>
         </ThingDef>
 
     <!-- Solus Scythe -->
-        <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <ThingDef ParentName="RS_BaseSolusWeaponMelee_Sharp_Quality">
             <defName>RS_SolusScythe</defName>
             <label>solus scythe</label>
             <description>.</description> <!-- Adjust -->
-            <techLevel>Spacer</techLevel>
             <graphicData>
                 <texPath>Things/Item/Equipment/WeaponMelee/SolusScythe</texPath>
-                <graphicClass>Graphic_Single</graphicClass>
-                <shaderType>TransparentPostLight</shaderType>
             </graphicData>
             <statBases>
                 <WorkToMake>38000</WorkToMake>
@@ -181,20 +186,13 @@
                 <PlantWorkSpeed>0.33</PlantWorkSpeed>
             </equippedStatOffsets>
             <recipeMaker>
-                <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
                 <skillRequirements>
                     <Crafting>4</Crafting>
                 </skillRequirements>
-                <recipeUsers>
-                    <li>RS_SolusFabricationBench</li>
-                </recipeUsers>
             </recipeMaker>
             <costList>
                 <Plasteel>40</Plasteel>
             </costList>
-            <thingSetMakerTags>
-                <li>RewardStandardLowFreq</li>
-            </thingSetMakerTags>
             <tools>
                 <li>
                     <label>handle</label>
@@ -209,7 +207,7 @@
                     <capacities>
                         <li>Stab</li>
                     </capacities>
-                    <power>27</power>
+                    <power>28</power>
                     <cooldownTime>1.6</cooldownTime>
                 </li>
                 <li>
@@ -217,22 +215,19 @@
                     <capacities>
                         <li>Cut</li>
                     </capacities>
-                    <power>27</power>
+                    <power>28</power>
                     <cooldownTime>1.6</cooldownTime>
                 </li>
             </tools>
         </ThingDef>
 
     <!-- Solus Spear -->
-        <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <ThingDef ParentName="RS_BaseSolusWeaponMelee_Sharp_Quality">
             <defName>RS_SolusSpear</defName>
             <label>solus spear</label>
             <description>.</description> <!-- Adjust -->
-            <techLevel>Spacer</techLevel>
             <graphicData>
                 <texPath>Things/Item/Equipment/WeaponMelee/SolusSpear</texPath>
-                <graphicClass>Graphic_Single</graphicClass>
-                <shaderType>TransparentPostLight</shaderType>
             </graphicData>
             <uiIconScale>1.2</uiIconScale>
             <statBases>
@@ -240,20 +235,13 @@
                 <Mass>1.1</Mass>
             </statBases>
             <recipeMaker>
-                <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
                 <skillRequirements>
                     <Crafting>4</Crafting>
                 </skillRequirements>
-                <recipeUsers>
-                    <li>RS_SolusFabricationBench</li>
-                </recipeUsers>
             </recipeMaker>
             <costList>
                 <Plasteel>40</Plasteel>
             </costList>
-            <thingSetMakerTags>
-                <li>RewardStandardLowFreq</li>
-            </thingSetMakerTags>
             <tools>
                 <li>
                     <label>handle</label>
@@ -269,7 +257,7 @@
                     <capacities>
                         <li>Stab</li>
                     </capacities>
-                    <power>23</power>
+                    <power>25</power>
                     <cooldownTime>1.6</cooldownTime>
                 </li>
                 <li>
@@ -277,7 +265,7 @@
                     <capacities>
                         <li>Cut</li>
                     </capacities>
-                    <power>23</power>
+                    <power>25</power>
                     <cooldownTime>1.6</cooldownTime>
                 </li>
             </tools>

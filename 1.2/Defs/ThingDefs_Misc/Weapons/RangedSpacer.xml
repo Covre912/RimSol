@@ -15,6 +15,7 @@
         </recipeMaker>
         <weaponTags>
             <li>SpacerGun</li>
+            <li>SolusGun</li>
         </weaponTags>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
@@ -32,10 +33,10 @@
             <soundInteract>Interact_Rifle</soundInteract>
             <statBases>
                 <Mass>4.6</Mass> 
-                <AccuracyTouch>0.65</AccuracyTouch>
-                <AccuracyShort>0.74</AccuracyShort>
-                <AccuracyMedium>0.65</AccuracyMedium>
-                <AccuracyLong>0.55</AccuracyLong>
+                <AccuracyTouch>0.75</AccuracyTouch>
+                <AccuracyShort>0.84</AccuracyShort>
+                <AccuracyMedium>0.90</AccuracyMedium>
+                <AccuracyLong>0.80</AccuracyLong>
                 <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
                 <WorkToMake>50000</WorkToMake>
             </statBases>
@@ -54,7 +55,7 @@
                     <hasStandardCommand>true</hasStandardCommand>
                     <defaultProjectile>RS_Bullet_SolusAssaultRifle</defaultProjectile>
                     <warmupTime>1.0</warmupTime>
-                    <range>25.9</range>
+                    <range>29.9</range>
                     <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
                     <burstShotCount>3</burstShotCount>
                     <soundCast>RS_Shot_SolusAssaultRifle</soundCast>
@@ -93,7 +94,7 @@
             </graphicData>
             <projectile>
                 <damageDef>Bullet</damageDef>
-                <damageAmountBase>15</damageAmountBase>
+                <damageAmountBase>17</damageAmountBase>
                 <armorPenetrationBase>0.35</armorPenetrationBase>
                 <speed>70</speed>
             </projectile>
@@ -190,8 +191,8 @@
                 <Mass>2.1</Mass> 
                 <AccuracyTouch>0.79</AccuracyTouch>
                 <AccuracyShort>0.86</AccuracyShort>
-                <AccuracyMedium>0.70</AccuracyMedium>
-                <AccuracyLong>0.52</AccuracyLong>
+                <AccuracyMedium>0.90</AccuracyMedium>
+                <AccuracyLong>0.72</AccuracyLong>
                 <RangedWeapon_Cooldown>1.95</RangedWeapon_Cooldown>
                 <WorkToMake>35000</WorkToMake>
             </statBases>
@@ -244,7 +245,7 @@
             <projectile>
                 <flyOverhead>false</flyOverhead>
                 <damageDef>Arrow</damageDef>
-                <damageAmountBase>21</damageAmountBase>
+                <damageAmountBase>27</damageAmountBase>
                 <armorPenetrationBase>0.45</armorPenetrationBase>
                 <stoppingPower>1</stoppingPower>
                 <speed>52</speed>
@@ -262,10 +263,10 @@
             <soundInteract>Interact_ChargeLance</soundInteract>
             <statBases>
                 <Mass>8.5</Mass> 
-                <AccuracyTouch>0.50</AccuracyTouch>
-                <AccuracyShort>0.54</AccuracyShort>
-                <AccuracyMedium>0.40</AccuracyMedium>
-                <AccuracyLong>0.31</AccuracyLong>
+                <AccuracyTouch>0.65</AccuracyTouch>
+                <AccuracyShort>0.69</AccuracyShort>
+                <AccuracyMedium>0.55</AccuracyMedium>
+                <AccuracyLong>0.46</AccuracyLong>
                 <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
                 <WorkToMake>550000</WorkToMake>
             </statBases>
@@ -316,7 +317,7 @@
             </graphicData>
             <projectile>
                 <damageDef>Bullet</damageDef>
-                <damageAmountBase>9</damageAmountBase>
+                <damageAmountBase>11</damageAmountBase>
                 <armorPenetrationBase>0.35</armorPenetrationBase>
                 <stoppingPower>1</stoppingPower>
                 <speed>60</speed>
@@ -581,7 +582,7 @@
                     <verbClass>Verb_Shoot</verbClass>
                     <hasStandardCommand>true</hasStandardCommand>
                     <defaultProjectile>RS_Bullet_SolusSniperRifle</defaultProjectile>
-                    <warmupTime>3.0</warmupTime>
+                    <warmupTime>2.5</warmupTime>
                     <range>39.9</range>
                     <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
                     <burstShotCount>3</burstShotCount>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="LeatherBase">
+        <defName>RS_Leather_Absol</defName>
+        <label>absol leather</label>
+        <graphicData>
+            <color>(100,60,175)</color>
+        </graphicData>
+        <stuffProps>
+            <color>(100,60,175)</color>
+            <commonality>0.2</commonality>
+        </stuffProps>
+    </ThingDef>
+
+</Defs>

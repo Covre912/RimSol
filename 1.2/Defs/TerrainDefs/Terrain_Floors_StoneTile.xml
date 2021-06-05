@@ -19,4 +19,13 @@
         </costList>
     </TerrainDef>
 
+    <TerrainDef ParentName="FineTileStoneBase">
+        <defName>RS_FineTileAbstone</defName>
+        <label>fine abstone tile</label>
+        <color>(235,235,235)</color>
+        <costList>
+            <RS_BlocksAbstone>20</RS_BlocksAbstone>
+        </costList>
+    </TerrainDef>
+
 </Defs>

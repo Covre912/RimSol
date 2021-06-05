@@ -4,7 +4,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/BiomeDef[defName = "TemperateForest"]/wildPlants</xpath>
 		<value>
-			<RS_Plant_TreeSnowberry>0.000001</RS_Plant_TreeSnowberry>
+			<RS_Plant_TreeSnowberry>0.01</RS_Plant_TreeSnowberry>
 		</value>
 	</Operation>
 	
@@ -18,7 +18,7 @@
 		<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/BiomeDef[defName = "BorealForest"]/wildPlants</xpath>
 		<value>
-			<RS_Plant_TreeSnowberry>0.1</RS_Plant_TreeSnowberry>
+			<RS_Plant_TreeSnowberry>0.01</RS_Plant_TreeSnowberry>
 		</value>
 	</Operation>
 	
@@ -69,6 +69,6 @@
 		<value>
 			<RS_Plant_TreeSnowberry>0.000001</RS_Plant_TreeSnowberry>
 		</value>
-	</Operation>	
+	</Operation>
 
 </Patch>

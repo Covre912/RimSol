@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <PawnKindDef Name="RS_AbsolFriendlyBase" Abstract="True">
+        <race>RS_Absol</race>
+        <defaultFactionType>OutlanderCivil</defaultFactionType> <!-- Adjust -->
+        <chemicalAddictionChance>0.05</chemicalAddictionChance>
+        <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
+        <invNutrition>2.55</invNutrition>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="RS_AbsolFriendlyBase">
+        <defName>RS_Merchant</defName>
+        <label>solus merchant</label>
+        <trader>true</trader>
+        <combatPower>40</combatPower>
+        <isFighter>false</isFighter>
+        <gearHealthRange>1~1</gearHealthRange>
+        <itemQuality>Normal</itemQuality>
+        <weaponTags>
+            <li>SolusGun</li>
+        </weaponTags>
+        <weaponMoney>600~1200</weaponMoney>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelTags>
+            <li>IndustrialAdvanced</li>
+            <li>IndustrialMilitaryAdvanced</li>
+            <li>BeltDefensePop</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>Apparel_BowlerHat</li>
+        </apparelRequired>
+        <techHediffsChance>0.15</techHediffsChance>
+        <techHediffsMoney>600~1500</techHediffsMoney>
+        <techHediffsTags>
+            <li>Simple</li>
+            <li>Advanced</li>
+            <li>ImplantEmpireCommon</li>
+        </techHediffsTags>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="RS_AbsolFriendlyBase">
+        <defName>RS_Samurai</defName>
+        <label>solus samurai</label>
+        <combatPower>75</combatPower>
+        <isFighter>true</isFighter>
+        <gearHealthRange>1~2</gearHealthRange>
+        <itemQuality>Normal</itemQuality>
+        <apparelMoney>90~280</apparelMoney>
+        <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>IndustrialMilitaryAdvanced</li>
+            <li>BeltDefensePop</li>
+        </apparelTags>
+        <weaponMoney>1000~3800</weaponMoney>
+        <weaponTags>
+            <li>SolusKatana</li>
+        </weaponTags>
+        <techHediffsMoney>400~900</techHediffsMoney>
+        <techHediffsTags>
+            <li>Simple</li>
+            <li>ImplantEmpireCommon</li>
+        </techHediffsTags>
+        <techHediffsChance>0.25</techHediffsChance>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="RS_AbsolFriendlyBase">
+        <defName>RS_Warrior</defName>
+        <label>solus warrior</label>
+        <combatPower>60</combatPower>
+        <isFighter>true</isFighter>
+        <gearHealthRange>0.6~2</gearHealthRange>
+        <itemQuality>Normal</itemQuality>
+        <apparelMoney>90~280</apparelMoney>
+        <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>IndustrialMilitaryAdvanced</li>
+            <li>BeltDefensePop</li>
+        </apparelTags>
+        <weaponMoney>600~1200</weaponMoney>
+        <weaponTags>
+            <li>SolusMeleeWeapon</li>
+        </weaponTags>
+        <techHediffsMoney>200~700</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+            <li>Simple</li>
+            <li>ImplantEmpireCommon</li>
+        </techHediffsTags>
+        <techHediffsChance>0.04</techHediffsChance>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="RS_AbsolFriendlyBase">
+        <defName>RS_Peasant</defName>
+        <label>solus peasant</label>
+        <combatPower>35</combatPower>
+        <isFighter>false</isFighter>
+        <gearHealthRange>0.2~2</gearHealthRange>
+        <itemQuality>Poor</itemQuality>
+        <apparelMoney>200~400</apparelMoney>
+        <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>IndustrialAdvanced</li>
+        </apparelTags>
+        <weaponMoney>600~1200</weaponMoney>
+        <weaponTags>
+            <li>SolusGun</li>
+            <li>SolusMeleeWeapon</li>
+        </weaponTags>
+        <techHediffsMoney>50~800</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+            <li>Simple</li>
+            <li>ImplantEmpireCommon</li>
+        </techHediffsTags>
+        <techHediffsChance>0.06</techHediffsChance>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="RS_AbsolFriendlyBase">
+        <defName>RS_Daimio</defName>
+        <label>solus daimio</label>
+        <combatPower>40</combatPower>
+        <isFighter>false</isFighter>
+        <gearHealthRange>1~1</gearHealthRange>
+        <itemQuality>Normal</itemQuality>
+        <apparelMoney>200~400</apparelMoney>
+        <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>IndustrialMilitaryAdvanced</li>
+            <li>BeltDefensePop</li>
+        </apparelTags>
+        <weaponMoney>600~1600</weaponMoney>
+        <weaponTags>
+            <li>SolusGun</li>
+        </weaponTags>
+        <techHediffsMoney>800~1800</techHediffsMoney>
+        <techHediffsTags>
+            <li>Simple</li>
+            <li>Advanced</li>
+            <li>ImplantEmpireCommon</li>
+        </techHediffsTags>
+        <techHediffsChance>0.15</techHediffsChance>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="RS_AbsolFriendlyBase">
+        <defName>RS_Artisan</defName>
+        <label>solus artisan</label>
+        <combatPower>35</combatPower>
+        <isFighter>false</isFighter>
+        <gearHealthRange>0.2~2</gearHealthRange>
+        <itemQuality>Excellent</itemQuality>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>IndustrialAdvanced</li>
+        </apparelTags>
+        <weaponMoney>600~1200</weaponMoney>
+        <weaponTags>
+            <li>SolusGun</li>
+        </weaponTags>
+        <techHediffsMoney>800~1800</techHediffsMoney>
+        <techHediffsTags>
+            <li>Advanced</li>
+            <li>ImplantEmpireCommon</li>
+        </techHediffsTags>
+        <techHediffsChance>0.65</techHediffsChance>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="RS_AbsolFriendlyBase">
+        <defName>RS_Priest</defName>
+        <label>solus priest</label>
+        <combatPower>10</combatPower>
+        <isFighter>false</isFighter>
+        <gearHealthRange>0.2~2</gearHealthRange>
+        <itemQuality>Poor</itemQuality>
+        <apparelMoney>200~200</apparelMoney>
+        <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>IndustrialAdvanced</li>
+        </apparelTags>
+        <techHediffsMoney>200~700</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+            <li>Simple</li>
+            <li>ImplantEmpireCommon</li>
+        </techHediffsTags>
+        <techHediffsChance>0.06</techHediffsChance>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="RS_AbsolFriendlyBase">
+        <defName>RS_Royal</defName>
+        <label>solus royal</label>
+        <combatPower>55</combatPower>
+        <isFighter>true</isFighter>
+        <gearHealthRange>1~1</gearHealthRange>
+        <itemQuality>Good</itemQuality>
+        <apparelMoney>800~800</apparelMoney>
+        <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>IndustrialMilitaryAdvanced</li>
+            <li>BeltDefensePop</li>
+        </apparelTags>
+        <weaponTags>
+            <li>SolusGunBladelink</li>
+        </weaponTags>
+        <weaponMoney>600~1400</weaponMoney>
+        <techHediffsMoney>1000~1200</techHediffsMoney>
+        <techHediffsTags>
+            <li>ImplantEmpireCommon</li>
+        </techHediffsTags>
+        <techHediffsChance>0.85</techHediffsChance>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="RS_AbsolFriendlyBase">
+        <defName>RS_Servant</defName>
+        <label>solus servant</label>
+        <combatPower>35</combatPower>
+        <isFighter>true</isFighter>
+        <gearHealthRange>0.2~2</gearHealthRange>
+        <itemQuality>Poor</itemQuality>
+        <apparelMoney>50~100</apparelMoney>
+        <apparelTags>
+            <li>IndustrialBasic</li>
+        </apparelTags>
+        <weaponMoney>600~1000</weaponMoney>
+        <weaponTags>
+            <li>SolusMeleeWeapon</li>
+        </weaponTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.15</techHediffsChance>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="RS_AbsolFriendlyBase">
+        <defName>RS_Shogun</defName>
+        <label>solus shogun</label>
+        <combatPower>65</combatPower>
+        <isFighter>true</isFighter>
+        <gearHealthRange>1~1</gearHealthRange>
+        <itemQuality>Masterwork</itemQuality>
+        <apparelMoney>600~800</apparelMoney>
+        <apparelTags>
+            <li>IndustrialMilitaryAdvanced</li>
+            <li>BeltDefensePop</li>
+        </apparelTags>
+        <weaponMoney>600~1200</weaponMoney>
+        <weaponTags>
+            <li>SolusGunBladelink</li>
+        </weaponTags>
+        <techHediffsMoney>1000~2000</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+            <li>Simple</li>
+            <li>Advanced</li>
+            <li>ImplantEmpireCommon</li>
+        </techHediffsTags>
+        <techHediffsChance>0.35</techHediffsChance>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="RS_AbsolFriendlyBase">
+        <defName>RS_WarHero</defName>
+        <label>solus war hero</label>
+        <combatPower>85</combatPower>
+        <isFighter>true</isFighter>
+        <gearHealthRange>1~1</gearHealthRange>
+        <itemQuality>Legendary</itemQuality>
+        <apparelMoney>600~800</apparelMoney>
+        <apparelTags>
+            <li>IndustrialMilitaryAdvanced</li>
+            <li>BeltDefensePop</li>
+        </apparelTags>
+        <weaponMoney>600~1600</weaponMoney>
+        <weaponTags>
+            <li>SolusGunBladelink</li>
+        </weaponTags>
+        <techHediffsMoney>1000~2000</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+            <li>Simple</li>
+            <li>Advanced</li>
+            <li>ImplantEmpireCommon</li>
+        </techHediffsTags>
+        <techHediffsChance>0.95</techHediffsChance>
+    </PawnKindDef>
+
+</Defs>

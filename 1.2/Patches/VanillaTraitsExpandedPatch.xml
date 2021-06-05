@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlienRace.ThingDef_AlienRace[@Name = "RS_Absol"]/alienRace/generalSettings</xpath>
+					<value>
+                        <forcedRaceTraitEntries>
+                            <li>
+                                <defName>VTE_ChildOfMountain</defName>
+                                <chance>100</chance>
+                            </li>
+                        </forcedRaceTraitEntries>
+					</value>
+                </li>
+
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

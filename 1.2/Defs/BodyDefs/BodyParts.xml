@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <BodyPartDef>
+        <defName>RS_Horn</defName>
+        <label>horn</label>
+        <hitPoints>30</hitPoints>
+        <skinCovered>false</skinCovered>
+        <canSuggestAmputation>true</canSuggestAmputation>
+    </BodyPartDef>
+
+    <BodyPartDef>
+        <defName>RS_Tail</defName>
+        <label>tail</label>
+        <hitPoints>20</hitPoints>
+        <skinCovered>true</skinCovered>
+        <canSuggestAmputation>true</canSuggestAmputation>
+    </BodyPartDef>
+
+</Defs>

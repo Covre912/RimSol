@@ -226,4 +226,21 @@
         </subSounds>
     </SoundDef>
 
+    <SoundDef>
+        <defName>RS_Shot_SolusRailgun</defName>  
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>  
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>Weapon/Solus</clipFolderPath>
+                    </li>
+                </grains>          
+                <pitchRange>0.9082353~1.045882</pitchRange>      
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
 </Defs>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <FactionDef ParentName="PlayerFactionBase">
+        <defName>RS_PlayerSolusColony</defName>
+        <label>New Solus Colony</label>
+        <description>Colonists sent by the kingdom to inhabit the planet.</description>
+        <isPlayer>true</isPlayer>
+        <basicMemberKind>RS_Heian</basicMemberKind>
+        <pawnSingular>heian</pawnSingular>
+        <pawnsPlural>heians</pawnsPlural>
+        <techLevel>Spacer</techLevel> 
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>Offworld</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+        <factionIconPath>World/WorldObjects/Expanding/SolusTown</factionIconPath>
+        <playerInitialSettlementNameMaker>NamerInitialSettlementSolusColony</playerInitialSettlementNameMaker>
+        <factionNameMaker>NamerFactionDinasty</factionNameMaker>
+        <settlementNameMaker>NamerSettlementDinasty</settlementNameMaker> 
+        <geneticVariance>1</geneticVariance>
+        <startingResearchTags> <!-- Adjust -->
+            <li>ClassicStart</li>
+        </startingResearchTags>
+        <startingTechprintsResearchTags> <!-- Adjust -->
+            <li>ClassicStart</li>
+            <li>ClassicStartTechprints</li>
+        </startingTechprintsResearchTags>
+        <hairTags>
+            <li>Absol</li>
+        </hairTags>
+        <apparelStuffFilter>
+            <thingDefs> 
+                <li>Synthread</li>
+            </thingDefs>
+        </apparelStuffFilter>
+    </FactionDef>
+
+</Defs>

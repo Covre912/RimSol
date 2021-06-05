@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RulePackDef>
+        <defName>NamerInitialSettlementSolusColony</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->Solus Colony</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef>
+        <defName>NamerFactionDinasty</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->The Solus Dinasty</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef>
+        <defName>NamerSettlementDinasty</defName>
+        <rulePack>
+        <rulesStrings>
+            <li>r_name(p=12)->[townname_wordgen]</li>
+            <li>r_name(p=4)->[townname_combo]</li>
+            <li>r_name->[townname_near]</li>
+            <li>topicalnoun->[Vegetable]</li>
+            <li>topicalnoun->[Game]</li>
+            <li>topicalnoun->[BodyPart]</li>
+            <li>townname_combo->[topicalnoun] [TerrainFeature]</li>
+            <li>townname_combo->[topicalnoun] [Community]</li>
+            <li>townname_combo->[topicalnoun]'s [TerrainFeature]</li>
+            <li>townname_combo->[topicalnoun]'s [Community]</li>
+            <li>townname_combo(p=2)->[concept_positive]'s [TerrainFeature]</li>
+            <li>townname_combo(p=2)->[concept_positive] [TerrainFeature]</li>
+            <li>townname_combo(p=2)->[concept_positive] [Community]</li>
+            <li>townname_combo(p=3)->[Character]'s [TerrainFeature]</li>
+            <li>townname_combo(p=3)->[Character]'s [Community]</li>
+            <li>townname_near->[nearnameinitial]-at-the-[TerrainFeature]</li>
+            <li>townname_near->[nearnameinitial]-by-the-[TerrainFeature]</li>
+            <li>townname_near->[nearnameinitial]-on-the-[TerrainFeature]</li>
+            <li>nearnameinitial->[townname_wordgen]</li>
+            <li>nearnameinitial->[Community]</li>
+            <li>townname_wordgen(p=2)->[SylE][SylE]</li>
+            <li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
+            <li>townname_wordgen(p=2)->[SylE][townend]</li>
+            <li>townname_wordgen(p=2)->[SylE][SylE][townend]</li>
+            <li>townname_wordgen->[TerrainFeature][townend]</li>
+            <li>townname_wordgen->[topicalnoun][townend]</li>
+            <li>townend->ville</li>
+            <li>townend->town</li>
+            <li>townend->hurst</li>
+            <li>townend->bourne</li>
+            <li>townend->brad</li>
+            <li>townend->dale</li>
+            <li>townend->hope</li>
+            <li>townend->ing</li>
+            <li>townend->ness</li>
+            <li>townend->mere</li>
+            <li>townend->shaw</li>
+            <li>townend->wick</li>
+            <li>townend->ton</li>
+            <li>townend->ston</li>
+            <li>townend->os</li>
+            <li>townend->den</li>
+            <li>townend->tas</li>
+            <li>townend->wood</li>
+            <li>townend->land</li>
+            <li>townend->worth</li>
+            <li>townend->roon</li>
+            <li>townend->ron</li>
+            <li>townend->well</li>
+        </rulesStrings>
+        <rulesFiles>
+            <li>concept_positive->Words/Nouns/Concepts_Positive</li>
+        </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

@@ -118,6 +118,61 @@
 					</value>
                 </li>
 
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[@Name = "RS_Make_BlocksAbstone"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+                        <li>AvaliTungsten</li>
+					</value>
+                </li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef[@Name = "RS_Make_LapisLazuliPlating"]/ingredients</xpath>
+					<value>
+						<ingredients>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>RS_Tungsten</li>
+										<li>AvaliTungsten</li>
+									</thingDefs>
+								</filter>
+								<count>25</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Uranium</li>
+									</thingDefs>
+								</filter>
+								<count>10</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>RS_LapisLazuli</li>
+									</thingDefs>
+								</filter>
+								<count>25</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Gold</li>
+									</thingDefs>
+								</filter>
+								<count>25</count>
+							</li>
+						</ingredients>
+					</value>
+                </li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[@Name = "RS_Make_LapisLazuliPlating"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+                        <li>AvaliTungsten</li>
+					</value>
+                </li>
+
             </operations>
         </match>
     </Operation>

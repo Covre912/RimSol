@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <BodyPartGroupDef>
+        <defName>RS_Horn</defName>
+        <label>horn</label>
+    </BodyPartGroupDef>
+
+    <BodyPartGroupDef>
+        <defName>RS_Tail</defName>
+        <label>tail</label>
+    </BodyPartGroupDef>
+
+</Defs>
