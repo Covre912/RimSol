@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Defoliator Lance -->
+        <ThingDef ParentName="ApparelNoQualityBase">
+            <defName>RS_DefoliatorLance</defName>
+            <label>defoliator lance</label>
+            <description>An archotech device granted by a benevolant machine planet at the dawn of the golden age. Commonly used for mid-scale terraforming, a defoliator can remove large sections of forest with little effort. On the smaller scale it can be used as a agricultural aide, harvesting whole fields in seconds.</description>
+            <techLevel>Archotech</techLevel>
+            <graphicData>
+                <texPath>Things/Item/Artifact/DefoliatorLance</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <tradeTags>
+                <li>Artifact</li>
+            </tradeTags>
+            <thingSetMakerTags>
+                <li>RewardStandardHighFreq</li>
+            </thingSetMakerTags>
+            <statBases>
+                <Mass>0.5</Mass>
+                <EquipDelay>2</EquipDelay>
+                <MarketValue>450</MarketValue>
+                <MaxHitPoints>80</MaxHitPoints>
+            </statBases>
+            <tickerType>Normal</tickerType>
+            <thingCategories>
+                <li>ApparelUtility</li>
+            </thingCategories>
+            <apparel>
+                <countsAsClothingForNudity>false</countsAsClothingForNudity>
+                <scoreOffset>4</scoreOffset>
+                <careIfWornByCorpse>false</careIfWornByCorpse>
+                <careIfDamaged>false</careIfDamaged>
+                <wearPerDay>0</wearPerDay>
+                <bodyPartGroups>
+                    <li>Waist</li>
+                </bodyPartGroups>
+                <layers>
+                    <li>Belt</li>
+                </layers>
+            </apparel>
+            <resourceReadoutPriority>Middle</resourceReadoutPriority>
+            <tradeNeverStack>true</tradeNeverStack>
+            <smeltable>false</smeltable>
+            <burnableByRecipe>false</burnableByRecipe>
+            <drawGUIOverlay>false</drawGUIOverlay>
+            <verbs>
+                <li>
+                    <verbClass>Verb_CastTargetEffect</verbClass>
+                    <label>defoliator lance</label>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <targetable>true</targetable>
+                    <onlyManualCast>True</onlyManualCast>
+                    <range>34.9</range>
+                    <warmupTime>0.5</warmupTime>
+                    <targetParams>
+                        <canTargetBuildings>true</canTargetBuildings>
+                        <onlyTargetPsychicSensitive>true</onlyTargetPsychicSensitive>
+                        <neverTargetIncapacitated>true</neverTargetIncapacitated>
+                    </targetParams>
+                    <soundCast>PsychicShockLanceCast</soundCast>
+                </li>
+            </verbs>
+            <comps>
+                <li Class="CompProperties_Reloadable">
+                    <maxCharges>1</maxCharges>
+                    <destroyOnEmpty>true</destroyOnEmpty>
+                    <hotKey>Misc4</hotKey>
+                    <chargeNoun>charge</chargeNoun>
+                    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+                </li>
+                <fleckOnTarget>PsycastPsychicEffect</fleckOnTarget>
+                <fleckOnUsed>PsycastAreaEffect</fleckOnUsed>
+                <!-- Adjust -->
+            </comps>
+        </ThingDef>
+
+    <!-- Archotech Asteroid Vectorizer -->
+        <ThingDef ParentName="ApparelNoQualityBase">
+            <defName>RS_ArchotechAsteroidVectorizer</defName>
+            <label>archotech asteroid vectorizer</label>
+            <description>An archotech device used for planet-side mining operations. Draws asteroids and other space debris to a selected location, after which mining teams can be dispatched to recover the material. Theoretically usable as a weapon.</description>
+            <graphicData>
+                <texPath>Things/Item/Artifact/ArchotechAsteroidVectorizer</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <tradeTags>
+                <li>Artifact</li>
+            </tradeTags>
+            <thingSetMakerTags>
+                <li>RewardStandardLowFreq</li>
+            </thingSetMakerTags>
+            <statBases>
+                <Mass>0.5</Mass>
+                <EquipDelay>2</EquipDelay>
+                <MarketValue>1200</MarketValue>
+                <MaxHitPoints>80</MaxHitPoints>
+            </statBases>
+            <tickerType>Normal</tickerType>
+            <thingCategories>
+                <li>ApparelUtility</li>
+            </thingCategories>
+            <apparel>
+                <countsAsClothingForNudity>false</countsAsClothingForNudity>
+                <scoreOffset>4</scoreOffset>
+                <careIfWornByCorpse>false</careIfWornByCorpse>
+                <careIfDamaged>false</careIfDamaged>
+                <wearPerDay>0</wearPerDay>
+                <bodyPartGroups>
+                    <li>Waist</li>
+                </bodyPartGroups>
+                <layers>
+                    <li>Belt</li>
+                </layers>
+            </apparel>
+            <resourceReadoutPriority>Middle</resourceReadoutPriority>
+            <tradeNeverStack>true</tradeNeverStack>
+            <smeltable>false</smeltable>
+            <burnableByRecipe>false</burnableByRecipe>
+            <drawGUIOverlay>false</drawGUIOverlay>
+            <verbs>
+                <li>
+                    <verbClass>Verb_CastTargetEffect</verbClass>
+                    <label>archotech asteroid vectorizer</label>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <targetable>true</targetable>
+                    <onlyManualCast>True</onlyManualCast>
+                    <range>34.9</range>
+                    <warmupTime>0.5</warmupTime>
+                    <targetParams>
+                        <canTargetBuildings>true</canTargetBuildings>
+                        <onlyTargetPsychicSensitive>true</onlyTargetPsychicSensitive>
+                        <neverTargetIncapacitated>true</neverTargetIncapacitated>
+                    </targetParams>
+                    <soundCast>PsychicShockLanceCast</soundCast>
+                </li>
+            </verbs>
+            <comps>
+                <li Class="CompProperties_Reloadable">
+                    <maxCharges>1</maxCharges>
+                    <destroyOnEmpty>true</destroyOnEmpty>
+                    <hotKey>Misc4</hotKey>
+                    <chargeNoun>charge</chargeNoun>
+                    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+                </li>
+                <fleckOnTarget>PsycastPsychicEffect</fleckOnTarget>
+                <fleckOnUsed>PsycastAreaEffect</fleckOnUsed>
+                <!-- Adjust -->
+            </comps>
+        </ThingDef>
+
+</Defs>

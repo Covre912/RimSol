@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TerrainDef ParentName="TileStoneBase">
+        <defName>RS_TileAbstone</defName>
+        <label>abstone tile</label>
+        <color>(235,235,235)</color>
+        <costList>
+            <RS_BlocksAbstone>4</RS_BlocksAbstone>
+        </costList>
+    </TerrainDef>
+
+    <TerrainDef ParentName="FlagstoneBase">
+        <defName>RS_FlagstoneAbstone</defName>
+        <label>abstone flagstone</label>
+        <color>(235,235,235)</color>
+        <costList>
+            <RS_BlocksAbstone>4</RS_BlocksAbstone>
+        </costList>
+    </TerrainDef>
+
+    <TerrainDef ParentName="FineTileStoneBase">
+        <defName>RS_FineTileAbstone</defName>
+        <label>fine abstone tile</label>
+        <color>(235,235,235)</color>
+        <costList>
+            <RS_BlocksAbstone>20</RS_BlocksAbstone>
+        </costList>
+    </TerrainDef>
+
+    <TerrainDef Abstract="True" ParentName="FloorBase" Name="RS_PolishedTileBase">
+        <texturePath>Terrain/Surfaces/PolishedTile</texturePath>
+        <designatorDropdown>RS_PolishedTile</designatorDropdown>
+        <constructEffect>ConstructMetal</constructEffect>
+        <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    </TerrainDef>
+
+    <TerrainDef ParentName="RS_PolishedTileBase">
+        <defName>RS_PolishedTileJade</defName>
+        <label>jade polished tile</label>
+        <renderPrecedence>240</renderPrecedence>
+        <description>.</description> <!-- Adjust -->
+        <color>(0, 150, 50)</color>
+        <statBases>
+            <WorkToBuild>600</WorkToBuild>
+            <Beauty>3</Beauty>
+        </statBases>
+        <costList>
+            <Jade>7</Jade>
+        </costList>
+    </TerrainDef>
+
+    <TerrainDef ParentName="RS_PolishedTileBase">
+        <defName>RS_PolishedTileAbsteel</defName>
+        <label>absteel polished tile</label>
+        <renderPrecedence>242</renderPrecedence>
+        <description>.</description> <!-- Adjust -->
+        <color>(100, 0, 100)</color>
+        <statBases>
+            <WorkToBuild>600</WorkToBuild>
+            <Beauty>2</Beauty>
+        </statBases>
+        <costList>
+            <RS_Absteel>7</RS_Absteel>
+        </costList>
+    </TerrainDef>
+
+    <TerrainDef ParentName="RS_PolishedTileBase">
+        <defName>RS_PolishedTileAbstone</defName>
+        <label>abstone polished tile</label>
+        <renderPrecedence>243</renderPrecedence>
+        <description>.</description> <!-- Adjust -->
+        <color>(235, 235, 235)</color>
+        <statBases>
+            <WorkToBuild>800</WorkToBuild>
+        </statBases>
+        <costList>
+            <RS_BlocksAbstone>10</RS_BlocksAbstone>
+        </costList>
+    </TerrainDef>
+
+    <TerrainDef ParentName="FloorBase">
+        <defName>RS_CheckeredFloorA</defName>
+        <label>checkered floor</label>
+        <texturePath>Terrain/Surfaces/CheckeredFloorA</texturePath>
+        <designatorDropdown>RS_CheckeredFloor</designatorDropdown>
+        <renderPrecedence>240</renderPrecedence>
+        <description>.</description> <!-- Adjust -->
+        <constructEffect>ConstructMetal</constructEffect>
+        <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+        <statBases>
+            <WorkToBuild>800</WorkToBuild>
+            <Beauty>3</Beauty>
+        </statBases>
+        <costList>
+            <RS_BlocksAbstone>8</RS_BlocksAbstone>
+            <RS_Absteel>2</RS_Absteel>
+        </costList>
+    </TerrainDef>
+
+    <TerrainDef ParentName="FloorBase">
+        <defName>RS_CheckeredFloorB</defName>
+        <label>checkered floor</label>
+        <texturePath>Terrain/Surfaces/CheckeredFloorB</texturePath>
+        <designatorDropdown>RS_CheckeredFloor</designatorDropdown>
+        <renderPrecedence>240</renderPrecedence>
+        <description>.</description> <!-- Adjust -->
+        <constructEffect>ConstructMetal</constructEffect>
+        <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+        <statBases>
+            <WorkToBuild>800</WorkToBuild>
+            <Beauty>3</Beauty>
+        </statBases>
+        <costList>
+            <RS_BlocksAbstone>8</RS_BlocksAbstone>
+            <RS_Absteel>2</RS_Absteel>
+        </costList>
+    </TerrainDef>
+
+</Defs>

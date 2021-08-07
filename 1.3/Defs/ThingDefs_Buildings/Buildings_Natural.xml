@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Tungsten Ore -->
+        <ThingDef ParentName="RockBase">
+            <defName>RS_MineableTungsten</defName>
+            <label>tungsten ore</label>
+            <description>Rock containing bits of tungsten.</description>
+            <graphicData>
+                <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <shaderType>CutoutComplex</shaderType>
+                <color>(60,65,75)</color>
+                <colorTwo>(125,130,140)</colorTwo>
+            </graphicData>
+            <statBases>
+                <MaxHitPoints>2000</MaxHitPoints>
+            </statBases>
+            <building>
+                <isResourceRock>true</isResourceRock>
+                <mineableThing>RS_Tungsten</mineableThing>
+                <mineableYield>25</mineableYield>
+                <mineableScatterCommonality>0.52</mineableScatterCommonality>
+                <mineableScatterLumpSizeRange>14~20</mineableScatterLumpSizeRange>
+            </building>
+        </ThingDef>
+
+</Defs>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ItemProcessor.ItemAcceptedDef>
+		<defName>RS_IP_RefineratorFirstItem</defName>
+		<building>RS_Refinerator</building>
+		<slot>1</slot>
+		<items>			
+			<li>Chemfuel</li>						
+		</items>							
+	</ItemProcessor.ItemAcceptedDef>
+
+</Defs>

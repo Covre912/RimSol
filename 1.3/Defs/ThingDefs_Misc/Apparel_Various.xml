@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Kimono -->
+        <ThingDef ParentName="ApparelMakeableBase">
+            <defName>RS_Apparel_Kimono</defName>
+            <label>kimono</label>
+            <description>Traditional garb, dating to before the Empire's establishment. Typically worn for special occasions, or when appearing before a high ranking official.</description>
+            <graphicData>
+                <texPath>Things/Pawn/Humanlike/Apparel/Kimono/Kimono</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <costStuffCount>100</costStuffCount>
+            <stuffCategories>
+                <li>Fabric</li>
+                <li>Leathery</li>
+            </stuffCategories>
+            <thingCategories>
+                <li>Apparel</li>
+            </thingCategories>
+            <statBases>
+                <MaxHitPoints>100</MaxHitPoints>
+                <WorkToMake>2600</WorkToMake>
+                <Mass>0.25</Mass>
+                <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+                <StuffEffectMultiplierInsulation_Cold>0.24</StuffEffectMultiplierInsulation_Cold>
+                <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+                <SocialImpact>0.15</SocialImpact>
+                <EquipDelay>1.5</EquipDelay>
+            </statBases>
+            <apparel>
+                <bodyPartGroups>
+                    <li>Torso</li>
+                    <li>Shoulders</li>
+                </bodyPartGroups>
+                <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Kimono/Kimono</wornGraphicPath>
+                <layers>
+                    <li>OnSkin</li>
+                </layers>
+                <tags>
+                    <li>IndustrialBasic</li>
+                </tags>
+                <defaultOutfitTags>
+                    <li>Worker</li>
+                    <li>Soldier</li>
+                </defaultOutfitTags>
+            </apparel>
+            <colorGenerator Class="ColorGenerator_StandardApparel" />
+        </ThingDef>
+
+    <!-- Samurai Power Armor -->   
+        <ThingDef ParentName="ArmorMachineableBase">
+            <defName>RS_Apparel_SamuraiPowerArmor</defName>
+            <label>samurai power armor</label>
+            <description>Battle Armour worn by Solus nobility, Absteel, Azure Plate, and Absilk are all used in its construction. Special construction in the leg sections allows for increased mobility.</description>
+            <graphicData>
+                <texPath>Things/Pawn/Humanlike/Apparel/SamuraiPowerArmor/SamuraiPowerArmor</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <techLevel>Spacer</techLevel>
+            <recipeMaker>
+                <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+                <researchPrerequisite>PoweredArmor</researchPrerequisite>
+                <skillRequirements>
+                    <Crafting>8</Crafting>
+                </skillRequirements>
+                <recipeUsers Inherit="False">
+                    <li>FabricationBench</li>
+                </recipeUsers>
+            </recipeMaker>
+            <generateCommonality>2</generateCommonality>
+            <statBases>
+                <WorkToMake>55000</WorkToMake>
+                <MaxHitPoints>340</MaxHitPoints>
+                <Mass>12</Mass>
+                <Flammability>0.4</Flammability>
+                <ArmorRating_Sharp>1.01</ArmorRating_Sharp>
+                <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+                <ArmorRating_Heat>0.49</ArmorRating_Heat>
+                <Insulation_Cold>34</Insulation_Cold>
+                <Insulation_Heat>10</Insulation_Heat>
+                <EquipDelay>14</EquipDelay>
+            </statBases>
+            <equippedStatOffsets>
+                <MeleeHitChance>0.10</MeleeHitChance>
+                <PsychicSensitivity>0.05</PsychicSensitivity>
+                <PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
+            </equippedStatOffsets>
+            <thingCategories>
+                <li>ApparelArmor</li>
+            </thingCategories>
+            <tradeTags>
+                <li>HiTechArmor</li>
+            </tradeTags>
+            <costList>
+                <ComponentSpacer>4</ComponentSpacer>
+                <Plasteel>120</Plasteel>
+                <RS_Absteel>50</RS_Absteel>
+                <Gold>9</Gold>
+            </costList>
+            <apparel>
+                <bodyPartGroups>
+                    <li>Torso</li>
+                    <li>Neck</li>
+                    <li>Shoulders</li>
+                    <li>Arms</li>
+                    <li>Legs</li>
+                </bodyPartGroups>
+                <wornGraphicPath>Things/Pawn/Humanlike/Apparel/SamuraiPowerArmor/SamuraiPowerArmor</wornGraphicPath>
+                <layers>
+                    <li>Middle</li>
+                    <li>Shell</li>
+                </layers>
+                <defaultOutfitTags>
+                    <li>Soldier</li>
+                </defaultOutfitTags>
+                <useDeflectMetalEffect>true</useDeflectMetalEffect>
+                <tags>
+                    <li>SpacerMilitary</li>
+                </tags>
+            </apparel>
+            <thingSetMakerTags>
+                <li>RewardStandardHighFreq</li>
+            </thingSetMakerTags>
+        </ThingDef>
+
+
+</Defs>

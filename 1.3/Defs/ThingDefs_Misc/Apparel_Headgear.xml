@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Samurai Power Helmet -->
+        <ThingDef ParentName="ArmorHelmetMakeableBase">
+            <defName>RS_Apparel_SamuraiPowerHelmet</defName>
+            <label>samurai power helmet</label>
+            <description>Battle Helmet worn by Solus nobility, Absteel, AzurePlate, and Absilk are all used in its construction. Comes with a built-in HUD that can connect to weapon-board personas.</description>
+            <techLevel>Spacer</techLevel>
+            <graphicData>
+                <texPath>Things/Pawn/Humanlike/Apparel/SamuraiPowerHelmet/SamuraiPowerHelmet</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <recipeMaker>
+            <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+            <researchPrerequisite>RS_SamuraiArmour</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers Inherit="False">
+                <li>FabricationBench</li>
+            </recipeUsers>
+            </recipeMaker>
+            <uiIconScale>1.25</uiIconScale>
+            <tradeTags>
+                <li>HiTechArmor</li>
+            </tradeTags>
+            <generateCommonality>2</generateCommonality>
+            <statBases>
+                <WorkToMake>16000</WorkToMake>
+                <MaxHitPoints>150</MaxHitPoints>
+                <Mass>1.5</Mass>
+                <Flammability>0.4</Flammability>
+                <ArmorRating_Sharp>1.01</ArmorRating_Sharp>
+                <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+                <ArmorRating_Heat>0.49</ArmorRating_Heat>
+                <Insulation_Cold>4</Insulation_Cold>
+                <Insulation_Heat>2</Insulation_Heat>
+                <EquipDelay>4</EquipDelay>
+            </statBases>
+            <equippedStatOffsets>
+                <ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
+                <PsychicSensitivity>0.05</PsychicSensitivity>
+                <PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
+            </equippedStatOffsets>
+            <costList>
+                <ComponentSpacer>1</ComponentSpacer>
+                <Plasteel>50</Plasteel>
+                <RS_Absteel>10</RS_Absteel>
+                <Gold>4</Gold>
+            </costList>
+            <apparel>
+                <bodyPartGroups>
+                    <li>FullHead</li>
+                </bodyPartGroups>
+                <wornGraphicPath>Things/Pawn/Humanlike/Apparel/SamuraiPowerHelmet/SamuraiPowerHelmet</wornGraphicPath>
+                <layers>
+                    <li>Overhead</li>
+                </layers>
+                <defaultOutfitTags>
+                    <li>Soldier</li>
+                </defaultOutfitTags>
+                <tags>
+                    <li>SpacerMilitary</li>
+                </tags>
+                <useDeflectMetalEffect>true</useDeflectMetalEffect>
+            </apparel>
+            <thingSetMakerTags>
+                <li>RewardStandardHighFreq</li>
+            </thingSetMakerTags>
+            <comps>
+                <li Class="CompProperties_BiocodableApparel"/>
+            </comps>
+        </ThingDef>
+
+</Defs>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Traditional Meal -->
+        <RecipeDef ParentName="CookMealBase">
+            <defName>RS_CookMealTraditional</defName>
+            <label>cook traditional meal x4</label>
+            <description>.</description> <!-- Adjust -->
+            <jobString>Cooking traditional meals.</jobString>
+            <workSpeedStat>CookSpeed</workSpeedStat>
+            <effectWorking>Cook</effectWorking>
+            <soundWorking>Recipe_CookMeal</soundWorking>
+            <allowMixingIngredients>true</allowMixingIngredients>
+            <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+            <recipeUsers>
+                <li>ElectricStove</li>	
+                <li>FueledStove</li>			
+            </recipeUsers>
+            <ingredients>
+                <li>
+                    <filter>
+                        <thingDefs>
+                            <li>RawRice</li>
+                        </thingDefs>
+                    </filter>
+                    <count>1.0</count>
+                </li>
+                <li>
+                    <filter>
+                        <categories>
+                            <li>PlantFoodRaw</li>
+                        </categories>
+                    </filter>
+                    <count>0.5</count>
+                </li>
+                <li>
+                    <filter>
+                        <categories>
+                            <li>MeatRaw</li>
+                        </categories>
+                    </filter>
+                    <count>0.5</count>
+                </li>
+                <li>
+                    <filter>
+                        <categories>
+                            <li>AnimalProductRaw</li>
+                        </categories>
+                    </filter>
+                    <count>0.5</count>
+                </li>
+            </ingredients>
+            <products>
+                <RS_TraditionalMeal>4</RS_TraditionalMeal>
+            </products>
+            <skillRequirements>
+                <Cooking>8</Cooking>
+            </skillRequirements>
+        </RecipeDef>
+
+</Defs>

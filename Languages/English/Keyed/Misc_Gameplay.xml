@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<RS_InsertChemfuelDesc>Chemfuel to Insert</RS_InsertChemfuelDesc>
+	<RS_StartInsertion>Bring Chemfuel</RS_StartInsertion>
+	<RS_StartInsertionDesc>Bring chemfuel to the refinerator to start processing</RS_StartInsertionDesc>
+	<RS_CancelBringingChemfuel>Cancel Bringing Chemfuel</RS_CancelBringingChemfuel>
+	<RS_CancelBringingChemfuelDesc>Cancel bringing chemfuel to the refinerator.</RS_CancelBringingChemfuelDesc>
+
+</LanguageData>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="DrugBase">
+		<defName>RS_Absynth</defName>
+		<label>absynth</label>
+		<description>.</description> <!-- Adjust -->
+		<graphicData>
+			<texPath>Things/Item/Drug/Absynth</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>VBE_DrinksSimpleSpirits</li>
+		</thingCategories>
+		<equippedAngleOffset>-150</equippedAngleOffset>
+		<rotatable>false</rotatable>
+		<stackLimit>25</stackLimit>
+		<statBases>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<MarketValue>8</MarketValue>
+			<Mass>0.3</Mass>
+			<Flammability>0.5</Flammability>
+			<Nutrition>0.08</Nutrition>
+		</statBases>
+		<ingestible>
+            <specialThoughtAsIngredient>RS_AbsynthAsIngredient</specialThoughtAsIngredient>
+			<foodType>Fluid, Processed, Liquor</foodType>
+			<joyKind>Chemical</joyKind>
+			<joy>0.17</joy>
+			<nurseable>true</nurseable>
+			<drugCategory>Social</drugCategory>
+			<ingestSound>Ingest_Beer</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<chairSearchRadius>25</chairSearchRadius>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+			<tableDesired>false</tableDesired>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AlcoholHigh</hediffDef>
+					<severity>0.2</severity>
+					<toleranceChemical>Alcohol</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>RS_AbsynthHigh</hediffDef>
+					<severity>0.2</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AlcoholTolerance</hediffDef>
+					<severity>0.02</severity>
+					<divideByBodySize>true</divideByBodySize>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<tools>
+			<li>
+				<label>bottle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>neck</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<equipmentType>Primary</equipmentType>
+		<techLevel>Neolithic</techLevel>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>Alcohol</chemical>
+				<addictiveness>0.015</addictiveness>
+				<minToleranceToAddict>0.25</minToleranceToAddict>
+				<existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+				<needLevelOffset>0.9</needLevelOffset>
+				<listOrder>10</listOrder>
+			</li>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+		</comps>
+		<weaponClasses>
+      		<li>Melee</li>
+      		<li>MeleeBlunt</li>
+    	</weaponClasses>
+	</ThingDef>
+
+	<HediffDef>
+		<defName>RS_AbsynthHigh</defName>
+		<label>absynth high</label>
+		<labelNoun>a absynth high</labelNoun>
+		<description>Drank some absynth. Provides a consciousness buff.</description>
+		<hediffClass>Hediff_Alcohol</hediffClass>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.75</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ImmunityGainSpeedFactor>0.15</ImmunityGainSpeedFactor>
+				</statOffsets>	
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>-0.2</offset>
+                    </li>
+                </capMods>	
+            </li>
+		</stages>
+	</HediffDef>
+
+    <RecipeDef>
+        <defName>RS_Make_AbsynthMust</defName>
+        <label>make absynth must</label>
+        <description>Make absynth must from snowberries and herbal medicines.</description>
+        <jobString>Making absynth must.</jobString>
+        <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+        <workSkill>Cooking</workSkill>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_Brewing</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <workAmount>1000</workAmount>
+        <targetCountAdjustment>1</targetCountAdjustment>
+		<recipeUsers>
+			<li>Brewery</li>	
+			<li>VBE_Bar</li>			
+		</recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>RS_RawSnowberries</li>
+                    </thingDefs>
+                </filter>
+                <count>25</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>MedicineHerbal</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>RS_RawSnowberries</li>
+                <li>MedicineHerbal</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <RS_AbsynthMust>5</RS_AbsynthMust>
+        </products>
+		<researchPrerequisite>VBE_MixologyResearch</researchPrerequisite>
+    </RecipeDef>
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>RS_AbsynthMust</defName>
+        <label>absynth must</label>
+        <description>.</description> <!-- Adjust -->
+        <graphicData>
+            <texPath>Things/Item/Resource/AbsynthMust</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <rotatable>false</rotatable>
+        <stackLimit>25</stackLimit>
+        <thingCategories>
+            <li>Manufactured</li>
+        </thingCategories>
+        <statBases>
+            <DeteriorationRate>1.0</DeteriorationRate>
+            <MarketValue>2.5</MarketValue>
+            <Mass>0.8</Mass>
+            <Flammability>0.2</Flammability>
+            <MaxHitPoints>60</MaxHitPoints>
+        </statBases>
+        <tickerType>Rare</tickerType>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>5</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

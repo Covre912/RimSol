@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Tungstalk -->
+        <ThingDef ParentName="PlantBase">
+            <defName>RS_Plant_Tungstalk</defName>
+            <label>tungstalk plant</label>
+            <description>.</description> <!-- Adjust -->
+            <statBases>
+                <MaxHitPoints>85</MaxHitPoints>
+                <Nutrition>0.2</Nutrition>
+            </statBases>
+            <graphicData>
+                <texPath>Things/Plant/TungstalkPlant</texPath>
+                <graphicClass>Graphic_Random</graphicClass>
+            </graphicData>
+            <selectable>true</selectable>
+            <pathCost>14</pathCost>
+            <ingestible />
+            <plant>
+                <fertilityMin>1.1</fertilityMin>
+                <fertilitySensitivity>1</fertilitySensitivity>
+                <growDays>6</growDays>
+                <dieIfLeafless>true</dieIfLeafless>
+                <harvestTag>Standard</harvestTag>
+                <harvestedThingDef>RS_RawTungstalk</harvestedThingDef>
+                <harvestYield>10</harvestYield>
+                <sowMinSkill>8</sowMinSkill>
+                <sowTags>
+                    <li>Ground</li>
+                    <li>Hydroponic</li>
+                </sowTags>
+                <topWindExposure>0.1</topWindExposure>
+                <visualSizeRange>0.3~1.0</visualSizeRange>
+                <wildOrder>2</wildOrder>
+                <humanFoodPlant>true</humanFoodPlant>
+            </plant>
+        </ThingDef>
+
+    <!-- Snowberry Tree -->
+        <ThingDef ParentName="TreeBase">
+            <defName>RS_Plant_TreeSnowberry</defName>
+            <label>snowberry tree</label>
+            <description>.</description> <!-- Adjust -->
+            <graphicData>
+                <texPath>Things/Plant/TreeSnowberry</texPath>
+                <graphicClass>Graphic_Random</graphicClass>
+                <shadowData>
+                    <volume>(0.15, 0.3, 0.15)</volume>
+                    <offset>(0,0,-0.38)</offset>
+                </shadowData>
+            </graphicData>
+            <selectable>true</selectable>
+            <statBases>
+                <Beauty>2</Beauty>
+                <Nutrition>1.25</Nutrition>
+            </statBases>
+            <ingestible />
+            <plant>
+                <dieIfLeafless>false</dieIfLeafless>
+                <growDays>32.51</growDays>
+                <visualSizeRange>0.8~2.0</visualSizeRange>
+                <sowMinSkill>6</sowMinSkill>
+                <sowTags>
+                    <li>Ground</li>
+                </sowTags>
+                <fertilityMin>0.71</fertilityMin>
+                <topWindExposure>0.15</topWindExposure>
+                <mustBeWildToSow>true</mustBeWildToSow>
+                <immatureGraphicPath>Things/Plant/TreeSnowberry_Immature</immatureGraphicPath>
+                <leaflessGraphicPath>Things/Plant/TreeSnowberry_Leafless</leaflessGraphicPath>
+                <harvestWork>800</harvestWork>
+                <harvestTag>Standard</harvestTag>
+                <harvestYield>50</harvestYield>
+                <harvestedThingDef>RS_RawSnowberries</harvestedThingDef>
+                <harvestFailable>true</harvestFailable>
+                <harvestAfterGrowth>0.20</harvestAfterGrowth>
+                <humanFoodPlant>true</humanFoodPlant>
+            </plant>
+        </ThingDef>
+
+    <!-- Watermelon -->
+        <ThingDef ParentName="PlantBase">
+            <defName>RS_Plant_Watermelon</defName>
+            <label>watermelon plant</label>
+            <description>.</description> <!-- Adjust -->
+            <statBases>
+                <MaxHitPoints>140</MaxHitPoints>
+                <Nutrition>0.25</Nutrition>
+            </statBases>
+            <graphicData>
+                <texPath>Things/Plant/WatermelonPlant</texPath>
+                <graphicClass>Graphic_Random</graphicClass>
+            </graphicData>
+            <selectable>true</selectable>
+            <pathCost>14</pathCost>
+            <ingestible/>
+            <plant>
+                <fertilityMin>1.1</fertilityMin>
+                <growDays>8</growDays>
+                <dieIfLeafless>true</dieIfLeafless>
+                <harvestTag>Standard</harvestTag>
+                <harvestedThingDef>RS_RawWatermelon</harvestedThingDef>
+                <harvestYield>12</harvestYield>
+                <sowMinSkill>4</sowMinSkill>
+                <sowTags>
+                    <li>Ground</li>
+                </sowTags>
+                <topWindExposure>0.1</topWindExposure>
+                <visualSizeRange>0.3~1.0</visualSizeRange>
+                <wildOrder>2</wildOrder>
+                <humanFoodPlant>true</humanFoodPlant>
+            </plant>
+        </ThingDef>
+
+</Defs>

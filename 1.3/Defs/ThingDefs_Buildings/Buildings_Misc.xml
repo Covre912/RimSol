@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef Name="RS_ShrineBase" ParentName="BuildingBase" Abstract="True">
+        <designationCategory>Misc</designationCategory>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <fillPercent>0.30</fillPercent>
+        <canOverlapZones>false</canOverlapZones>
+        <pathCost>50</pathCost>
+        <researchPrerequisites>
+            <li>ComplexFurniture</li> <!-- Adjust -->
+        </researchPrerequisites>
+        <comps>
+            <li Class="CompProperties_Art">
+                <nameMaker>NamerArtFurniture</nameMaker>
+                <descriptionMaker>ArtDescription_Furniture</descriptionMaker>
+                <minQualityForArtistic>Awful</minQualityForArtistic>
+            </li>
+        </comps>
+        <inspectorTabs>
+            <li>ITab_Art</li>
+        </inspectorTabs>
+    </ThingDef>
+
+    <!-- Traditional Obelisk  -->
+        <ThingDef ParentName="RS_ShrineBase">
+            <defName>RS_TraditionalObelisk</defName>
+            <label>traditional obelisk</label>
+            <description>A beautiful obilisk modeled after those common in the Solus Empire's early days. Few originals remain.</description>
+            <size>(1,1)</size>
+            <statBases>
+                <MaxHitPoints>200</MaxHitPoints>
+                <WorkToBuild>8000</WorkToBuild>
+                <Beauty>15</Beauty>
+                <MeditationFocusStrength>0.15</MeditationFocusStrength>
+                <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">20</StyleDominance>
+            </statBases>
+            <costList>
+                <Jade>80</Jade>
+                <Gold>50</Gold>
+            </costList>
+            <rotatable>false</rotatable>
+            <uiIconScale>1.1</uiIconScale>
+            <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+            <graphicData>
+                <graphicClass>Graphic_Single</graphicClass>
+                <texPath>Things/Building/Misc/TraditionalObelisk</texPath>
+                <shadowData>
+                    <volume>(0.25, 0.35, 0.25)</volume>
+                    <offset>(0,0,-0.1)</offset>
+                </shadowData>
+                <damageData>
+                    <cornerTL>Damage/Corner</cornerTL>
+                    <cornerTR>Damage/Corner</cornerTR>
+                    <cornerBL>Damage/Corner</cornerBL>
+                    <cornerBR>Damage/Corner</cornerBR>
+                </damageData>
+            </graphicData>
+            <comps>
+                <li Class="CompProperties_MeditationFocus">
+                    <statDef>MeditationFocusStrength</statDef>
+                    <focusTypes>
+                        <li>Artistic</li>
+                    </focusTypes>
+                </li>
+                <li Class="CompProperties_Styleable"></li>
+            </comps>
+            <ideoBuildingNamerBase MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoSculpture</ideoBuildingNamerBase>
+            <ritualFocus>
+                <spectateDistance>2</spectateDistance>
+                <allowedSpectateSides>Down</allowedSpectateSides>
+            </ritualFocus>
+        </ThingDef>
+
+    <!-- Large Shrine  -->
+        <ThingDef ParentName="RS_ShrineBase">
+            <defName>RS_LargeShrine</defName>
+            <label>large shrine</label>
+            <description>.</description> <!-- Adjust -->
+            <size>(5,2)</size>
+            <category>Building</category>
+            <thingClass>Building</thingClass>
+            <statBases>
+                <MaxHitPoints>500</MaxHitPoints>
+                <WorkToBuild>12000</WorkToBuild>
+                <Beauty>25</Beauty>
+                <MeditationFocusStrength>0.35</MeditationFocusStrength>
+                <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">40</StyleDominance>
+            </statBases>
+            <costList>
+                <Jade>250</Jade>
+                <Gold>100</Gold>
+                <WoodLog>150</WoodLog>
+            </costList>
+            <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+            <graphicData>
+                <texPath>Things/Building/Misc/LargeShrine/LargeShrine</texPath>
+                <graphicClass>Graphic_Multi</graphicClass>
+                <drawSize>(8,8)</drawSize>
+            </graphicData>
+            <uiIconScale>0.9</uiIconScale>
+            <uiIconOffset>(0,0.15)</uiIconOffset>
+            <staticSunShadowHeight>0.2</staticSunShadowHeight>
+            <castEdgeShadows>True</castEdgeShadows>
+            <comps>
+                <li Class="CompProperties_MeditationFocus">
+                    <statDef>MeditationFocusStrength</statDef>
+                    <focusTypes>
+                        <li>Artistic</li>
+                    </focusTypes>
+                </li>
+                <li Class="CompProperties_Styleable"></li>
+            </comps>
+            <ideoBuildingNamerBase MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoSculpture</ideoBuildingNamerBase>
+            <ritualFocus>
+                <spectateDistance>5</spectateDistance>
+                <allowedSpectateSides>Down</allowedSpectateSides>
+            </ritualFocus>
+        </ThingDef>
+
+</Defs>

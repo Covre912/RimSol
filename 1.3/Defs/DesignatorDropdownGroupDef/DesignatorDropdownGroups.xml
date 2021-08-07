@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <DesignatorDropdownGroupDef>
+        <defName>RS_AbsolProps</defName>
+        <label>props</label>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>RS_PolishedTile</defName>
+        <label>polished floor</label>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>RS_CheckeredFloor</defName>
+        <label>checkered floor</label>
+    </DesignatorDropdownGroupDef>
+
+</Defs>

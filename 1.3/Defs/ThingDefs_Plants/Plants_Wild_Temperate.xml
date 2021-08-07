@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="DeciduousTreeBase">
+        <defName>RS_Plant_TreeMarple</defName>
+        <label>marple tree</label>
+        <description>.</description> <!-- Adjust -->
+        <graphicData>
+            <texPath>Things/Plant/TreeMarple</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <shadowData>
+                <volume>(0.2, 0.35, 0.13)</volume>
+                <offset>(-0.03,0,-0.44)</offset>
+            </shadowData>
+        </graphicData>
+        <statBases>
+            <Beauty>8</Beauty>
+        </statBases>
+        <plant>
+            <growDays>50</growDays>
+            <leaflessGraphicPath>Things/Plant/TreeMarple_Leafless</leaflessGraphicPath>
+            <harvestWork>1400</harvestWork>
+            <harvestYield>26</harvestYield>
+            <wildClusterWeight>35</wildClusterWeight>
+        </plant>
+    </ThingDef>
+
+</Defs>

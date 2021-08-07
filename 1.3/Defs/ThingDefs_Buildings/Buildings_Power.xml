@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Chemfuel Generator -->
+        <ThingDef ParentName="BuildingBase">
+            <defName>RS_Refinerator</defName>
+            <label>refinerator</label>
+            <description>.</description> <!-- Adjust -->
+            <thingClass>ItemProcessor.Building_ItemProcessor</thingClass>
+            <graphicData>
+                <texPath>Things/Building/Power/Refinerator</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <drawSize>(5,5)</drawSize>
+                <shadowData>
+                    <volume>(1.93,1,1.69)</volume>
+                    <offset>(-0.03,0,-0.1)</offset>
+                </shadowData>
+            </graphicData>
+            <altitudeLayer>Building</altitudeLayer>
+            <passability>PassThroughOnly</passability>
+            <pathCost>50</pathCost>
+            <blockWind>true</blockWind>
+            <fillPercent>1.0</fillPercent>
+            <rotatable>false</rotatable>
+            <statBases>
+                <MaxHitPoints>1500</MaxHitPoints>
+                <WorkToBuild>12500</WorkToBuild>
+                <Flammability>1.0</Flammability>
+                <Beauty>-20</Beauty>
+            </statBases>
+            <tickerType>Normal</tickerType>
+            <canOverlapZones>false</canOverlapZones>
+            <size>(5,5)</size>
+            <building>
+                <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+            </building>
+            <costList>
+                <Steel>250</Steel>
+                <RS_Absteel>150</RS_Absteel>
+                <ComponentIndustrial>8</ComponentIndustrial>
+                <ComponentSpacer>2</ComponentSpacer>
+            </costList>
+            <comps>
+                <li Class="CompProperties_Power">
+                    <compClass>CompPowerPlant</compClass>
+                    <basePowerConsumption>-6000</basePowerConsumption>
+                    <transmitsPower>true</transmitsPower>
+                    <soundAmbientProducingPower>ChemfuelFiredGenerator_Ambience</soundAmbientProducingPower>
+                </li>
+                <li Class="CompProperties_Flickable" />
+                <li Class="CompProperties_Refuelable"> <!-- Adjust -->
+                    <fuelConsumptionRate>30.0</fuelConsumptionRate>
+                    <fuelCapacity>150.0</fuelCapacity>
+                    <fuelFilter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                    </fuelFilter>
+                    <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+                </li>
+                <li Class="CompProperties_Glower">
+                    <glowRadius>6</glowRadius>
+                    <glowColor>(80,112,180,0)</glowColor>
+                </li>
+                <li Class="CompProperties_HeatPusher">
+                    <compClass>CompHeatPusherPowered</compClass>
+                    <heatPerSecond>6</heatPerSecond>
+                </li>
+                <li Class="CompProperties_Breakdownable"/>
+                <li Class="CompProperties_Explosive">
+                    <explosiveRadius>0</explosiveRadius>
+                    <explosiveExpandPerFuel>0.95</explosiveExpandPerFuel>
+                    <explosiveDamageType>Flame</explosiveDamageType>
+                    <destroyThingOnExplosionSize>2</destroyThingOnExplosionSize>
+                    <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+                    <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+                    <preExplosionSpawnChance>1</preExplosionSpawnChance>
+                    <wickTicks>70~150</wickTicks>
+                </li>
+                <li Class="ItemProcessor.CompProperties_ItemProcessor">
+                    <buildingOnGraphic>Things/Building/Power/Refinerator</buildingOnGraphic>
+                    <numberOfInputs>1</numberOfInputs>
+                    <acceptsNoneAsInput>false</acceptsNoneAsInput>
+                    <InsertFirstItemDesc>RS_InsertChemfuelDesc</InsertFirstItemDesc>
+                    <transfersIngredientLists>true</transfersIngredientLists>
+                    <isSemiAutomaticMachine>true</isSemiAutomaticMachine>
+                    <resetSemiautomaticIcon>UI/ChemfuelReset</resetSemiautomaticIcon>
+                    <chooseIngredientsIcon>UI/EmptyChemfuelIcon</chooseIngredientsIcon>
+                    <bringIngredientsText>RS_StartInsertion</bringIngredientsText>
+                    <bringIngredientsDesc>RS_StartInsertionDesc</bringIngredientsDesc>
+                    <bringIngredientsIcon>UI/InsertChemfuel</bringIngredientsIcon >
+                    <cancelIngredientsText>RS_CancelBringingChemfuel</cancelIngredientsText> 
+                    <cancelIngredientsDesc>RS_CancelBringingChemfuelDesc</cancelIngredientsDesc>
+                    <cancelIngredientsIcon>UI/CancelChemfuel</cancelIngredientsIcon> 
+                    <destroyIngredientsAtStartOfProcess>true</destroyIngredientsAtStartOfProcess>
+                    <showProgressBar>true</showProgressBar>
+                </li>
+            </comps>
+            <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+            <designationCategory>Power</designationCategory>
+            <constructEffect>ConstructMetal</constructEffect>
+            <researchPrerequisites>
+                <li>Electricity</li> <!-- Adjust -->
+            </researchPrerequisites>
+            <constructionSkillPrerequisite>6</constructionSkillPrerequisite> <!-- Adjust -->
+        </ThingDef>
+
+</Defs>

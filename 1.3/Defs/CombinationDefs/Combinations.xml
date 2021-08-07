@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ItemProcessor.CombinationDef>
+		<defName>RS_ChemfuelToNeutroamine</defName>
+		<building>RS_Refinerator</building>
+		<items>
+			<li>Chemfuel</li>
+		</items>	
+		<amount>
+			<li>15</li>
+		</amount>
+		<result>Neutroamine</result>	
+		<yield>15</yield>
+		<useQualityIncreasing>false</useQualityIncreasing>
+		<singleTimeIfNotQualityIncreasing>1</singleTimeIfNotQualityIncreasing>
+	</ItemProcessor.CombinationDef>
+
+</Defs>

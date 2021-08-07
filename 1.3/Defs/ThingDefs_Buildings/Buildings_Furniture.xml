@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Kumo -->
+        <ThingDef ParentName="BuildingBase">
+            <defName>RS_Kumo</defName>
+            <label>kumo</label>
+            <description>A doll modeled after storyteller Kaishin Koushitsu.</description>
+            <category>Building</category>
+            <thingClass>Building</thingClass>
+            <graphicData>
+                <texPath>Things/Building/Furniture/Kumo</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <drawRotated>false</drawRotated>
+                <drawSize>(0.8,0.9)</drawSize>
+                <drawOffset>(0,0,0.48)</drawOffset>
+                <damageData>
+                    <rect>(0.35,0.35,0.3,0.3)</rect>
+                </damageData>
+            </graphicData>
+            <uiIconScale>0.85</uiIconScale>
+            <rotatable>false</rotatable>
+            <minifiedDef>MinifiedThing</minifiedDef>
+            <altitudeLayer>BuildingOnTop</altitudeLayer>
+            <passability>Standable</passability>
+            <fillPercent>0</fillPercent>
+            <statBases>
+                <MaxHitPoints>50</MaxHitPoints>
+                <WorkToBuild>100</WorkToBuild>
+                <Flammability>0</Flammability>
+                <Mass>0.2</Mass>
+                <Beauty>18</Beauty>
+                <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+            </statBases>
+            <selectable>true</selectable>
+            <building>
+                <isEdifice>false</isEdifice>
+            </building>
+            <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+            <defaultPlacingRot>South</defaultPlacingRot>
+            <destroyable>true</destroyable>
+            <clearBuildingArea>false</clearBuildingArea>
+            <thingCategories>
+                <li>BuildingsFurniture</li>
+            </thingCategories>
+            <comps>
+                <li Class="CompProperties_Styleable" />
+            </comps>
+        </ThingDef>
+
+    <!-- Katana Display -->
+        <ThingDef ParentName="ArtableFurnitureBase">
+            <defName>RS_KatanaDisplay</defName>
+            <label>katana display</label>
+            <description>A stand for displaying a Katana, attractive by itself, but far more beautiful when a sword is placed on it.</description>
+            <graphicData>
+                <texPath>Things/Building/Furniture/KatanaDisplay/KatanaDisplay</texPath>
+                <graphicClass>Graphic_Multi</graphicClass>
+                <shaderType>CutoutComplex</shaderType>
+                <drawSize>(1,1)</drawSize>
+                <drawRotated>false</drawRotated>
+                <allowFlip>false</allowFlip>
+                <damageData>
+                    <cornerTL>Damage/Corner</cornerTL>
+                    <cornerTR>Damage/Corner</cornerTR>
+                    <cornerBL>Damage/Corner</cornerBL>
+                    <cornerBR>Damage/Corner</cornerBR>
+                </damageData>
+            </graphicData>
+            <altitudeLayer>Building</altitudeLayer>
+            <passability>PassThroughOnly</passability>
+            <fillPercent>0.4</fillPercent>
+            <castEdgeShadows>true</castEdgeShadows>
+            <pathCost>42</pathCost>
+            <stuffCategories>
+                <li>Woody</li>
+            </stuffCategories>
+            <costStuffCount>50</costStuffCount>
+            <costList>
+                <RS_SolusKatana>1</RS_SolusKatana>
+            </costList>
+            <statBases>
+                <MaxHitPoints>120</MaxHitPoints>
+                <Mass>15</Mass>
+                <WorkToBuild>2000</WorkToBuild>
+                <Flammability>1.0</Flammability>
+                <Beauty>24</Beauty>
+            </statBases>
+            <size>(1,1)</size>
+            <surfaceType>Item</surfaceType>
+            <canOverlapZones>false</canOverlapZones>
+            <researchPrerequisites>
+                <li>ComplexFurniture</li> <!-- Adjust -->
+            </researchPrerequisites>
+        </ThingDef>
+
+    <!-- Trash Can -->
+        <ThingDef ParentName="BuildingBase">
+            <defName>RS_TrashCan</defName>
+            <label>trash can</label>
+            <description>A container to dispose trash in. Nobody is quite sure where they come from.</description>
+            <graphicData>
+                <texPath>Things/Building/Furniture/TrashCan</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <shaderType>CutoutComplex</shaderType>
+                <drawSize>(1,1)</drawSize>
+                <drawRotated>false</drawRotated>
+                <allowFlip>false</allowFlip>
+            </graphicData>
+            <altitudeLayer>Building</altitudeLayer>
+            <passability>PassThroughOnly</passability>
+            <fillPercent>0.1</fillPercent>
+            <pathCost>20</pathCost>
+            <costList>
+                <Steel>20</Steel>
+            </costList>
+            <statBases>
+                <MaxHitPoints>20</MaxHitPoints>
+                <Mass>15</Mass>
+                <WorkToBuild>50</WorkToBuild>
+            </statBases>
+            <size>(1,1)</size>
+            <designationCategory>PropsandDecor</designationCategory>
+            <uiIconScale>1.2</uiIconScale>
+            <designatorDropdown>RS_AbsolProps</designatorDropdown>
+            <researchPrerequisites>
+                <li>ComplexFurniture</li> <!-- Adjust -->
+            </researchPrerequisites>
+            <building>
+		        <isInert>true</isInert>
+	        </building>
+        </ThingDef>
+
+    <!-- Torii Lantern -->
+        <ThingDef ParentName="BuildingBase">
+            <defName>RS_ToriiLantern</defName>
+            <label>torii lantern</label>
+            <description>A lantern powered by chemfuel, traditionally used as lighting in Temple gardens.</description> <!-- Adjust -->
+            <category>Building</category>
+            <thingClass>Building</thingClass>
+            <graphicData>
+                <texPath>Things/Building/Furniture/ToriiLantern/ToriiLantern</texPath>
+                <graphicClass>Graphic_Multi</graphicClass>
+                <shaderType>CutoutComplex</shaderType>
+                <drawSize>(1,2)</drawSize>
+                <damageData>
+                    <rect>(0.35,0.35,0.3,0.3)</rect>
+                </damageData>
+            </graphicData>
+            <uiIconScale>1.5</uiIconScale>
+            <uiIconOffset>(0,0.15)</uiIconOffset>
+            <rotatable>false</rotatable>
+            <altitudeLayer>BuildingOnTop</altitudeLayer>
+            <passability>PassThroughOnly</passability>
+            <tickerType>Normal</tickerType>
+            <drawerType>RealtimeOnly</drawerType>
+            <fillPercent>0</fillPercent>
+            <statBases>
+                <MaxHitPoints>75</MaxHitPoints>
+                <WorkToBuild>100</WorkToBuild>
+                <Flammability>0</Flammability>
+                <Mass>1</Mass>
+                <Beauty>5</Beauty>
+            </statBases>
+            <selectable>true</selectable>
+            <stuffCategories>
+                <li>Metallic</li>
+                <li>Woody</li>
+                <li>Stony</li>
+            </stuffCategories>		
+            <costStuffCount>35</costStuffCount>
+            <costList>
+                <Chemfuel>10</Chemfuel>
+            </costList>
+            <building>
+                <isEdifice>true</isEdifice>   
+            </building>
+            <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+            <comps>
+                <li Class="CompProperties_Flickable"/>
+                <li Class="CompProperties_Refuelable">
+                    <fuelConsumptionRate>1.0</fuelConsumptionRate>
+                    <fuelCapacity>25.0</fuelCapacity>
+                    <fuelFilter>
+                        <thingDefs>
+                            <li>Chemfuel</li>
+                        </thingDefs>
+                    </fuelFilter>
+                    <initialFuelPercent>1</initialFuelPercent>
+                    <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+                </li>
+                <li Class="CompProperties_Glower">
+                    <glowRadius>10</glowRadius>
+                    <glowColor>(252,187,113,0)</glowColor>
+                </li>
+                <li Class="CompProperties_Explosive">
+                    <explosiveRadius>2.0</explosiveRadius>
+                    <explosiveDamageType>Burn</explosiveDamageType>
+                    <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+                    <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+                    <wickTicks>
+                        <min>60</min>
+                        <max>120</max>
+                    </wickTicks>
+                </li>
+            </comps>
+            <defaultPlacingRot>South</defaultPlacingRot>
+            <designationCategory>Furniture</designationCategory>
+            <destroyable>true</destroyable>
+            <researchPrerequisites>
+                <li>ComplexFurniture</li> <!-- Adjust -->
+            </researchPrerequisites>
+            <tradeability>None</tradeability>
+            <clearBuildingArea>false</clearBuildingArea>
+        </ThingDef>
+
+    <!-- Absteel Table -->
+        <ThingDef ParentName="FurnitureWithQualityBase">
+            <defName>RS_AbsteelTable</defName>
+            <label>absteel table</label>
+            <description>People eat off tables when chairs are placed facing them.</description>
+            <thingClass>Building</thingClass>
+            <graphicData>
+                <texPath>Things/Building/Furniture/AbsteelTable</texPath>
+                <graphicClass>Graphic_Multi</graphicClass>
+                <drawSize>(4,4)</drawSize>
+                <damageData>
+                    <cornerTL>Damage/Corner</cornerTL>
+                    <cornerTR>Damage/Corner</cornerTR>
+                    <cornerBL>Damage/Corner</cornerBL>
+                    <cornerBR>Damage/Corner</cornerBR>
+                </damageData>
+            </graphicData>
+            <uiIconScale>0.8</uiIconScale>
+            <statBases>
+                <MaxHitPoints>100</MaxHitPoints>
+                <WorkToBuild>1500</WorkToBuild>
+                <Mass>10</Mass>
+                <Flammability>1.0</Flammability>
+                <Beauty>1</Beauty>
+            </statBases>
+            <size>(2,2)</size>
+            <rotatable>false</rotatable>
+            <altitudeLayer>Building</altitudeLayer>
+            <passability>PassThroughOnly</passability>
+            <castEdgeShadows>true</castEdgeShadows>
+            <pathCost>42</pathCost>
+            <costList>
+                <RS_Absteel>50</RS_Absteel>
+            </costList>
+            <fillPercent>0.4</fillPercent>
+            <socialPropernessMatters>true</socialPropernessMatters>
+            <canOverlapZones>false</canOverlapZones>
+            <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+            <staticSunShadowHeight>0.20</staticSunShadowHeight>
+            <surfaceType>Eat</surfaceType>
+            <comps>
+                <li>
+                    <compClass>CompGatherSpot</compClass>
+                </li>
+            </comps>
+        </ThingDef>
+
+    <!-- Futuristic Lamp -->
+        <ThingDef ParentName="BuildingBase" >
+            <defName>RS_FuturisticLamp</defName>
+            <label>futuristic lamp</label>
+            <description>.</description> <!-- Adjust -->
+            <thingClass>Building</thingClass>
+            <graphicData>
+                <texPath>Things/Building/Furniture/FuturisticLamp</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <drawSize>(1.8,1.8)</drawSize>
+                <shadowData>
+                    <volume>(0.3, 0.6, 0.3)</volume>
+                    <offset>(0,0,-0.1)</offset>
+                </shadowData>
+                <damageData>
+                    <rect>(0.2,0.2,0.6,0.6)</rect>
+                </damageData>
+            </graphicData>
+            <uiIconScale>0.6</uiIconScale>
+            <category>Building</category>
+            <minifiedDef>MinifiedThing</minifiedDef>
+            <altitudeLayer>Building</altitudeLayer>
+            <passability>PassThroughOnly</passability>
+            <selectable>true</selectable>
+            <fillPercent>0.20</fillPercent>
+            <pathCost>14</pathCost>
+            <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+            <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+            <designationCategory>Furniture</designationCategory>
+            <rotatable>false</rotatable>
+            <thingCategories>
+                <li>BuildingsFurniture</li>
+            </thingCategories>
+            <costList>
+                <RS_Absteel>30</RS_Absteel>
+            </costList>
+            <statBases>
+                <MaxHitPoints>80</MaxHitPoints>
+                <WorkToBuild>500</WorkToBuild>
+                <Flammability>1.0</Flammability>
+                <Mass>4</Mass>
+            </statBases>
+            <comps>
+                <li Class="CompProperties_Flickable"/>
+                <li Class="CompProperties_Glower">
+                    <glowRadius>16</glowRadius>
+                    <glowColor>(217,217,208,0)</glowColor>
+                </li>
+                <li Class="CompProperties_Power">
+                    <compClass>CompPowerTrader</compClass>
+                    <basePowerConsumption>20</basePowerConsumption>
+                </li>
+            </comps>
+            <researchPrerequisites>
+                <li>Electricity</li> <!-- Adjust -->
+            </researchPrerequisites>
+        </ThingDef>
+
+</Defs>

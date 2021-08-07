@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Traditional Meal -->
+        <ThoughtDef>
+            <defName>RS_AteTraditionalMeal</defName>
+            <durationDays>3</durationDays>
+            <stages>
+                <li>
+                    <label>ate traditional meal</label>
+                    <description>.</description> <!-- Adjust -->
+                    <baseMoodEffect>8</baseMoodEffect>
+                </li>
+            </stages>
+        </ThoughtDef>
+    
+    <!-- Absynth -->
+        <ThoughtDef>	
+            <defName>RS_AbsynthAsIngredient</defName>
+            <thoughtClass>VanillaCookingExpanded.Thought_Hediff</thoughtClass>
+            <hediff>RS_AbsynthAsIngredient</hediff>
+            <durationDays>1</durationDays>
+            <stages>
+                <li>
+                    <label>drank absynth-based cocktail</label>
+                    <description>Yummy.</description>
+                    <baseMoodEffect>0</baseMoodEffect>
+                </li>
+            </stages>
+        </ThoughtDef>
+
+</Defs>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Traditional Meal -->
+        <ThingDef ParentName="MealCooked">
+            <defName>RS_TraditionalMeal</defName>
+            <label>traditional meal</label>
+            <description>A miniature feast prepared from a multitude of ingredients. Each element, simple as it may seem, has been carefully selected for balance and synergy with the rest of the meal. The result is an experience not soon forgotten.</description>
+            <graphicData>
+                <texPath>Things/Item/Meal/TraditionalMeal</texPath>
+                <graphicClass>Graphic_StackCount</graphicClass>
+            </graphicData>
+            <statBases>
+                <DeteriorationRate>0.25</DeteriorationRate>
+                <MarketValue>24</MarketValue>
+                <Mass>0.3</Mass>
+                <WorkToMake>1350</WorkToMake>
+                <Nutrition>1.0</Nutrition>
+            </statBases>
+            <ingestible>
+                <preferability>MealFine</preferability>
+                <tasteThought>RS_AteTraditionalMeal</tasteThought>
+                <ingestEffect>EatVegetarian</ingestEffect>
+                <ingestSound>Meal_Eat</ingestSound>
+            </ingestible>
+        </ThingDef>
+
+
+</Defs>
