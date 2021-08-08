@@ -35,6 +35,7 @@
                     <li>Shoulders</li>
                 </bodyPartGroups>
                 <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Kimono/Kimono</wornGraphicPath>
+                <useWornGraphicMask>true</useWornGraphicMask>
                 <layers>
                     <li>OnSkin</li>
                 </layers>
