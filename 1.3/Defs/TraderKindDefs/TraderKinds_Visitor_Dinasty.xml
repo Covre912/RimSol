@@ -2,7 +2,7 @@
 <Defs>
 
     <TraderKindDef>
-        <defName>Visitor_Dinasty_Standard</defName>
+        <defName>Visitor_Dynasty_Standard</defName>
         <label>solus merchant</label>
         <stockGenerators>
             <li Class="StockGenerator_SingleDef">

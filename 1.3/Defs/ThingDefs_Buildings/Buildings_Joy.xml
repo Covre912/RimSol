@@ -5,7 +5,7 @@
         <ThingDef ParentName="FurnitureWithQualityBase">
             <defName>RS_CardGameTable</defName>
             <label>card game table</label>
-            <description>A table for playing a card game popular in the Solus Empire. Supports up to four players.</description>
+            <description>A table for playing a card game popular in the Solus Dynasty. Supports up to four players.</description>
             <graphicData>
                 <texPath>Things/Building/Joy/CardGameTable/CardGameTable</texPath>
                 <graphicClass>Graphic_Multi</graphicClass>

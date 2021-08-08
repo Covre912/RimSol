@@ -11,16 +11,16 @@
     </RulePackDef>
 
     <RulePackDef>
-        <defName>NamerFactionDinasty</defName>
+        <defName>NamerFactionDynasty</defName>
         <rulePack>
             <rulesStrings>
-                <li>r_name->The Solus Dinasty</li>
+                <li>r_name->The Solus Dynasty</li>
             </rulesStrings>
         </rulePack>
     </RulePackDef>
 
     <RulePackDef>
-        <defName>NamerSettlementDinasty</defName>
+        <defName>NamerSettlementDynasty</defName>
         <rulePack>
         <rulesStrings>
             <li>r_name(p=12)->[townname_wordgen]</li>

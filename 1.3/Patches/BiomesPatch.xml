@@ -6,6 +6,8 @@
 		<value>
 			<RS_Plant_TreeSnowberry>0.03</RS_Plant_TreeSnowberry>
 			<RS_Plant_TreeMarple>0.05</RS_Plant_TreeMarple>
+			<RS_Plant_TreeNanaGracilis>0.05</RS_Plant_TreeNanaGracilis>
+			<RS_Plant_PinusThunbergii>0.04</RS_Plant_PinusThunbergii>
 		</value>
 	</Operation>
 	

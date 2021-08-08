@@ -19,8 +19,8 @@
         </backstoryFilters>
         <factionIconPath>World/WorldObjects/Expanding/SolusTown</factionIconPath>
         <playerInitialSettlementNameMaker>NamerInitialSettlementSolusColony</playerInitialSettlementNameMaker>
-        <factionNameMaker>NamerFactionDinasty</factionNameMaker>
-        <settlementNameMaker>NamerSettlementDinasty</settlementNameMaker> 
+        <factionNameMaker>NamerFactionDynasty</factionNameMaker>
+        <settlementNameMaker>NamerSettlementDynasty</settlementNameMaker> 
         <geneticVariance>1</geneticVariance>
         <startingResearchTags> <!-- Adjust -->
             <li>ClassicStart</li>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <!-- Kumo -->
+    <!-- Fumo -->
         <ThingDef ParentName="BuildingBase">
-            <defName>RS_Kumo</defName>
-            <label>kumo</label>
+            <defName>RS_Fumo</defName>
+            <label>fumo</label>
             <description>A doll modeled after storyteller Kaishin Koushitsu.</description>
             <category>Building</category>
             <thingClass>Building</thingClass>
             <graphicData>
-                <texPath>Things/Building/Furniture/Kumo</texPath>
+                <texPath>Things/Building/Furniture/Fumo</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
                 <drawRotated>false</drawRotated>
                 <drawSize>(0.8,0.9)</drawSize>

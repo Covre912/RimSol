@@ -72,6 +72,8 @@
             <ingestible>
                 <preferability>RawTasty</preferability>
                 <foodType>VegetableOrFruit</foodType>
+                <joy>0.10</joy>
+                <joyKind>Gluttonous</joyKind>
             </ingestible>
         </ThingDef>
 

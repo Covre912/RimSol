@@ -2,7 +2,7 @@
 <Defs>
 
     <TraderKindDef>
-        <defName>Caravan_Dinasty_BulkGoods</defName>
+        <defName>Caravan_Dynasty_BulkGoods</defName>
         <label>bulk goods solus merchant</label>
         <stockGenerators>
             <li Class="StockGenerator_SingleDef">
@@ -100,7 +100,7 @@
     </TraderKindDef>
 
     <TraderKindDef>
-        <defName>Caravan_Dinasty_CombatSupplier</defName>
+        <defName>Caravan_Dynasty_CombatSupplier</defName>
         <label>solus combat supplier</label>
         <stockGenerators>
             <li Class="StockGenerator_SingleDef">
@@ -152,7 +152,7 @@
     </TraderKindDef>
 
     <TraderKindDef>
-        <defName>Caravan_Dinasty_PirateMerchant</defName>
+        <defName>Caravan_Dynasty_PirateMerchant</defName>
         <label>solus slaver</label>
         <requestable>false</requestable>
         <commonalityMultFromPopulationIntent>
@@ -209,7 +209,7 @@
     </TraderKindDef>
 
     <TraderKindDef>
-        <defName>Caravan_Dinasty_Exotic</defName>
+        <defName>Caravan_Dynasty_Exotic</defName>
         <label>exotic goods solus merchant</label>
         <stockGenerators>
             <li Class="StockGenerator_SingleDef">
@@ -255,7 +255,7 @@
                 <countRange>1~1</countRange>
             </li>
             <li Class="StockGenerator_SingleDef">
-                <thingDef>RS_Kumo</thingDef>
+                <thingDef>RS_Fumo</thingDef>
                 <countRange>0~1</countRange>
             </li>
             <li Class="StockGenerator_Tag">

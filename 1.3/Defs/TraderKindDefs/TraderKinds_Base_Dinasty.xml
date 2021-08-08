@@ -2,7 +2,7 @@
 <Defs>
 
     <TraderKindDef>
-        <defName>Base_Dinasty_Standard</defName>
+        <defName>Base_Dynasty_Standard</defName>
         <stockGenerators>
             <li Class="StockGenerator_SingleDef">
                 <thingDef>Silver</thingDef>
@@ -146,7 +146,7 @@
                 <countRange>1~2</countRange>
             </li>
             <li Class="StockGenerator_SingleDef">
-                <thingDef>RS_Kumo</thingDef>
+                <thingDef>RS_Fumo</thingDef>
                 <countRange>0~1</countRange>
             </li>
             <li Class="StockGenerator_Tag">

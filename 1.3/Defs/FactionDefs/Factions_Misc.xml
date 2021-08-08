@@ -2,8 +2,8 @@
 <Defs>
 
     <FactionDef ParentName="FactionBase">
-        <defName>RS_SolusDinasty</defName>
-        <label>the solus dinasty</label>
+        <defName>RS_SolusDynasty</defName>
+        <label>the solus dynasty</label>
         <description>The absols are a feudal, but technologically extremely advanced humanoid alien species which settled here a few decades ago to discover and salvage ancient technologies and artifacts found on the rim and to collect the resources found abundantly and rarely on them. They are known for their highly advanced Technology and high-tech weapons.\n\nThey intend to strengthen their race to protect it, and put a high value on traditions, supporting those who help them, however...\n\nThe Dynasty is neutral against outsiders, yet very generous to those that earn their favor, yet very rough to its enemies and those that dare to stand in their way.</description>
         <colorSpectrum>
             <li>(0.50, 0.30, 0.70)</li>
@@ -20,8 +20,8 @@
         <canStageAttacks>true</canStageAttacks>
         <leaderTitle>shogun</leaderTitle>
         <factionIconPath>World/WorldObjects/Expanding/SolusTown</factionIconPath> 
-        <factionNameMaker>NamerFactionDinasty</factionNameMaker>
-        <settlementNameMaker>NamerSettlementDinasty</settlementNameMaker>
+        <factionNameMaker>NamerFactionDynasty</factionNameMaker>
+        <settlementNameMaker>NamerSettlementDynasty</settlementNameMaker>
         <techLevel>Spacer</techLevel>
         <allowedCultures><li>Rustican</li></allowedCultures>
         <disallowedMemes>
@@ -58,16 +58,16 @@
             <li>Absol</li>
         </hairTags>
         <caravanTraderKinds>
-            <li>Caravan_Dinasty_BulkGoods</li>
-            <li>Caravan_Dinasty_CombatSupplier</li>
-            <li>Caravan_Dinasty_Exotic</li>
-            <li>Caravan_Dinasty_PirateMerchant</li>
+            <li>Caravan_Dynasty_BulkGoods</li>
+            <li>Caravan_Dynasty_CombatSupplier</li>
+            <li>Caravan_Dynasty_Exotic</li>
+            <li>Caravan_Dynasty_PirateMerchant</li>
         </caravanTraderKinds>
         <visitorTraderKinds>
-            <li>Visitor_Dinasty_Standard</li>
+            <li>Visitor_Dynasty_Standard</li>
         </visitorTraderKinds>
         <baseTraderKinds>
-            <li>Base_Dinasty_Standard</li>
+            <li>Base_Dynasty_Standard</li>
         </baseTraderKinds>
         <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
         <raidLootMaker>OutlanderRaidLootMaker</raidLootMaker>

@@ -46,7 +46,7 @@
             <Beauty>3</Beauty>
         </statBases>
         <costList>
-            <Jade>7</Jade>
+            <Jade>5</Jade>
         </costList>
     </TerrainDef>
 
@@ -61,7 +61,7 @@
             <Beauty>2</Beauty>
         </statBases>
         <costList>
-            <RS_Absteel>7</RS_Absteel>
+            <RS_Absteel>5</RS_Absteel>
         </costList>
     </TerrainDef>
 
@@ -93,8 +93,8 @@
             <Beauty>3</Beauty>
         </statBases>
         <costList>
-            <RS_BlocksAbstone>8</RS_BlocksAbstone>
-            <RS_Absteel>2</RS_Absteel>
+            <RS_BlocksAbstone>3</RS_BlocksAbstone>
+            <RS_Absteel>3</RS_Absteel>
         </costList>
     </TerrainDef>
 
@@ -112,8 +112,8 @@
             <Beauty>3</Beauty>
         </statBases>
         <costList>
-            <RS_BlocksAbstone>8</RS_BlocksAbstone>
-            <RS_Absteel>2</RS_Absteel>
+            <RS_BlocksAbstone>3</RS_BlocksAbstone>
+            <RS_Absteel>3</RS_Absteel>
         </costList>
     </TerrainDef>
 

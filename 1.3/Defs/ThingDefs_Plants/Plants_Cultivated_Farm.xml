@@ -97,12 +97,12 @@
             <ingestible/>
             <plant>
                 <fertilityMin>1.1</fertilityMin>
-                <growDays>8</growDays>
+                <growDays>12</growDays>
                 <dieIfLeafless>true</dieIfLeafless>
                 <harvestTag>Standard</harvestTag>
                 <harvestedThingDef>RS_RawWatermelon</harvestedThingDef>
-                <harvestYield>12</harvestYield>
-                <sowMinSkill>4</sowMinSkill>
+                <harvestYield>20</harvestYield>
+                <sowMinSkill>7</sowMinSkill>
                 <sowTags>
                     <li>Ground</li>
                 </sowTags>
