@@ -10,7 +10,7 @@
             <impactSoundType>Electric</impactSoundType>
             <defaultDamage>15</defaultDamage>
             <explosionSnowMeltAmount>0</explosionSnowMeltAmount>
-            <explosionCellFleck>BlastEMP</explosionCellFle>
+            <explosionCellFleck>BlastEMP</explosionCellFleck>
             <explosionColorCenter>(150, 60, 160)</explosionColorCenter>
             <explosionColorEdge>(150, 60, 160)</explosionColorEdge>
             <explosionInteriorFleck>ElectricalSpark</explosionInteriorFleck>
