@@ -7,9 +7,9 @@
 		<styleGender>Male</styleGender>
 		<texPath>Things/Pawn/Absol/Hair/AbsolMale</texPath>
 		<category>RS_AbsolStyle</category>
-		<syleTags>
+		<styleTags>
             <li>Absol</li>
-		</syleTags>
+		</styleTags>
 	</HairDef>
 
 	<HairDef>

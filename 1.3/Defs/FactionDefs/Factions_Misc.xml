@@ -54,9 +54,9 @@
             </li>
         </backstoryFilters>
         <geneticVariance>0.8</geneticVariance>
-        <styleTags>
+        <!--<styleTags>
             <li>Absol</li>
-        </styleTags>
+        </styleTags>-->
         <caravanTraderKinds>
             <li>Caravan_Dynasty_BulkGoods</li>
             <li>Caravan_Dynasty_CombatSupplier</li>

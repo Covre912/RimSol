@@ -15,7 +15,7 @@
                 <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
                 <minQualityForArtistic>Excellent</minQualityForArtistic>
             </li>
-            <li Class="CompProperties_BiocodableWeapon"/>
+            <li Class="CompProperties_Biocodable"/>
         </comps>
         <smeltable>true</smeltable>
         <burnableByRecipe>true</burnableByRecipe>
