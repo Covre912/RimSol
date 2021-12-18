@@ -70,8 +70,7 @@
                     <chargeNoun>charge</chargeNoun>
                     <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
                 </li>
-                <fleckOnTarget>PsycastPsychicEffect</fleckOnTarget>
-                <fleckOnUsed>PsycastAreaEffect</fleckOnUsed>
+                
                 <!-- Adjust -->
             </comps>
         </ThingDef>
@@ -144,9 +143,7 @@
                     <chargeNoun>charge</chargeNoun>
                     <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
                 </li>
-                <fleckOnTarget>PsycastPsychicEffect</fleckOnTarget>
-                <fleckOnUsed>PsycastAreaEffect</fleckOnUsed>
-                <!-- Adjust -->
+        
             </comps>
         </ThingDef>
 

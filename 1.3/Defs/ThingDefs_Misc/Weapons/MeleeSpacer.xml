@@ -8,7 +8,7 @@
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
         <recipeMaker>
-            <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
+            <researchPrerequisite>RS_SolusMeleeArsenal</researchPrerequisite>
             <recipeUsers>
                 <li>RS_SolusFabricationBench</li>
             </recipeUsers>
@@ -38,7 +38,7 @@
                 <Mass>5</Mass>
             </statBases>
             <recipeMaker>
-                <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
+                <researchPrerequisite>RS_SolusMeleeArsenal</researchPrerequisite>
                 <skillRequirements>
                     <Crafting>6</Crafting>
                 </skillRequirements>

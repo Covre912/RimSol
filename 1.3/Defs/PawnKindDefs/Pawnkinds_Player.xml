@@ -21,6 +21,8 @@
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
         <apparelMoney>350~800</apparelMoney>
         <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+		<initialWillRange>10~20</initialWillRange>
+		<initialResistanceRange>10~15</initialResistanceRange>
         <techHediffsChance>0.03</techHediffsChance>
         <techHediffsMoney>50~800</techHediffsMoney>
         <techHediffsTags>
