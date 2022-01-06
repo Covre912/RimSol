@@ -147,6 +147,7 @@
             </recipeMaker>
             <costList>
                 <Plasteel>30</Plasteel>
+				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
             <tools>
                 <li>
@@ -192,6 +193,7 @@
             </recipeMaker>
             <costList>
                 <Plasteel>40</Plasteel>
+				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
             <tools>
                 <li>
@@ -244,6 +246,7 @@
             </recipeMaker>
             <costList>
                 <Plasteel>40</Plasteel>
+				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
             <tools>
                 <li>

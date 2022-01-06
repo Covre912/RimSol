@@ -1,4 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+	<ThingDef>
+		<defName>Solus_EnergyCrystal</defName>
+		<label>Energy Crystal</label>
+		<description>Energy Crystal</description>
+		
+		<graphicData>
+			<texPath>Things/Item/Resource/EnergyCrystal</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		
+		<statBases>
+			<MarketValue>1200</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+		
+		<recipeMaker>
+			<recipeUsers>
+				<li>RS_SolusFabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Uranium>45</Uranium>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
 
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>75</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<techLevel>Industrial</techLevel>
+		
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		
+	</ThingDef>
 </Defs>

@@ -37,7 +37,7 @@
                 <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Kimono/Kimono</wornGraphicPath>
                 <useWornGraphicMask>true</useWornGraphicMask>
                 <layers>
-                    <li>OnSkin</li>
+                    <li>Middle</li>
                 </layers>
                 <tags>
                     <li>IndustrialBasic</li>
@@ -110,7 +110,6 @@
                 </bodyPartGroups>
                 <wornGraphicPath>Things/Pawn/Humanlike/Apparel/SamuraiPowerArmor/SamuraiPowerArmor</wornGraphicPath>
                 <layers>
-                    <li>Middle</li>
                     <li>Shell</li>
                 </layers>
                 <defaultOutfitTags>

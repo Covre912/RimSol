@@ -134,7 +134,7 @@
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<canOverlapZones>false</canOverlapZones>
-		<size>(5,5)</size>
+		<size>(3,3)</size>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
