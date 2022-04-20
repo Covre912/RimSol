@@ -5,7 +5,7 @@
         <ThingDef ParentName="DeciduousTreeBase">
             <defName>RS_Plant_TreeMarple</defName>
             <label>marple tree</label>
-            <description>.</description> <!-- Adjust -->
+            <description>The maple tree as it is found on this rimworld, as of others genuenly close to the Dynastial terretory, actually decend from Solheim and were modified, and then seeded across the rimworlds to give a closer feeling of home for the settlers usually unconsentually sent by the Dynasty to prepare the planet for greater exploitation. The Solheimian Maple Tree is very similar to the ones found on earth, hence the same name.</description> <!-- Adjust -->
             <graphicData>
                 <texPath>Things/Plant/TreeMarple</texPath>
                 <graphicClass>Graphic_Random</graphicClass>
