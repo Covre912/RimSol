@@ -30,7 +30,7 @@
         <ThingDef ParentName="DeciduousTreeBase">
             <defName>RS_Plant_TreeNanaGracilis</defName>
             <label>nana gracilis tree</label>
-            <description>.</description> <!-- Adjust -->
+            <description>Also called the hinoki cypress on earth, this unusual tree is also commonly found on Solheim. While not the same geneticly, these ones found on the rim are seeded by the absol to give it's newcomming settlers a feeling of home. Commonly found in decorated parks among Solian spacestations.</description> <!-- Adjust -->
             <graphicData>
                 <texPath>Things/Plant/TreeNanaGracilis</texPath>
                 <graphicClass>Graphic_Random</graphicClass>
@@ -55,7 +55,7 @@
         <ThingDef ParentName="DeciduousTreeBase">
             <defName>RS_Plant_PinusThunbergii</defName>
             <label>pinus thunbergii tree</label>
-            <description>.</description> <!-- Adjust -->
+            <description>Also called the black pine on earth, this tree is a very big and can grow to become up to 40 meters. This kind is commonly found on Solheim and has been modified to grow on this rimworld as well while beeing very similar to the ones found on earth a long time ago, hence the same name. tall.</description> <!-- Adjust -->
             <graphicData>
                 <texPath>Things/Plant/TreePinusThunbergii</texPath>
                 <graphicClass>Graphic_Random</graphicClass>
