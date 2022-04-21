@@ -27,18 +27,18 @@
         <ThingDef ParentName="RS_ShrineBase">
             <defName>RS_TraditionalObelisk</defName>
             <label>traditional obelisk</label>
-            <description>A beautiful obilisk modeled after those common in the Solus Empire's early days. Few originals remain.</description>
+            <description>A beautiful obilisk modeled after those commonly found even before the Dynastie's early days. Only few originals remain.</description>
             <size>(1,1)</size>
             <statBases>
                 <MaxHitPoints>200</MaxHitPoints>
                 <WorkToBuild>8000</WorkToBuild>
-                <Beauty>15</Beauty>
-                <MeditationFocusStrength>0.15</MeditationFocusStrength>
+                <Beauty>45</Beauty>
+                <MeditationFocusStrength>0.20</MeditationFocusStrength>
                 <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">20</StyleDominance>
             </statBases>
             <costList>
-                <Jade>80</Jade>
-                <Gold>50</Gold>
+                <Jade>45</Jade>
+                <Gold>25</Gold>
             </costList>
             <rotatable>false</rotatable>
             <uiIconScale>1.1</uiIconScale>
@@ -83,8 +83,8 @@
             <thingClass>Building</thingClass>
             <statBases>
                 <MaxHitPoints>500</MaxHitPoints>
-                <WorkToBuild>12000</WorkToBuild>
-                <Beauty>25</Beauty>
+                <WorkToBuild>18000</WorkToBuild>
+                <Beauty>150</Beauty>
                 <MeditationFocusStrength>0.35</MeditationFocusStrength>
                 <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">40</StyleDominance>
             </statBases>
