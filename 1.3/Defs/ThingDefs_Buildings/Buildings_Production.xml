@@ -68,7 +68,8 @@
                 <li>PlaceWorker_PreventInteractionSpotOverlap</li>
             </placeWorkers>
             <researchPrerequisites>
-                <li>RS_SolusArsenal</li>
+				 <!--Temp-->
+                <li>RS_SolusTechnologyFundamentals</li>
             </researchPrerequisites>
         </ThingDef>
 
@@ -134,7 +135,7 @@
                 <li>PlaceWorker_ShowFacilitiesConnections</li>
             </placeWorkers>
             <researchPrerequisites>
-                <li>RS_SolusArsenal</li> <!-- Adjust -->
+                <li>RS_SolusTechnologyFundamentals</li> <!-- Adjust -->
             </researchPrerequisites>
         </ThingDef>
 

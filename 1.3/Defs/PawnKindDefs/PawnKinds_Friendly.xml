@@ -20,7 +20,7 @@
         <weaponTags>
             <li>SolusGun</li>
         </weaponTags>
-        <weaponMoney>600~1200</weaponMoney>
+        <weaponMoney>605~1200</weaponMoney>
         <apparelMoney>400~600</apparelMoney>
         <apparelTags>
             <li>IndustrialAdvanced</li>
@@ -31,7 +31,7 @@
             <li>Apparel_BowlerHat</li>
         </apparelRequired>
         <techHediffsChance>0.15</techHediffsChance>
-        <techHediffsMoney>600~1500</techHediffsMoney>
+        <techHediffsMoney>605~1500</techHediffsMoney>
         <techHediffsTags>
             <li>Simple</li>
             <li>Advanced</li>
@@ -81,7 +81,7 @@
             <li>IndustrialMilitaryAdvanced</li>
             <li>BeltDefensePop</li>
         </apparelTags>
-        <weaponMoney>600~1200</weaponMoney>
+        <weaponMoney>865~1200</weaponMoney>
         <weaponTags>
             <li>SolusMeleeWeapon</li>
         </weaponTags>
@@ -108,7 +108,7 @@
         <apparelTags>
             <li>IndustrialAdvanced</li>
         </apparelTags>
-        <weaponMoney>600~1200</weaponMoney>
+        <weaponMoney>605~1200</weaponMoney>
         <weaponTags>
             <li>SolusGun</li>
             <li>SolusMeleeWeapon</li>
@@ -137,7 +137,7 @@
             <li>IndustrialMilitaryAdvanced</li>
             <li>BeltDefensePop</li>
         </apparelTags>
-        <weaponMoney>600~1600</weaponMoney>
+        <weaponMoney>605~1600</weaponMoney>
         <weaponTags>
             <li>SolusGun</li>
         </weaponTags>
@@ -164,7 +164,7 @@
         <apparelTags>
             <li>IndustrialAdvanced</li>
         </apparelTags>
-        <weaponMoney>600~1200</weaponMoney>
+        <weaponMoney>605~1200</weaponMoney>
         <weaponTags>
             <li>SolusGun</li>
         </weaponTags>
@@ -238,7 +238,7 @@
         <apparelTags>
             <li>IndustrialBasic</li>
         </apparelTags>
-        <weaponMoney>600~1000</weaponMoney>
+        <weaponMoney>865~1000</weaponMoney>
         <weaponTags>
             <li>SolusMeleeWeapon</li>
         </weaponTags>

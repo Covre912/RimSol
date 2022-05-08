@@ -8,7 +8,7 @@
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
         <recipeMaker>
-            <researchPrerequisite>RS_SolusArsenal</researchPrerequisite>
+            <researchPrerequisite>RS_SolusRangedArsenal</researchPrerequisite>
             <recipeUsers>
                 <li>RS_SolusFabricationBench</li>
             </recipeUsers>
@@ -51,6 +51,7 @@
             <costList>
                 <Plasteel>50</Plasteel>
                 <ComponentSpacer>2</ComponentSpacer>
+				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
             <verbs>
                 <li>
@@ -133,6 +134,7 @@
             <costList>
                 <Plasteel>50</Plasteel>
                 <ComponentSpacer>1</ComponentSpacer>
+				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
             <verbs>
                 <li>
@@ -213,6 +215,7 @@
             <costList>
                 <Plasteel>30</Plasteel>
                 <ComponentSpacer>1</ComponentSpacer>
+				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
             <equippedStatOffsets>
                 <HuntingStealth>0.85</HuntingStealth>
@@ -290,6 +293,7 @@
             <costList>
                 <Plasteel>80</Plasteel>
                 <ComponentSpacer>4</ComponentSpacer>
+				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
             <verbs>
                 <li>
@@ -443,6 +447,7 @@
             <costList>
                 <Plasteel>50</Plasteel>
                 <ComponentSpacer>2</ComponentSpacer>
+				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
             <verbs>
                 <li>
@@ -520,6 +525,7 @@
             <costList>
                 <Plasteel>40</Plasteel>
                 <ComponentSpacer>2</ComponentSpacer>
+				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
             <verbs>
                 <li>
@@ -601,6 +607,7 @@
             <costList>
                 <Plasteel>50</Plasteel>
                 <ComponentSpacer>3</ComponentSpacer>
+				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
             <weaponTags>
                 <li>SniperRifle</li>
@@ -682,6 +689,7 @@
                 <Plasteel>120</Plasteel>
                 <ComponentSpacer>2</ComponentSpacer>
                 <Shell_AntigrainWarhead>1</Shell_AntigrainWarhead>
+				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
             <recipeMaker>
                 <skillRequirements>

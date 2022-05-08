@@ -5,7 +5,7 @@
         <ThingDef ParentName="ApparelMakeableBase">
             <defName>RS_Apparel_Kimono</defName>
             <label>kimono</label>
-            <description>Traditional garb, dating to before the Empire's establishment. Typically worn for special occasions, or when appearing before a high ranking official.</description>
+            <description>A traditional garb worn by nobility and as everyday wear by Absol shrine servants, doing so even long before the Empire's establishment, in which time the Absols lived in scattered, rural towns, living with a spiritual focus. Nowadays it is typically worn for special occasions, or when appearing before a high ranking official or simply to appear as retro on celeberal parties across the glitterworlds.</description>
             <graphicData>
                 <texPath>Things/Pawn/Humanlike/Apparel/Kimono/Kimono</texPath>
                 <graphicClass>Graphic_Single</graphicClass>
@@ -20,24 +20,26 @@
                 <li>Apparel</li>
             </thingCategories>
             <statBases>
-                <MaxHitPoints>100</MaxHitPoints>
-                <WorkToMake>2600</WorkToMake>
-                <Mass>0.25</Mass>
-                <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-                <StuffEffectMultiplierInsulation_Cold>0.24</StuffEffectMultiplierInsulation_Cold>
-                <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
-                <SocialImpact>0.15</SocialImpact>
-                <EquipDelay>1.5</EquipDelay>
+                <MaxHitPoints>200</MaxHitPoints>
+                <WorkToMake>11500</WorkToMake>
+                <Mass>0.50</Mass>
+                <StuffEffectMultiplierArmor>0.38</StuffEffectMultiplierArmor>
+                <StuffEffectMultiplierInsulation_Cold>1.55</StuffEffectMultiplierInsulation_Cold>
+                <StuffEffectMultiplierInsulation_Heat>1.1</StuffEffectMultiplierInsulation_Heat>
+                <SocialImpact>0.20</SocialImpact>
+                <EquipDelay>5</EquipDelay>
             </statBases>
             <apparel>
                 <bodyPartGroups>
                     <li>Torso</li>
                     <li>Shoulders</li>
+                    <li>Arms</li>
+                    <li>Legs</li>
                 </bodyPartGroups>
                 <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Kimono/Kimono</wornGraphicPath>
                 <useWornGraphicMask>true</useWornGraphicMask>
                 <layers>
-                    <li>OnSkin</li>
+                    <li>Shell</li>
                 </layers>
                 <tags>
                     <li>IndustrialBasic</li>
@@ -110,7 +112,6 @@
                 </bodyPartGroups>
                 <wornGraphicPath>Things/Pawn/Humanlike/Apparel/SamuraiPowerArmor/SamuraiPowerArmor</wornGraphicPath>
                 <layers>
-                    <li>Middle</li>
                     <li>Shell</li>
                 </layers>
                 <defaultOutfitTags>

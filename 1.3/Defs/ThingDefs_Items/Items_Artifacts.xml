@@ -22,4 +22,44 @@
             <comps></comps> <!-- Adjust -->
         </ThingDef>
 
+
+	<ThingDef>
+		<defName>AbsolJadePendant</defName>
+		<label>Jade Pendant</label>
+		<description>A Jade pendant.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Artifact1</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>1</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<techLevel>Industrial</techLevel>
+
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>1</Mass>
+		</statBases>
+
+		<recipeMaker>
+			<recipeUsers>
+				<li>RS_SolusFabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Jade>35</Jade>
+			<Gold>20</Gold>
+		</costList>
+	</ThingDef>
 </Defs>

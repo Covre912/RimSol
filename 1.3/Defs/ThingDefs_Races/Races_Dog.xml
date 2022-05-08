@@ -4,10 +4,10 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>RS_BerneseMountainDog</defName>
 		<label>bernese mountain dog</label>
-		<description>.</description> <!-- Adjust -->
+		<description>A big, fluffy dog known for it's size and family friendlyness, known and loved on earth untill it's genetic downfall, rendering it unbreedable after a certain time, leading to the demise of the overall species. This kind of dog was not lost forever however, since some of the very last of their kind have found their way onto the outer rimworlds, where they lived and died till some lucky Absol exploration teams found the remains of one and visually reconstructed it. While nothing outstanding has been found, the animal has been seen as so adorable to the head explorer decided to reconstruct the species as a gift to the emperor who lived at that time, who,in fact, loved them and brought them everywhere he went, leading to a cultural love for these dogs valued for their companionship. After a series of genetic and psyonic enhancements, these dogs spark joy and will share it with everybody they find, if they like it or not. It appears that they somehow managed to grow in size quite a bit aswell...</description> <!-- Adjust -->
 		<statBases>
-			<MoveSpeed>4.1</MoveSpeed>
-			<MarketValue>800</MarketValue>
+			<MoveSpeed>4.8</MoveSpeed>
+			<MarketValue>1200</MarketValue>
 			<ComfyTemperatureMin>-15</ComfyTemperatureMin>
 		</statBases>
 		<tools>
@@ -16,7 +16,7 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>4.6</power>
+				<power>16.6</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 			</li>
@@ -25,7 +25,7 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>4.6</power>
+				<power>12.6</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 			</li>
@@ -34,8 +34,8 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>5.8</power>
-				<cooldownTime>2</cooldownTime>
+				<power>24</power>
+				<cooldownTime>3</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.7</chanceFactor>
 			</li>
@@ -44,7 +44,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>3</power>
+				<power>9</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -55,17 +55,17 @@
 			<animalType>Canine</animalType>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<petness>1</petness>			
-			<baseBodySize>0.3</baseBodySize>
-			<baseHungerRate>0.15</baseHungerRate>
-			<baseHealthScale>0.4</baseHealthScale>
+			<baseBodySize>2</baseBodySize>
+			<baseHungerRate>2</baseHungerRate>
+			<baseHealthScale>2</baseHealthScale>
 			<meatLabel>dog meat</meatLabel>
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
-			<leatherDef>Leather_Dog</leatherDef>
+			<leatherDef>Leather_Wolf</leatherDef>
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Intermediate</trainability>
 			<wildness>0</wildness>
-			<nuzzleMtbHours>12</nuzzleMtbHours>
-			<gestationPeriodDays>10</gestationPeriodDays>
+			<nuzzleMtbHours>8</nuzzleMtbHours>
+			<gestationPeriodDays>20</gestationPeriodDays>
 			<litterSizeCurve>
 				<points>
 					<li>(0.5, 0)</li>
@@ -75,7 +75,7 @@
 					<li>(3.5, 0)</li>
 				</points>
 			</litterSizeCurve>
-			<lifeExpectancy>15</lifeExpectancy>
+			<lifeExpectancy>25</lifeExpectancy>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -83,15 +83,15 @@
 				</li>
 				<li>
 					<def>AnimalJuvenile</def>
-					<minAge>0.1</minAge>
+					<minAge>0.5</minAge>
 				</li>
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>0.3</minAge>
-					<soundWounded>Pawn_DogSmall_Injured</soundWounded>
-					<soundDeath>Pawn_DogSmall_Dead</soundDeath>
-					<soundCall>Pawn_DogSmall_Call</soundCall>
-					<soundAngry>Pawn_DogSmall_Angry</soundAngry>
+					<minAge>0.10</minAge>
+					<soundWounded>Pawn/Animal/Dog/Dog_Injured</soundWounded>
+					<soundDeath>Pawn/Animal/Dog/Dog_Dead</soundDeath>
+					<soundCall>Pawn/Animal/Dog/Dog_Call</soundCall>
+					<soundAngry>Pawn_Dog_Angry</soundAngry>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
@@ -109,37 +109,37 @@
 		<label>bernese mountain dog</label>
 		<labelPlural>bernese mountain dogs</labelPlural>
 		<race>RS_BerneseMountainDog</race>
-		<combatPower>45</combatPower>
-		<ecoSystemWeight>0.30</ecoSystemWeight>
+		<combatPower>120</combatPower>
+		<ecoSystemWeight>0.60</ecoSystemWeight>
 		<lifeStages>
 			<li>
 				<label>bernese mountain puppy</label>
 				<labelPlural>bernese mountain puppies</labelPlural>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/BerneseMountainDog/BerneseMountainDog</texPath>
-					<drawSize>0.58</drawSize>
+					<drawSize>0.8</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/BerneseMountainDog/Dessicated_BerneseMountainDog</texPath>
-					<drawSize>0.58</drawSize>
+					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/BerneseMountainDog/BerneseMountainDog</texPath>
-					<drawSize>0.85</drawSize>
+					<drawSize>2</drawSize>
 				</bodyGraphicData>
 				<femaleGraphicData>
 					<texPath>Things/Pawn/Animal/BerneseMountainDog/BerneseMountainDog</texPath>
-					<drawSize>0.83</drawSize>
+					<drawSize>2</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/BerneseMountainDog/Dessicated_BerneseMountainDog</texPath>
-					<drawSize>0.75</drawSize>
+					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
 				<femaleDessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/BerneseMountainDog/Dessicated_BerneseMountainDog</texPath>
-					<drawSize>0.73</drawSize>
+					<drawSize>2</drawSize>
 				</femaleDessicatedBodyGraphicData>
 			</li>
 			<li>
@@ -153,15 +153,15 @@
 				</bodyGraphicData>
 				<femaleGraphicData>
 					<texPath>Things/Pawn/Animal/BerneseMountainDog/BerneseMountainDog</texPath>
-					<drawSize>0.99</drawSize>
+					<drawSize>2</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/BerneseMountainDog/Dessicated_BerneseMountainDog</texPath>
-					<drawSize>0.9</drawSize>
+					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
 				<femaleDessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/BerneseMountainDog/Dessicated_BerneseMountainDog</texPath>
-					<drawSize>0.89</drawSize>
+					<drawSize>2</drawSize>
 				</femaleDessicatedBodyGraphicData>
 			</li>
 		</lifeStages>

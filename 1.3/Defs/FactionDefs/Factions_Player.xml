@@ -29,9 +29,9 @@
             <li>ClassicStart</li>
             <li>ClassicStartTechprints</li>
         </startingTechprintsResearchTags>
-        <hairTags>
+        <!--<styleDefs>
             <li>Absol</li>
-        </hairTags>
+        </styleDefs>-->
         <apparelStuffFilter>
             <thingDefs> 
                 <li>Synthread</li>
