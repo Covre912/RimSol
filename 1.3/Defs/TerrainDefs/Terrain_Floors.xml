@@ -36,21 +36,6 @@
     </TerrainDef>
 
     <TerrainDef ParentName="RS_PolishedTileBase">
-        <defName>RS_PolishedTileJade</defName>
-        <label>jade polished tile</label>
-        <renderPrecedence>240</renderPrecedence>
-        <description>.</description> <!-- Adjust -->
-        <color>(0, 150, 50)</color>
-        <statBases>
-            <WorkToBuild>600</WorkToBuild>
-            <Beauty>3</Beauty>
-        </statBases>
-        <costList>
-            <Jade>5</Jade>
-        </costList>
-    </TerrainDef>
-
-    <TerrainDef ParentName="RS_PolishedTileBase">
         <defName>RS_PolishedTileAbsteel</defName>
         <label>absteel polished tile</label>
         <renderPrecedence>242</renderPrecedence>
