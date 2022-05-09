@@ -4,7 +4,7 @@
     <FactionDef ParentName="FactionBase">
         <defName>RS_SolusDynasty</defName>
         <label>the solus dynasty</label>
-        <description>The absols are a feudal, but technologically extremely advanced humanoid alien species which settled here a few decades ago to discover and salvage ancient technologies and artifacts found on the rim and to collect the resources found abundantly and rarely on them. They are known for their highly advanced Technology and high-tech weapons.\n\nThey intend to strengthen their race to protect it, and put a high value on traditions, supporting those who help them, however...\n\nThe Dynasty is neutral against outsiders, yet very generous to those that earn their favor, yet very rough to its enemies and those that dare to stand in their way.</description>
+        <description>The absols are a traditional, but technologically extremely advanced humanoid alien species which settled here a few decades ago to discover and salvage ancient technologies and artifacts found on the rimworlds and to collect the resources found abundantly and rarely on them. They are feared because of their highly advanced Technology and high-tech weapons.\n\nThey intend to strengthen their race to protect it, and put a high value on traditions, supporting those who help them, however...\n\nThe Dynasty is neutral against outsiders, yet very generous to those that earn their favor, yet very rough to its enemies and those that dare to stand in their way.</description>
         <colorSpectrum>
             <li>(0.50, 0.30, 0.70)</li>
             <li>(0.60, 0.40, 0.80)</li>
@@ -110,8 +110,8 @@
                 <carriers>
                     <Muffalo>6</Muffalo>
                     <Dromedary>5</Dromedary>
-                    <Alpaca>2</Alpaca>
-                    <Elephant>1</Elephant>
+                    <Thrumbo>2</Thrumbo>
+                    <Thrumbo>1</Thrumbo>
                 </carriers>
                 <guards>
                     <RS_Servant>5</RS_Servant>
