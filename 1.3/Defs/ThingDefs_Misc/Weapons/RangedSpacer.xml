@@ -33,7 +33,6 @@
             <soundInteract>Interact_Rifle</soundInteract>
             <weaponClasses>
                 <li>RangedHeavy</li>
-		<li>SolusMedium</li>
             </weaponClasses>
             <statBases>
                 <Mass>4.6</Mass> 
