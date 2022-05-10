@@ -33,6 +33,7 @@
             <soundInteract>Interact_Rifle</soundInteract>
             <weaponClasses>
                 <li>RangedHeavy</li>
+		<li>SolusMedium</li>
             </weaponClasses>
             <statBases>
                 <Mass>4.6</Mass> 
@@ -53,6 +54,10 @@
                 <ComponentSpacer>2</ComponentSpacer>
 				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
+	    <weaponTags>
+		    <li>SolusMedium</li>
+		    <li>SolusAssault</li>
+            </weaponTags>
             <verbs>
                 <li>
                     <verbClass>Verb_Shoot</verbClass>
@@ -136,6 +141,10 @@
                 <ComponentSpacer>1</ComponentSpacer>
 				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
+            <weaponTags>
+		    <li>SolusMedium</li>
+		    <li>SolusBoltAction</li>
+            </weaponTags>
             <verbs>
                 <li>
                     <verbClass>Verb_Shoot</verbClass>
@@ -196,7 +205,8 @@
             </graphicData>
             <soundInteract>Bow_Recurve</soundInteract>
             <weaponClasses>
-                <li>LongShots</li>
+	       <li>SolusRoyal</li>
+               <li>LongShots</li>
             </weaponClasses>
             <statBases>
                 <Mass>2.1</Mass> 
@@ -222,6 +232,8 @@
             </equippedStatOffsets>
             <weaponTags>
                 <li>SniperRifle</li>
+		<li>SolusBow</li>
+		<li>SolusRoyal</li>
             </weaponTags>
             <verbs>
                 <li>
@@ -268,7 +280,7 @@
         <ThingDef ParentName="RS_BaseSolusWeaponRanged">
             <defName>RS_SolusLMG</defName>
             <label>solus LMG</label>
-            <description>A past generation of the Solus military's favorite weapon. A high rate of fire keeps this weapon from becoming obsolete in a world where it otherwise might be left behind.</description>
+            <description>A past generation of the Solus military's favorite weapon. A high rate of fire keeps this weapon from becoming obsolete in a world in which it otherwisely might be left behind. Superior for medium-range crowd controll.</description>
             <graphicData>
                 <texPath>Things/Item/Equipment/WeaponRanged/SolusLMG</texPath>
             </graphicData>
@@ -278,8 +290,8 @@
             </weaponClasses>
             <statBases>
                 <Mass>8.5</Mass> 
-                <AccuracyTouch>0.65</AccuracyTouch>
-                <AccuracyShort>0.69</AccuracyShort>
+                <AccuracyTouch>0.45</AccuracyTouch>
+                <AccuracyShort>0.50</AccuracyShort>
                 <AccuracyMedium>0.55</AccuracyMedium>
                 <AccuracyLong>0.46</AccuracyLong>
                 <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
@@ -292,9 +304,13 @@
             </recipeMaker>
             <costList>
                 <Plasteel>80</Plasteel>
-                <ComponentSpacer>4</ComponentSpacer>
-				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
+                <ComponentSpacer>2</ComponentSpacer>
+				<Solus_EnergyCrystal>2</Solus_EnergyCrystal>
             </costList>
+	    <weaponTags>
+		    <li>SolusHeavy</li>
+		    <li>SolusLMG</li>
+            </weaponTags>
             <verbs>
                 <li>
                     <verbClass>Verb_Shoot</verbClass>
@@ -372,6 +388,10 @@
                 <Plasteel>30</Plasteel>
                 <ComponentSpacer>1</ComponentSpacer>
             </costList>
+	    <weaponTags>
+		    <li>SolusLight</li>
+		    <li>SolusPistol</li>
+            </weaponTags>
             <verbs>
                 <li>
                     <verbClass>Verb_Shoot</verbClass>
@@ -449,15 +469,19 @@
                 <ComponentSpacer>2</ComponentSpacer>
 				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
+	    <weaponTags>
+		    <li>SolusMedium</li>
+		    <li>SolusShotgun</li>
+            </weaponTags>
             <verbs>
                 <li>
                     <verbClass>Verb_Shoot</verbClass>
                     <hasStandardCommand>true</hasStandardCommand>
                     <defaultProjectile>RS_Bullet_SolusShotgun</defaultProjectile>
-                    <warmupTime>0.9</warmupTime>
+                    <warmupTime>0.45</warmupTime>
                     <range>14.9</range>
                     <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-                    <burstShotCount>2</burstShotCount>
+                    <burstShotCount>1</burstShotCount>
                     <soundCast>RS_Shot_SolusShotgun</soundCast>
                     <soundCastTail>GunTail_Heavy</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
@@ -471,7 +495,7 @@
                         <li>Poke</li>
                     </capacities>
                     <power>10</power>
-                    <cooldownTime>2</cooldownTime>
+                    <cooldownTime>1.2</cooldownTime>
                 </li>
             </tools>
         </ThingDef>
@@ -511,7 +535,7 @@
             <statBases>
                 <Mass>3</Mass> 
                 <AccuracyTouch>0.95</AccuracyTouch>
-                <AccuracyShort>0.75</AccuracyShort>
+                <AccuracyShort>0.70</AccuracyShort>
                 <AccuracyMedium>0.45</AccuracyMedium>
                 <AccuracyLong>0.30</AccuracyLong>
                 <RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
@@ -527,12 +551,16 @@
                 <ComponentSpacer>2</ComponentSpacer>
 				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
+	    <weaponTags>
+		    <li>SolusMedium</li>
+		    <li>SolusSMG</li>
+            </weaponTags>
             <verbs>
                 <li>
                     <verbClass>Verb_Shoot</verbClass>
                     <hasStandardCommand>true</hasStandardCommand>
                     <defaultProjectile>RS_Bullet_SolusSMG</defaultProjectile>
-                    <warmupTime>0.9</warmupTime>
+                    <warmupTime>0.8</warmupTime>
                     <range>24.9</range>
                     <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                     <burstShotCount>3</burstShotCount>
@@ -549,7 +577,7 @@
                         <li>Poke</li>
                     </capacities>
                     <power>9</power>
-                    <cooldownTime>2</cooldownTime>
+                    <cooldownTime>1.8</cooldownTime>
                 </li>
             </tools>
         </ThingDef>
@@ -609,8 +637,10 @@
                 <ComponentSpacer>3</ComponentSpacer>
 				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
-            <weaponTags>
-                <li>SniperRifle</li>
+	    <weaponTags>
+		    <li>SolusHeavy</li>
+		    <li>SolusSniperrifle</li>
+		    <li>SniperRifle</li>
             </weaponTags>
             <verbs>
                 <li>
@@ -667,7 +697,7 @@
         <ThingDef ParentName="RS_BaseSolusWeaponRanged">
             <defName>RS_SolusRocketLauncher</defName>
             <label>solus rocket launcher</label>
-            <description>Well loved, if rarely used, explosive weapon. Expensive to produce but boasts a large AOE.</description>
+            <description>Well loved, if rarely used, explosive weapon. Expensive to produce but boasts a large AOE. Due to it's very destructive nature it is not allowed to be sold to unauthorized personal, neither are they allowed to be produced manually.</description>
             <tickerType>Normal</tickerType>
             <graphicData>
                 <texPath>Things/Item/Equipment/WeaponRanged/SolusRocketLauncher</texPath>
@@ -687,9 +717,9 @@
             <equippedAngleOffset>45</equippedAngleOffset>
             <costList>
                 <Plasteel>120</Plasteel>
-                <ComponentSpacer>2</ComponentSpacer>
+                <ComponentSpacer>4</ComponentSpacer>
                 <Shell_AntigrainWarhead>1</Shell_AntigrainWarhead>
-				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
+				<Solus_EnergyCrystal>4</Solus_EnergyCrystal>
             </costList>
             <recipeMaker>
                 <skillRequirements>
@@ -698,6 +728,7 @@
             </recipeMaker>
             <weaponTags>
                 <li>GunHeavy</li>
+		<li>SolusRocketlauncher</li>
             </weaponTags>
             <tradeTags>
                 <li>ExoticMisc</li>
@@ -730,7 +761,7 @@
                     <capacities>
                         <li>Blunt</li>
                     </capacities>
-                    <power>10</power>
+                    <power>15</power>
                     <cooldownTime>2.6</cooldownTime>
                 </li>
             </tools>
