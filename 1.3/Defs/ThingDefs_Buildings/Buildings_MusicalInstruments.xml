@@ -5,7 +5,7 @@
         <ThingDef ParentName="MusicalInstrumentBase">
             <defName>RS_Biwa</defName>
             <label>biwa</label>
-            <description>A short-necked lute used in traditional storytelling. One of the oldest instruments known and used in and before the Dynastie's establishment.</description>
+            <description>A short-necked lute used in traditional storytelling. One of the oldest instruments known and used before and after the Dynastie's establishment.</description>
             <size>(1,1)</size>
             <pathCost>30</pathCost>
             <minTechLevelToBuild>Medieval</minTechLevelToBuild>
@@ -22,7 +22,7 @@
                 <WorkToMake>12000</WorkToMake>
                 <Mass>4</Mass>
                 <JoyGainFactor>1.2</JoyGainFactor>
-                <Beauty>8</Beauty>
+                <Beauty>16</Beauty>
             </statBases>
             <recipeMaker>
                 <skillRequirements>
@@ -44,7 +44,7 @@
             <uiIconScale>0.9</uiIconScale>
             <graphicData>
                 <texPath>Things/Building/Joy/Biwa</texPath>
-                <drawSize>(1,1)</drawSize>
+                <drawSize>(1,4)</drawSize>
                 <graphicClass>Graphic_Single</graphicClass>
                 <drawRotated>false</drawRotated>
                 <allowFlip>false</allowFlip>
@@ -62,7 +62,7 @@
         <ThingDef ParentName="MusicalInstrumentBase">
             <defName>RS_Koto</defName>
             <label>koto</label>
-            <description>A 13-String Tube Zither. Difficult to play but beautiful to hear. Has the resemblence of an harp and is very similar to it, jet more traditional.</description>
+            <description>A 13-String Tube Zither. Difficult to play but beautiful to hear. Has the resemblence of an harp and is very similar, jet more traditional.</description>
             <size>(1,1)</size>
             <pathCost>30</pathCost>
             <minTechLevelToBuild>Industrial</minTechLevelToBuild>
