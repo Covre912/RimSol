@@ -20,7 +20,7 @@
                         <li>Male</li>
                     </alienbodytypes>
                     <useGenderedHeads>false</useGenderedHeads>
-                    <useGenderedBodies>false</useGenderedBodies>
+                    <useGenderedBodies>true</useGenderedBodies>
                     <bodyAddons>
                         <li>
                             <path>Things/Pawn/Absol/Tail/Tail</path>
@@ -53,8 +53,28 @@
 							</offsets>
                         </li>
                     </bodyAddons>
+                    <getsGreyAt>50</getsGreyAt> 
                 </alienPartGenerator>
+                <colorChannels>
+                    <li>
+                        <name>hair</name>
+                        <first Class="ColorGenerator_Options">
+                            <options>
+                                <li>
+                                    <weight>10</weight>
+                                    <only>RGBA(0.90200, 0.90200, 0.90200, 0.90200)</only>
+                                </li>
+                            </options>
+                        </first>
+                    </li>
+                </colorChannels>
             </generalSettings>
+            <styleSettings>
+                <Key>HairDef</Key>
+                <value>
+                    <hasStyle>false</hasStyle>
+                </value>
+            </styleSettings>
             <graphicPaths>
                 <li>
                     <head>Things/Pawn/Absol/Head/</head>
