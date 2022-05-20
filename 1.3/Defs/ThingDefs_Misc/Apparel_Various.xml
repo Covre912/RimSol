@@ -29,6 +29,10 @@
                 <SocialImpact>0.20</SocialImpact>
                 <EquipDelay>5</EquipDelay>
             </statBases>
+            <equippedStatOffsets>
+                <SocialImpact>0.20</SocialImpact>
+                <PsychicEntropyRecoveryRate>0.05</PsychicEntropyRecoveryRate>
+            </equippedStatOffsets>
             <apparel>
                 <bodyPartGroups>
                     <li>Torso</li>
