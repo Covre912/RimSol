@@ -5,7 +5,7 @@
         <defName>RS_BionicHorn</defName>
         <label>bionic horn</label>
         <labelNoun>a bionic horn</labelNoun>
-        <description>An installed bionic horn.</description>
+        <description>An installed bionic horn. While looking and feeling like a slightly modified Absol horn, it is less sensitive towards psychical phenoema, albeit more dangerous than a regular one.</description>
         <descriptionHyperlinks><ThingDef>RS_BionicHorn</ThingDef></descriptionHyperlinks>
         <spawnThingOnRemoved>RS_BionicHorn</spawnThingOnRemoved>
         <woundAnchorRange>0</woundAnchorRange>
@@ -16,7 +16,7 @@
         <stages>
             <li>
                 <statOffsets>
-                    <PsychicSensitivity>-0.25</PsychicSensitivity>
+                    <PsychicSensitivity>-0.50</PsychicSensitivity>
                 </statOffsets>
             </li>
         </stages>
@@ -42,7 +42,7 @@
     <ThingDef ParentName="BodyPartBionicBase">
         <defName>RS_BionicHorn</defName>
         <label>bionic horn</label>
-        <description>.</description> <!-- Adjust -->
+        <description>A enhanced, almost better version of the natural absol horn. It is self sharpening and more dangerous than before. It utilizes a vibrant sawblade that cuts even trough armour given enough force. While physicly better, it is however still considered to be more of an prosthetic than an actual improvement because it has the tendency to remove the strong psionic abilities the natural one posesses, which makes it shunned among solian shrine servants.</description> <!-- Adjust -->
         <descriptionHyperlinks><RecipeDef>RS_InstallBionicHorn</RecipeDef></descriptionHyperlinks>
         <costList>
             <Plasteel>15</Plasteel>
