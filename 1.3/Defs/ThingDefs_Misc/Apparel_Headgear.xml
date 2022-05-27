@@ -5,7 +5,7 @@
         <ThingDef ParentName="ArmorHelmetMakeableBase">
             <defName>RS_Apparel_SamuraiPowerHelmet</defName>
             <label>samurai power helmet</label>
-            <description>Battle Helmet worn by Solus nobility, Absteel, AzurePlate, and Absilk are all used in its construction. Comes with a built-in HUD that can connect to weapon-board personas.</description>
+            <description>Battle Helmet worn by Solus nobility. Comes with a built-in HUD that can connect to weapon-board personas.</description>
             <techLevel>Spacer</techLevel>
             <graphicData>
                 <texPath>Things/Pawn/Humanlike/Apparel/SamuraiPowerHelmet/SamuraiPowerHelmet</texPath>
@@ -15,6 +15,9 @@
             <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
             <researchPrerequisite>RS_SamuraiArmour</researchPrerequisite>
             <skillRequirements>
+	    <thingCategories>
+    		<li>ApparelNoble</li>
+    	    </thingCategories>
                 <Crafting>8</Crafting>
             </skillRequirements>
             <recipeUsers Inherit="False">
@@ -48,6 +51,7 @@
                 <Plasteel>50</Plasteel>
                 <RS_Absteel>10</RS_Absteel>
                 <Gold>4</Gold>
+		<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
             <apparel>
                 <bodyPartGroups>
@@ -88,9 +92,6 @@
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-			<factionPrerequisiteTags>
-				<li>Tribal</li>
-			</factionPrerequisiteTags>
 		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/Tokin/tokin_south</texPath>
@@ -101,11 +102,11 @@
 		<stuffCategories>
 			<li>Fabric</li>
 		</stuffCategories>
-		<techLevel>Neolithic</techLevel>
+		<techLevel>Medieval</techLevel>
 		<costStuffCount>25</costStuffCount>
 		<statBases>
-			<WorkToMake>28</WorkToMake>
-			<Mass>0.01</Mass>
+			<WorkToMake>4000</WorkToMake>
+			<Mass>0.5</Mass>
 			<EquipDelay>0.3</EquipDelay>
 		</statBases>
 		<apparel>
@@ -113,13 +114,15 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Tokin/tokin</wornGraphicPath>
-			<ideoDesireAllowedFactionCategoryTags>
-				<li>Tribal</li>
-			</ideoDesireAllowedFactionCategoryTags>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Tokin/tokin</wornGraphicPath>
+			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
 			<layers>
 				<li>Overhead</li>
 			</layers>
+			<thingCategories>
+    				<li>ApparelNoble</li>
+				<li>RS_Tengu</li>
+    			</thingCategories>
 			<defaultOutfitTags>
 				<li>Worker</li>
 			</defaultOutfitTags>
