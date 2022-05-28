@@ -27,7 +27,7 @@
         <ThingDef ParentName="RS_ShrineBase">
             <defName>RS_TraditionalObelisk</defName>
             <label>traditional obelisk</label>
-            <description>A beautiful obilisk modeled after those commonly found even before the Dynastie's early days. Only few originals remain.</description>
+            <description>A beautiful obelisk modeled after those commonly found even before the Dynastie's early days. Only few originals remain.</description>
             <size>(1,1)</size>
             <statBases>
                 <MaxHitPoints>200</MaxHitPoints>

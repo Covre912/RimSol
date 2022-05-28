@@ -29,7 +29,6 @@
             </statBases>
             <useHitPoints>false</useHitPoints>
             <healthAffectsPrice>false</healthAffectsPrice>
-            <intricate>true</intricate>
             <thingCategories>
                 <li>ResourcesRaw</li>
             </thingCategories>
@@ -77,7 +76,6 @@
             </statBases>
             <useHitPoints>false</useHitPoints>
             <healthAffectsPrice>false</healthAffectsPrice>
-            <intricate>true</intricate>
             <thingCategories>
                 <li>StoneBlocks</li>
             </thingCategories>

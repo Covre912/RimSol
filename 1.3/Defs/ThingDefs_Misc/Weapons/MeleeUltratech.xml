@@ -19,9 +19,6 @@
         </comps>
         <smeltable>true</smeltable>
         <burnableByRecipe>true</burnableByRecipe>
-        <thingCategories>
-            <li>WeaponsMelee</li>
-        </thingCategories>
     </ThingDef>
 
     <!-- Solus Senbonzakura -->
@@ -36,6 +33,7 @@
             </graphicData>
             <statBases>
                 <Mass>5</Mass>
+                <MarketValue>5000</MarketValue>
             </statBases>
             <tools>
                 <li>
@@ -70,6 +68,9 @@
                     <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
                 </li>
             </comps>
+            <thingCategories>
+                <li>UnbuyableSolusMeleeWeapon</li>
+            </thingCategories>
         </ThingDef>
 
 </Defs>

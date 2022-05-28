@@ -6,4 +6,9 @@
         <label>solus melee weapons</label>
     </ThingCategoryDef>    
 
+    <ThingCategoryDef>
+        <defName>UnbuyableSolusMeleeWeapon</defName>
+        <label>solus melee weapons</label>
+    </ThingCategoryDef>
+
 </Defs>

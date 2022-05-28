@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/JoyGiverDef[defName = "Play_MusicalInstrument"]/thingDefs</xpath>
+		<value>
+            <li>RS_Biwa</li>
+            <li>RS_Koto</li>
+		</value>
+	</Operation>
+
+</Patch>
