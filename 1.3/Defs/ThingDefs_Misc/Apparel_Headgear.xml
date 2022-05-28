@@ -114,7 +114,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Tokin</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Tokin/tokin_south</wornGraphicPath>
 			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
 			<layers>
 				<li>Overhead</li>
