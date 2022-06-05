@@ -29,7 +29,7 @@
         </apparelTags>
         <apparelRequired>
             <li>Apparel_BowlerHat</li>
-            <li>RSKimono</li>
+            <li>RS_Apparel_Kimono</li>
         </apparelRequired>
         <techHediffsChance>0.15</techHediffsChance>
         <techHediffsMoney>605~1900</techHediffsMoney>

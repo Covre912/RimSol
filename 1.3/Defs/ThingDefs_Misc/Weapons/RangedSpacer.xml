@@ -204,8 +204,7 @@
             </graphicData>
             <soundInteract>Bow_Recurve</soundInteract>
             <weaponClasses>
-	       <li>SolusRoyal</li>
-               <li>LongShots</li>
+                <li>LongShots</li>
             </weaponClasses>
             <statBases>
                 <Mass>2.1</Mass> 
@@ -231,8 +230,8 @@
             </equippedStatOffsets>
             <weaponTags>
                 <li>SniperRifle</li>
-		<li>SolusBow</li>
-		<li>SolusRoyal</li>
+                <li>SolusBow</li>
+                <li>SolusRoyal</li>
             </weaponTags>
             <verbs>
                 <li>

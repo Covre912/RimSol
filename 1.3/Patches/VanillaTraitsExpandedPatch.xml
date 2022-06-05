@@ -14,7 +14,6 @@
                         <forcedRaceTraitEntries>
                             <li>
                                 <defName>VTE_ChildOfMountain</defName>
-                                <chance>100</chance>
                             </li>
                         </forcedRaceTraitEntries>
 					</value>

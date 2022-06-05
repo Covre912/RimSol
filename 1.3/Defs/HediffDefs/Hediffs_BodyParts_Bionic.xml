@@ -24,15 +24,15 @@
             <li Class="HediffCompProperties_VerbGiver">
                 <tools>
                     <li>
-                        <label>bionic horn</label>
+                        <label>horn</label>
                         <capacities>
                             <li>Cut</li>
                         </capacities>
                         <power>36</power>
                         <cooldownTime>2</cooldownTime>
                         <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>>
-                        <soundMeleeHit>MeleeHit_DrillArm</soundMeleeHit>
-                        <soundMeleeMiss>MeleeMiss_DrillArm</soundMeleeMiss>
+                        <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+                        <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
                     </li>
                 </tools>
             </li>

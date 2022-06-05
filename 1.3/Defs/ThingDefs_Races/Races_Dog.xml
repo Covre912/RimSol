@@ -104,10 +104,9 @@
 		</tradeTags>
 	</ThingDef>
     
-	<PawnKindDef ParentName="AnimalKindBase">
+	<PawnKindDef ParentName="AnimalKindBaseFox">
 		<defName>RS_BerneseMountainDog</defName>
 		<label>bernese mountain dog</label>
-		<labelPlural>bernese mountain dogs</labelPlural>
 		<race>RS_BerneseMountainDog</race>
 		<combatPower>120</combatPower>
 		<ecoSystemWeight>0.60</ecoSystemWeight>
@@ -127,42 +126,28 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/BerneseMountainDog/BerneseMountainDog</texPath>
-					<drawSize>2</drawSize>
+					<drawSize>1</drawSize>
 				</bodyGraphicData>
-				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/BerneseMountainDog/BerneseMountainDog</texPath>
-					<drawSize>2</drawSize>
-				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/BerneseMountainDog/Dessicated_BerneseMountainDog</texPath>
 					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
-				<femaleDessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/BerneseMountainDog/Dessicated_BerneseMountainDog</texPath>
-					<drawSize>2</drawSize>
-				</femaleDessicatedBodyGraphicData>
 			</li>
 			<li>
+				<def>AnimalAdult</def>
+				<minAge>0.5</minAge>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/BerneseMountainDog/BerneseMountainDog</texPath>
-					<drawSize>1</drawSize>
+					<drawSize>2</drawSize>
 					<shadowData>
 						<volume>(0.20, 0.3, 0.20)</volume>
 						<offset>(0,0,-0.08)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/BerneseMountainDog/BerneseMountainDog</texPath>
-					<drawSize>2</drawSize>
-				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/BerneseMountainDog/Dessicated_BerneseMountainDog</texPath>
 					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
-				<femaleDessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/BerneseMountainDog/Dessicated_BerneseMountainDog</texPath>
-					<drawSize>2</drawSize>
-				</femaleDessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
 	</PawnKindDef>

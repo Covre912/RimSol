@@ -15,8 +15,8 @@
             <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
             <researchPrerequisite>RS_SamuraiArmour</researchPrerequisite>
             <skillRequirements>
-	    <thingCategories>
-    		<li>ApparelNoble</li>
+	        <thingCategories>
+                <li>ApparelNoble</li>
     	    </thingCategories>
                 <Crafting>8</Crafting>
             </skillRequirements>
@@ -51,7 +51,7 @@
                 <Plasteel>50</Plasteel>
                 <RS_Absteel>10</RS_Absteel>
                 <Gold>4</Gold>
-		<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
+		        <Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
             <apparel>
                 <bodyPartGroups>
@@ -93,10 +93,14 @@
 				<Crafting>4</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+        <thingCategories>
+            <li>ApparelNoble</li>
+            <li>RS_Tengu</li>
+        </thingCategories>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/Tokin/tokin</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/Tokin/tokin_south</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.80</drawSize>
+			<drawSize>1.2</drawSize>
 		</graphicData>
 		<uiIconScale>1.25</uiIconScale>
 		<stuffCategories>
@@ -119,10 +123,6 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
-			<thingCategories>
-    				<li>ApparelNoble</li>
-				<li>RS_Tengu</li>
-    			</thingCategories>
 			<defaultOutfitTags>
 				<li>Worker</li>
 			</defaultOutfitTags>

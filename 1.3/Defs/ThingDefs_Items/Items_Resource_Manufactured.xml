@@ -3,13 +3,7 @@
 	<ThingDef>
 		<defName>Solus_EnergyCrystal</defName>
 		<label>Energy Crystal</label>
-		<description>The energy crystal, also called crystal palace, is an extremely advanced, ultratech computer capable of hosting artificial intelligences comparable to personaes in a self-powered environment. It has the capability to programm itself for whatever purpose it has been given.
-		
-		Energy crystals are an technological advancement unique to the Absol species, as it is the only one known to produce and utilize them. Comming in various sizes and forms, the capabilities of usage are tremendous, reaching from sentient toaster computers to architectual designers of orbital space stations, and have the capability to feel emotional and physical love as well.
-		
-		It is not known to humans how this marvel of technology has been achieved, there are only rumors of an traveling archotechnological intelligence who gifted this knowledge to the absols, which believe the palaces house their kamies, hence the nickname.
-		</description>
-		
+		<description>The energy crystal, also called crystal palace, is an extremely advanced, ultratech computer capable of hosting artificial intelligences comparable to personaes in a self-powered environment. It has the capability to programm itself for whatever purpose it has been given.\n\nEnergy crystals are an technological advancement unique to the Absol species, as it is the only one known to produce and utilize them. Comming in various sizes and forms, the capabilities of usage are tremendous, reaching from sentient toaster computers to architectual designers of orbital space stations, and have the capability to feel emotional and physical love as well.\n\nIt is not known to humans how this marvel of technology has been achieved, there are only rumors of an traveling archotechnological intelligence who gifted this knowledge to the absols, which believe the palaces house their kamies, hence the nickname.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/EnergyCrystal</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -41,8 +35,7 @@
 		<alwaysHaulable>true</alwaysHaulable>
 		<drawGUIOverlay>true</drawGUIOverlay>
 		<rotatable>false</rotatable>
-		<techLevel>Ultratech</techLevel>
-		
+		<techLevel>Ultra</techLevel>
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
 		</comps>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Defs>
-
-    <StyleItemCategoryDef>
-        <defName>RS_AbsolStyle</defName>
-        <label>absol</label>
-    </StyleItemCategoryDef>
-
-</Defs>
