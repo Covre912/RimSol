@@ -11,6 +11,11 @@
                 <immuneToAge>false</immuneToAge>
                 <maxDamageForSocialfight>6</maxDamageForSocialfight>
                 <humanRecipeImport>true</humanRecipeImport>
+                <forcedRaceTraitEntries>
+                    <li>
+                        <defName>VTE_ChildOfMountain</defName>
+                    </li>
+                </forcedRaceTraitEntries>
                 <alienPartGenerator>
                     <aliencrowntypes>
                         <li>Average_Normal</li>
@@ -82,15 +87,6 @@
                     <skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Avarage</skeleton>
                 </li>
             </graphicPaths>
-			<!--
-            <hairSettings>
-                <hasHair>true</hasHair>
-                <getsGreyAt>50</getsGreyAt>
-                <hairTags>
-                    <li>Absol</li>
-                </hairTags>
-            </hairSettings>
-			-->
             <raceRestriction>
                 <apparelList>
                     <li>RS_Apparel_SamuraiPowerArmor</li>

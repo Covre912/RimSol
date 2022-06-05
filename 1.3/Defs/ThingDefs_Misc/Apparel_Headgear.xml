@@ -95,7 +95,6 @@
 		</recipeMaker>
         <thingCategories>
             <li>ApparelNoble</li>
-            <li>RS_Tengu</li>
         </thingCategories>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/Tokin/tokin_south</texPath>
