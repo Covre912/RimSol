@@ -24,7 +24,7 @@
                         <li>Female</li>
                         <li>Male</li>
                     </alienbodytypes>
-                    <useGenderedHeads>false</useGenderedHeads>
+                    <useGenderedHeads>true</useGenderedHeads>
                     <useGenderedBodies>true</useGenderedBodies>
                     <bodyAddons>
                         <li>
@@ -84,7 +84,6 @@
                 <li>
                     <head>Things/Pawn/Absol/Head/</head>
                     <body>Things/Pawn/Absol/Body/</body>
-                    <skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Avarage</skeleton>
                 </li>
             </graphicPaths>
             <raceRestriction>
