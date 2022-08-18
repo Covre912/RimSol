@@ -30,7 +30,7 @@
                         </capacities>
                         <power>36</power>
                         <cooldownTime>2</cooldownTime>
-                        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>>
+                        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
                         <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
                         <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
                     </li>

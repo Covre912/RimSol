@@ -11,11 +11,6 @@
                 <immuneToAge>false</immuneToAge>
                 <maxDamageForSocialfight>6</maxDamageForSocialfight>
                 <humanRecipeImport>true</humanRecipeImport>
-                <forcedRaceTraitEntries>
-                    <li>
-                        <defName>VTE_ChildOfMountain</defName>
-                    </li>
-                </forcedRaceTraitEntries>
                 <alienPartGenerator>
                     <aliencrowntypes>
                         <li>Average_Normal</li>
@@ -75,10 +70,12 @@
                 </alienPartGenerator>
             </generalSettings>
             <styleSettings>
-                <Key>HairDef</Key>
-                <value>
-                    <hasStyle>false</hasStyle>
-                </value>
+                <li>
+                    <key>HairDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
             </styleSettings>
             <graphicPaths>
                 <li>
