@@ -87,11 +87,11 @@
 				</li>
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>0.10</minAge>
+					<minAge>1</minAge>
 					<soundWounded>Pawn/Animal/Dog/Dog_Injured</soundWounded>
 					<soundDeath>Pawn/Animal/Dog/Dog_Dead</soundDeath>
 					<soundCall>Pawn/Animal/Dog/Dog_Call</soundCall>
-					<soundAngry>Pawn_Dog_Angry</soundAngry>
+					<soundAngry>Pawn/Animal/Dog/Pawn_Dog_Angry</soundAngry>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
@@ -134,8 +134,6 @@
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
-				<def>AnimalAdult</def>
-				<minAge>0.5</minAge>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/BerneseMountainDog/BerneseMountainDog</texPath>
 					<drawSize>2</drawSize>

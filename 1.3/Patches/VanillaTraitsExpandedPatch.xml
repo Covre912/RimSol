@@ -9,7 +9,7 @@
 			<operations>
 
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/AlienRace.ThingDef_AlienRace[@Name = "RS_Absol"]/alienRace/generalSettings</xpath>
+					<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "RS_Absol"]/alienRace/generalSettings</xpath>
 					<value>
                         <forcedRaceTraitEntries>
                             <li>
@@ -17,10 +17,8 @@
                             </li>
                         </forcedRaceTraitEntries>
 					</value>
-                </li>
-
-            </operations>
-        </match>
-    </Operation>
-
+        </li>
+      </operations>
+    </match>
+  </Operation>
 </Patch>

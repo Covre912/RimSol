@@ -31,15 +31,13 @@
 			<steamWorkshopUrl>steam://url/CommunityFilePage/2186560858</steamWorkshopUrl>
 		</li>
 	</modDependencies>
-    <loadAfter>
+  <loadAfter>
 		<li>erdelf.HumanoidAlienRaces</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>VanillaExpanded.VFEProduction</li>
 		<li>VanillaExpanded.VBrewE</li>
 	</loadAfter>
 	<description>
-
-<!-- Adjust -->
-
+		placeholder.
 	</description>
 </ModMetaData>

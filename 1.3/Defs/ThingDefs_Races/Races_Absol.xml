@@ -11,11 +11,6 @@
                 <immuneToAge>false</immuneToAge>
                 <maxDamageForSocialfight>6</maxDamageForSocialfight>
                 <humanRecipeImport>true</humanRecipeImport>
-                <forcedRaceTraitEntries>
-                    <li>
-                        <defName>VTE_ChildOfMountain</defName>
-                    </li>
-                </forcedRaceTraitEntries>
                 <alienPartGenerator>
                     <aliencrowntypes>
                         <li>Average_Normal</li>
@@ -24,7 +19,7 @@
                         <li>Female</li>
                         <li>Male</li>
                     </alienbodytypes>
-                    <useGenderedHeads>false</useGenderedHeads>
+                    <useGenderedHeads>true</useGenderedHeads>
                     <useGenderedBodies>true</useGenderedBodies>
                     <bodyAddons>
                         <li>
@@ -75,16 +70,17 @@
                 </alienPartGenerator>
             </generalSettings>
             <styleSettings>
-                <Key>HairDef</Key>
-                <value>
-                    <hasStyle>false</hasStyle>
-                </value>
+                <li>
+                    <key>HairDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
             </styleSettings>
             <graphicPaths>
                 <li>
                     <head>Things/Pawn/Absol/Head/</head>
                     <body>Things/Pawn/Absol/Body/</body>
-                    <skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Avarage</skeleton>
                 </li>
             </graphicPaths>
             <raceRestriction>
