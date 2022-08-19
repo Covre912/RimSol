@@ -81,10 +81,6 @@
 		<pathCost>50</pathCost>
 		<fillPercent>0.4</fillPercent>
 		<hasTooltip>true</hasTooltip>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
-		<costStuffCount>30</costStuffCount>
 		<costList>
 			<RS_Absteel>230</RS_Absteel>
 			<Plasteel>70</Plasteel>
@@ -245,10 +241,6 @@
 		<pathCost>50</pathCost>
 		<fillPercent>0.4</fillPercent>
 		<hasTooltip>true</hasTooltip>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
-		<costStuffCount>30</costStuffCount>
 		<costList>
 			<RS_Absteel>230</RS_Absteel>
 			<Plasteel>70</Plasteel>
