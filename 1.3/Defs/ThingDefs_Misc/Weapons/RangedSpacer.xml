@@ -22,6 +22,25 @@
         </thingSetMakerTags>
     </ThingDef>
 
+    <ThingDef Name="RS_BaseSolusGunRanged" ParentName="BaseGun" Abstract="True">
+        <techLevel>Spacer</techLevel>
+        <smeltable>true</smeltable>
+        <thingCategories>
+            <li>WeaponsRanged</li>
+        </thingCategories>
+        <weaponClasses>
+            <li>Ranged</li>
+        </weaponClasses>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <weaponTags>
+            <li>SpacerGun</li>
+            <li>SolusGun</li>
+        </weaponTags>
+    </ThingDef>
+
     <!-- Solus Assault Rifle -->
         <ThingDef ParentName="RS_BaseSolusWeaponRanged">
             <defName>RS_SolusAssaultRifle</defName>
@@ -518,7 +537,7 @@
 
     <!-- Solus SMG -->
         <ThingDef ParentName="RS_BaseSolusWeaponRanged">
-            <defName>RS_SolusSMG</defName>
+            <defName>RS_BaseSolusGunRanged</defName>
             <label>solus SMG</label>
             <description>General use submachine gun, typically carried by scouts or shock troops.</description>
             <graphicData>
@@ -532,36 +551,30 @@
             </weaponClasses>
             <statBases>
                 <Mass>3</Mass> 
-                <AccuracyTouch>0.95</AccuracyTouch>
-                <AccuracyShort>0.70</AccuracyShort>
-                <AccuracyMedium>0.45</AccuracyMedium>
-                <AccuracyLong>0.30</AccuracyLong>
-                <RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
-                <WorkToMake>40000</WorkToMake>
+                <AccuracyTouch>0.98</AccuracyTouch>
+                <AccuracyShort>0.95</AccuracyShort>
+                <AccuracyMedium>0.20</AccuracyMedium>
+                <AccuracyLong>0.10</AccuracyLong>
+                <RangedWeapon_Cooldown>1.00</RangedWeapon_Cooldown>
             </statBases>
-            <recipeMaker>
-                <skillRequirements>
-                    <Crafting>11</Crafting>
-                </skillRequirements>
-            </recipeMaker>
-            <costList>
-                <Plasteel>40</Plasteel>
-                <ComponentSpacer>2</ComponentSpacer>
-				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
-            </costList>
-	    <weaponTags>
-		    <li>SolusMedium</li>
-		    <li>SolusSMG</li>
+	        <weaponTags>
+                <li>SolusMedium</li>
+                <li>SolusSMG</li>
             </weaponTags>
+            <!--
+            <tradeTags>
+                <li>ExoticMisc</li>
+            </tradeTags>
+            -->
             <verbs>
                 <li>
                     <verbClass>Verb_Shoot</verbClass>
                     <hasStandardCommand>true</hasStandardCommand>
                     <defaultProjectile>RS_Bullet_SolusSMG</defaultProjectile>
                     <warmupTime>0.8</warmupTime>
-                    <range>24.9</range>
+                    <range>16.9</range>
                     <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-                    <burstShotCount>3</burstShotCount>
+                    <burstShotCount>4</burstShotCount>
                     <soundCast>RS_Shot_SolusSMG</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
@@ -591,7 +604,7 @@
             </graphicData>
             <projectile>
                 <damageDef>Bullet</damageDef>
-                <damageAmountBase>14</damageAmountBase>
+                <damageAmountBase>7</damageAmountBase>
                 <armorPenetrationBase>0.35</armorPenetrationBase>
                 <speed>70</speed>
             </projectile>
