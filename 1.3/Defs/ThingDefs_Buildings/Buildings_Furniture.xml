@@ -26,10 +26,11 @@
             <fillPercent>0</fillPercent>
             <statBases>
                 <MaxHitPoints>50</MaxHitPoints>
+                <MarketValue>500</MarketValue>
                 <WorkToBuild>100</WorkToBuild>
                 <Flammability>0</Flammability>
                 <Mass>0.2</Mass>
-                <Beauty>18</Beauty>
+                <Beauty>55</Beauty>
                 <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
             </statBases>
             <selectable>true</selectable>

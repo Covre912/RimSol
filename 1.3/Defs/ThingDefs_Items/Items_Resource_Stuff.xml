@@ -144,6 +144,9 @@
             <thingCategories>
                 <li>ResourcesRaw</li>
             </thingCategories>
+            <deepCommonality>0.5</deepCommonality>
+            <deepCountPerPortion>20</deepCountPerPortion>
+            <deepLumpSizeRange>1~2</deepLumpSizeRange>
             <burnableByRecipe>false</burnableByRecipe>
             <smeltable>true</smeltable>
             <stuffProps>
