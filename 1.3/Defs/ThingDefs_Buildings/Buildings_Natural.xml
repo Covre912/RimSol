@@ -20,8 +20,8 @@
                 <isResourceRock>true</isResourceRock>
                 <mineableThing>RS_Tungsten</mineableThing>
                 <mineableYield>25</mineableYield>
-                <mineableScatterCommonality>0.52</mineableScatterCommonality>
-                <mineableScatterLumpSizeRange>14~20</mineableScatterLumpSizeRange>
+                <mineableScatterCommonality>0.0002</mineableScatterCommonality>
+                <mineableScatterLumpSizeRange>10~14</mineableScatterLumpSizeRange>
             </building>
         </ThingDef>
 
