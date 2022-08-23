@@ -183,4 +183,18 @@
         <researchViewY>2.45</researchViewY>
 	</ResearchProjectDef>
 
+    <ResearchProjectDef>
+        <defName>RS_TradClothing</defName>
+        <label>traditional clothing</label>
+        <description>.</description> <!-- Adjust -->
+        <baseCost>3000</baseCost> <!-- Adjust -->
+        <tab>RimSol</tab>
+        <techLevel>Spacer</techLevel>
+        <prerequisites> <!-- Adjust -->
+            <li>ComplexClothing</li>
+        </prerequisites>
+        <researchViewX>4.00</researchViewX> <!-- Adjust -->
+        <researchViewY>2.45</researchViewY> <!-- Adjust -->
+    </ResearchProjectDef>
+
 </Defs>

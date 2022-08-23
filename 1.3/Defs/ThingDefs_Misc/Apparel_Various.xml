@@ -19,6 +19,18 @@
             <thingCategories>
                 <li>Apparel</li>
             </thingCategories>
+            <recipeMaker>
+            <researchPrerequisite>
+                <li>RS_TradClothing</li>
+            </researchPrerequisite>
+            <recipeUsers>
+                <li>ElectricTailoringBench</li>
+                <li>HandTailoringBench</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+        </recipeMaker>
             <statBases>
                 <MaxHitPoints>200</MaxHitPoints>
                 <WorkToMake>11500</WorkToMake>

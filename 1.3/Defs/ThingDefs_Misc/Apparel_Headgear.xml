@@ -83,7 +83,9 @@
 		<label>Tokin</label>
 		<description>A hat shaped like a cup with a long string going trough the middle with beads on it. Traditionally it is worn by absols with the rare "Tengu" condition.</description>
 		<recipeMaker>
-			<researchPrerequisite />
+			<researchPrerequisite>
+                <li>RS_TradClothing</li>
+            </researchPrerequisite>
 			<recipeUsers>
 				<li>ElectricTailoringBench</li>
 				<li>HandTailoringBench</li>
