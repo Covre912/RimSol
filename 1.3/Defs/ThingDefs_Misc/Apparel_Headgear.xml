@@ -129,6 +129,59 @@
 			</defaultOutfitTags>
 		</apparel>
 	</ThingDef>
+
+    <ThingDef ParentName="HatMakeableBase">
+        <defName>RS_Apparel_KistuneMask</defName>
+        <label>kitsune mask</label>
+        <description>A hat shaped like a cup with a long string going trough the middle with beads on it. Traditionally it is worn by absols with the rare "Tengu" condition.</description>
+        <recipeMaker>
+            <researchPrerequisite>
+                <li>RS_TradClothing</li>
+            </researchPrerequisite>
+            <recipeUsers>
+                <li>ElectricTailoringBench</li>
+                <li>HandTailoringBench</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/KitsuneMask/KitsuneMask</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.2</drawSize>
+        </graphicData>
+        <uiIconScale>1.25</uiIconScale>
+        <techLevel>Medieval</techLevel>
+        <costList>
+            <Plasteel>35</Plasteel>
+        </costList>
+        <statBases>
+            <WorkToMake>4000</WorkToMake>
+            <Mass>0.5</Mass>
+            <Flammability>0.4</Flammability>
+            <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.20</ArmorRating_Heat>
+            <EquipDelay>0.3</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <PsychicSensitivity>0.1</PsychicSensitivity>
+            <PsychicEntropyRecoveryRate>0.05</PsychicEntropyRecoveryRate>
+        </equippedStatOffsets>
+        <apparel>
+            <countsAsClothingForNudity>false</countsAsClothingForNudity>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KitsuneMask/KitsuneMask</wornGraphicPath>
+            <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+            <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+        </apparel>
+    </ThingDef>
 	
 	
 </Defs>
