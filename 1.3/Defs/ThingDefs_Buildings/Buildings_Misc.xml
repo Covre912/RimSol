@@ -119,4 +119,156 @@
             </ritualFocus>
         </ThingDef>
 
+    <!-- Small Shrine -->
+        <ThingDef ParentName="RS_ShrineBase">
+            <defName>RS_SmallShrine</defName>
+            <label>small shrine</label>
+            <description>.</description> <!-- Adjust -->
+            <size>(3,1)</size>
+            <category>Building</category>
+            <thingClass>Building</thingClass>
+            <statBases>
+                <MaxHitPoints>100</MaxHitPoints>
+                <WorkToBuild>220</WorkToBuild>
+                <Beauty>35</Beauty>
+                <MeditationFocusStrength>0.10</MeditationFocusStrength>
+                <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">40</StyleDominance>
+            </statBases>
+            <costList>
+                <WoodLog>150</WoodLog>
+            </costList>
+            <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+            <graphicData>
+                <texPath>Things/Building/Misc/SmallShrine/SmallShrine</texPath>
+                <graphicClass>Graphic_Multi</graphicClass>
+                <drawSize>(3.75,1)</drawSize>
+                <shadowData>
+                    <volume>(2.8, 0.35, 0.59)</volume>
+                    <offset>(0, 0, -0.2)</offset>
+                </shadowData>
+            </graphicData>
+            <uiIconScale>0.9</uiIconScale>
+            <uiIconOffset>(0,0.15)</uiIconOffset>
+            <castEdgeShadows>false</castEdgeShadows>
+            <comps>
+                <li Class="CompProperties_MeditationFocus">
+                    <statDef>MeditationFocusStrength</statDef>
+                    <focusTypes>
+                        <li>Artistic</li>
+                    </focusTypes>
+                </li>
+                <li Class="CompProperties_Styleable"></li>
+            </comps>
+            <ideoBuildingNamerBase MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoSculpture</ideoBuildingNamerBase>
+            <ritualFocus>
+                <spectateDistance>5</spectateDistance>
+                <allowedSpectateSides>Down</allowedSpectateSides>
+            </ritualFocus>
+        </ThingDef>
+
+    <!-- Solian Toolbox-->
+    <ThingDef ParentName="BuildingBase">
+        <defName>RS_SolianToolbox</defName>
+        <label>solian toolbox</label>
+        <description>Increases work speed when placed near a workbench. One workbench can use up to two tool cabinets.</description>
+        <graphicData>
+            <texPath>Things/Building/Misc/SolianToolbox/SolianToolbox</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(2,2)</drawSize>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <castEdgeShadows>true</castEdgeShadows>
+        <staticSunShadowHeight>0.35</staticSunShadowHeight>
+        <fillPercent>0.5</fillPercent>
+        <canOverlapZones>false</canOverlapZones>
+        <pathCost>42</pathCost>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <WorkToBuild>1800</WorkToBuild>
+            <Mass>20</Mass>
+            <Flammability>0.5</Flammability>
+        </statBases>
+        <size>(2,1)</size>
+        <costList>
+            <RS_Tungsten>200</RS_Tungsten>
+            <ComponentIndustrial>10</ComponentIndustrial>
+            <ComponentSpacer>2</ComponentSpacer>
+        </costList>
+        <building>
+            <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+        </building>
+        <researchPrerequisites />
+        <designationCategory>Misc</designationCategory>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+        <thingCategories>
+            <li>BuildingsMisc</li>
+        </thingCategories>
+        <comps>
+            <li Class="CompProperties_Facility">
+                <statOffsets>
+                    <WorkTableWorkSpeedFactor>0.1</WorkTableWorkSpeedFactor>
+                </statOffsets>
+                <maxSimultaneous>2</maxSimultaneous>
+            </li>
+        </comps>
+        <placeWorkers>
+            <li>PlaceWorker_ShowFacilitiesConnections</li>
+        </placeWorkers>
+    </ThingDef>
+
+        <!-- Shimenawa Keystone -->
+        <ThingDef ParentName="BuildingBase">
+            <defName>RS_ShimenawaKeystone</defName>
+            <label>shimenawa keystone</label>
+            <description>.</description> <!-- Adjust -->
+            <size>(3,3)</size>
+            <category>Building</category>
+            <thingClass>Building</thingClass>
+            <statBases>
+                <MaxHitPoints>200</MaxHitPoints>
+                <WorkToBuild>6000</WorkToBuild>
+                <Beauty>0</Beauty>
+            </statBases>
+            <designationCategory>Misc</designationCategory>
+            <altitudeLayer>Building</altitudeLayer>
+            <passability>PassThroughOnly</passability>
+            <fillPercent>0.30</fillPercent>
+            <canOverlapZones>false</canOverlapZones>
+            <pathCost>50</pathCost>
+            <researchPrerequisites>
+                <li>ComplexFurniture</li> <!-- Adjust -->
+            </researchPrerequisites>
+            <costList>
+                <Cloth>100</Cloth>
+            </costList>
+            <stuffCategories>
+                <li>Stony</li>
+            </stuffCategories>
+            <costStuffCount>300</costStuffCount>
+            <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+            <graphicData>
+                <texPath>Things/Building/Misc/ShimenawaKeystone/ShimenawaKeystone</texPath>
+                <graphicClass>Graphic_Multi</graphicClass>
+                <drawSize>(3,3)</drawSize>
+                <shadowData>
+                    <volume>(1.63, 0.5, 1.63)</volume>
+                    <offset>(0, 0, 0)</offset>
+                </shadowData>
+                <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <uiIconScale>0.9</uiIconScale>
+            <uiIconOffset>(0,0.15)</uiIconOffset>
+            <castEdgeShadows>false</castEdgeShadows>
+            <comps>
+                <li Class="CompProperties_Styleable"></li>
+            </comps>
+        </ThingDef>
 </Defs>
