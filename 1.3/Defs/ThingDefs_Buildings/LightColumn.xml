@@ -3,7 +3,7 @@
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>Solus_LightColumn</defName>
-		<label>Light Column</label>
+		<label>light column</label>
 		<description>A column capable of holding a roof. Does not block sight or movement and looks quite nice. Also produces right</description>
 		<designationCategory>Structure</designationCategory>
 		<altitudeLayer>Building</altitudeLayer>
@@ -43,6 +43,7 @@
 				<volume>(0.3, 0.5, 0.3)</volume>
 				<offset>(0,0,-0.23)</offset>
 			</shadowData>
+			<shaderType>CutoutComplex</shaderType>
 			<damageData>
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
@@ -57,6 +58,61 @@
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>30</basePowerConsumption>
 			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>RS_ShimenawaCollumn</defName>
+		<label>shimenawa collumn</label>
+		<description>A column capable of holding a roof. Does not block sight or movement and looks quite nice.</description>
+		<designationCategory>Structure</designationCategory>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>0</pathCost>
+		<statBases>
+			<MaxHitPoints>160</MaxHitPoints>
+			<WorkToBuild>750</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>25</Beauty>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>75</costStuffCount>
+		<costList>
+			<Cloth>75</Cloth>
+		</costList>
+		<holdsRoof>true</holdsRoof>
+		<canOverlapZones>false</canOverlapZones>
+		<rotatable>false</rotatable>
+		<fertility>0</fertility>
+		<specialDisplayRadius>6.9</specialDisplayRadius>
+		<!-- must be kept in sync with roof hold-up radius -->
+		<building>
+			<isInert>true</isInert>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+		<graphicData>
+			<drawSize>(1,1.25)</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+			<texPath>Things/Building/Furniture/ShimenawaColumn/ShimenawaColumn</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shadowData>
+				<volume>(0.3, 0.5, 0.3)</volume>
+				<offset>(0,0,-0.23)</offset>
+			</shadowData>
+			<shaderType>CutoutComplex</shaderType>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_Styleable" />
 		</comps>
 	</ThingDef>
 </Defs>
