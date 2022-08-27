@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Royalty</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+        	<operations>
+        		<li Class="PatchOperationConditional">
+        			<xpath>Defs/RoyalTitleDef/throneRoomRequirements/li[@Class="RoomRequirement_ThingAnyOfCount"]/things/li[text()="Column"]</xpath>
+        			<match Class="PatchOperationReplace">
+        				<xpath>Defs/RoyalTitleDef/throneRoomRequirements/li[@Class="RoomRequirement_ThingAnyOfCount"]/things/li[text()="Column"]</xpath>
+        				<value>
+        					<li>Column</li>
+          				<li>RS_ShimenawaCollumn</li>
+          				<li>Solus_LightColumn</li>
+          			</value>
+          		</match>
+          	</li>
+        		<li Class="PatchOperationConditional">
+        			<xpath>Defs/RoyalTitleDef[defName="Knight"]/throneRoomRequirements/li[@Class="RoomRequirement_ThingCount" and thingDef="Column"]</xpath>
+        			<match Class="PatchOperationReplace">
+        				<xpath>Defs/RoyalTitleDef[defName="Knight"]/throneRoomRequirements/li[@Class="RoomRequirement_ThingCount" and thingDef="Column"]</xpath>
+        				<value>
+        					<li Class="RoomRequirement_ThingAnyOfCount">
+        						<things>
+          						<li>Column</li>
+          						<li>RS_ShimenawaCollumn</li>
+          						<li>Solus_LightColumn</li>
+        						</things>
+       							<count>2</count>
+     							</li>
+     						</value>
+     					</match>
+     				</li>
+     				<li Class="PatchOperationConditional">
+        			<xpath>Defs/RoyalTitleDef[defName="Praetor"]/throneRoomRequirements/li[@Class="RoomRequirement_ThingCount" and thingDef="Column"]</xpath>
+        			<match Class="PatchOperationReplace">
+        				<xpath>Defs/RoyalTitleDef[defName="Praetor"]/throneRoomRequirements/li[@Class="RoomRequirement_ThingCount" and thingDef="Column"]</xpath>
+        				<value>
+        					<li Class="RoomRequirement_ThingAnyOfCount">
+        						<things>
+          						<li>Column</li>
+          						<li>RS_ShimenawaCollumn</li>
+          						<li>Solus_LightColumn</li>
+        						</things>
+       							<count>4</count>
+     							</li>
+     						</value>
+     					</match>
+     				</li>
+     				<li Class="PatchOperationConditional">
+        			<xpath>Defs/RoyalTitleDef[defName="Baron"]/throneRoomRequirements/li[@Class="RoomRequirement_ThingCount" and thingDef="Column"]</xpath>
+        			<match Class="PatchOperationReplace">
+        				<xpath>Defs/RoyalTitleDef[defName="Baron"]/throneRoomRequirements/li[@Class="RoomRequirement_ThingCount" and thingDef="Column"]</xpath>
+        				<value>
+        					<li Class="RoomRequirement_ThingAnyOfCount">
+        						<things>
+          						<li>Column</li>
+          						<li>RS_ShimenawaCollumn</li>
+          						<li>Solus_LightColumn</li>
+        						</things>
+       							<count>4</count>
+     							</li>
+     						</value>
+     					</match>
+     				</li>
+     				<li Class="PatchOperationConditional">
+        			<xpath>Defs/RoyalTitleDef[defName="Count"]/throneRoomRequirements/li[@Class="RoomRequirement_ThingCount" and thingDef="Column"]</xpath>
+        			<match Class="PatchOperationReplace">
+        				<xpath>Defs/RoyalTitleDef[defName="Count"]/throneRoomRequirements/li[@Class="RoomRequirement_ThingCount" and thingDef="Column"]</xpath>
+        				<value>
+        					<li Class="RoomRequirement_ThingAnyOfCount">
+        						<things>
+          						<li>Column</li>
+          						<li>RS_ShimenawaCollumn</li>
+          						<li>Solus_LightColumn</li>
+        						</things>
+       							<count>6</count>
+     							</li>
+     						</value>
+     					</match>
+     				</li>
+     				<li Class="PatchOperationConditional">
+        			<xpath>Defs/RoyalTitleDef/throneRoomRequirements/li[@Class="RoomRequirement_ThingCount" and thingDef="Column"]</xpath>
+        			<match Class="PatchOperationReplace">
+        				<xpath>Defs/RoyalTitleDef/throneRoomRequirements/li[@Class="RoomRequirement_ThingCount" and thingDef="Column"]</xpath>
+        				<value>
+        					<li Class="RoomRequirement_ThingAnyOfCount">
+        						<things>
+          						<li>Column</li>
+          						<li>RS_ShimenawaCollumn</li>
+          						<li>Solus_LightColumn</li>
+        						</things>
+       							<count>6</count>
+     							</li>
+     						</value>
+     					</match>
+     				</li>
+     			</operations>
+     		</match>
+    </Operation>
+</Patch>
