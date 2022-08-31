@@ -41,7 +41,7 @@
         <defName>RS_SnowberryProcessing</defName>
         <label>snowberry processing</label>
         <description>.</description> <!-- Adjust -->
-        <baseCost>3000</baseCost> <!-- Adjust -->
+        <baseCost>2000</baseCost> <!-- Adjust -->
         <tab>RimSol</tab>
         <techLevel>Spacer</techLevel>
         <prerequisites> <!-- Adjust -->
@@ -147,47 +147,10 @@
 	</ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>RS_FlightPack</defName>
-        <label>flight pack</label>
-        <description>.</description> <!-- Adjust -->
-        <baseCost>3000</baseCost> <!-- Adjust -->
-        <tab>RimSol</tab>
-        <techLevel>Spacer</techLevel>
-        <prerequisites> <!-- Adjust -->
-            <li>RS_SolusTechnologyFundamentals</li>
-        </prerequisites>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-            <li>MultiAnalyzer</li>
-        </requiredResearchFacilities>
-        <researchViewX>2.00</researchViewX>
-        <researchViewY>2.45</researchViewY>
-	</ResearchProjectDef>
-
-    <ResearchProjectDef>
-        <defName>RS_Teleporter</defName>
-        <label>teleporter</label>
-        <description>.</description> <!-- Adjust -->
-        <baseCost>3000</baseCost> <!-- Adjust -->
-        <tab>RimSol</tab>
-        <techLevel>Spacer</techLevel>
-        <prerequisites> <!-- Adjust -->
-            <li>RS_EnergyCrystals</li>
-            <li>RS_FlightPack</li>
-        </prerequisites>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-            <li>MultiAnalyzer</li>
-        </requiredResearchFacilities>
-        <researchViewX>3.00</researchViewX>
-        <researchViewY>2.45</researchViewY>
-	</ResearchProjectDef>
-
-    <ResearchProjectDef>
         <defName>RS_TradClothing</defName>
         <label>traditional clothing</label>
         <description>.</description> <!-- Adjust -->
-        <baseCost>3000</baseCost> <!-- Adjust -->
+        <baseCost>500</baseCost> <!-- Adjust -->
         <tab>RimSol</tab>
         <techLevel>Spacer</techLevel>
         <prerequisites> <!-- Adjust -->
