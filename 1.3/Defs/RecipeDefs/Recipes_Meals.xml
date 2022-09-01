@@ -5,7 +5,7 @@
         <RecipeDef ParentName="CookMealBase">
             <defName>RS_CookMealTraditional</defName>
             <label>cook traditional meal x4</label>
-            <description>.</description> <!-- Adjust -->
+            <description>Use a viarity of ingrediants to cook a bunch of traditional meals. Primarily made out of Rice, this meal is usally made in bulk for special occasions such as family gatherings.</description> <!-- Adjust -->
             <jobString>Cooking traditional meals.</jobString>
             <workSpeedStat>CookSpeed</workSpeedStat>
             <effectWorking>Cook</effectWorking>
@@ -23,7 +23,7 @@
                             <li>RawRice</li>
                         </thingDefs>
                     </filter>
-                    <count>1.0</count>
+                    <count>1.5</count>
                 </li>
                 <li>
                     <filter>
@@ -31,7 +31,7 @@
                             <li>PlantFoodRaw</li>
                         </categories>
                     </filter>
-                    <count>0.5</count>
+                    <count>0.75</count>
                 </li>
                 <li>
                     <filter>
@@ -39,7 +39,7 @@
                             <li>MeatRaw</li>
                         </categories>
                     </filter>
-                    <count>0.5</count>
+                    <count>0.75</count>
                 </li>
                 <li>
                     <filter>
@@ -47,11 +47,11 @@
                             <li>AnimalProductRaw</li>
                         </categories>
                     </filter>
-                    <count>0.5</count>
+                    <count>0.75</count>
                 </li>
             </ingredients>
             <products>
-                <RS_TraditionalMeal>4</RS_TraditionalMeal>
+                <RS_TraditionalMeal>6</RS_TraditionalMeal>
             </products>
             <skillRequirements>
                 <Cooking>8</Cooking>
