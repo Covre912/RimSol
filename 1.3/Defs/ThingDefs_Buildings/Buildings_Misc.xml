@@ -228,7 +228,7 @@
         <ThingDef ParentName="BuildingBase">
             <defName>RS_ShimenawaKeystone</defName>
             <label>shimenawa keystone</label>
-            <description>.</description> <!-- Adjust -->
+            <description>A traditional keystone. Some people just call them glorified rocks. They are said to house spirits of the suroundings.</description> <!-- Adjust -->
             <size>(3,3)</size>
             <category>Building</category>
             <thingClass>Building</thingClass>
@@ -247,7 +247,7 @@
                 <li>ComplexFurniture</li> <!-- Adjust -->
             </researchPrerequisites>
             <costList>
-                <Cloth>100</Cloth>
+                <Cloth>75</Cloth>
             </costList>
             <stuffCategories>
                 <li>Stony</li>
