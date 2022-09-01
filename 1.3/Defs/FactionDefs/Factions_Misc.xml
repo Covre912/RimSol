@@ -4,7 +4,7 @@
     <FactionDef ParentName="FactionBase">
         <defName>RS_SolusDynasty</defName>
         <label>the solus dynasty</label>
-        <description>The absols are a traditional, but technologically extremely advanced humanoid alien species which settled here a few decades ago to discover and salvage ancient technologies and artifacts found on the rimworlds and to collect the resources found abundantly and rarely on them. They are feared because of their highly advanced Technology and high-tech weapons.\n\nThey intend to strengthen their race to protect it, and put a high value on traditions, supporting those who help them, however...\n\nThe Dynasty is neutral against outsiders, yet very generous to those that earn their favor, yet very rough to its enemies and those that dare to stand in their way.</description>
+        <description>The absols are a traditional, but technologically extremely advanced humanoid alien species which settled here a few decades ago with the goal discover new worlds to inhabit and to salvage ancient technologies, aswell as artifacts found on the rimworlds and to collect the resources found abundantly and sometimes rarely on them. They are feared because of their ultratch Technology and high-end weapons.\n\nThey also intend to strengthen their race to protect it, while putting a high value on traditions, supporting those who help them, however...\n\nThe Dynasty is neutral against outsiders, yet very generous to those that earn their favor, yet very rough to its enemies and those that dare to stand in their way.</description>
         <colorSpectrum>
             <li>(0.50, 0.30, 0.70)</li>
             <li>(0.60, 0.40, 0.80)</li>
@@ -18,11 +18,11 @@
         <canMakeRandomly>true</canMakeRandomly>
         <canSiege>true</canSiege>
         <canStageAttacks>true</canStageAttacks>
-        <leaderTitle>shogun</leaderTitle>
+        <leaderTitle>Daimio</leaderTitle>
         <factionIconPath>World/WorldObjects/Expanding/SolusTown</factionIconPath> 
         <factionNameMaker>NamerFactionDynasty</factionNameMaker>
         <settlementNameMaker>NamerSettlementDynasty</settlementNameMaker>
-        <techLevel>Spacer</techLevel>
+        <techLevel>Ultratech</techLevel>
         <allowedCultures><li>Rustican</li></allowedCultures>
         <disallowedMemes>
             <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
@@ -44,13 +44,13 @@
                 <categories>
                     <li>Outlander</li>
                 </categories>
-                <commonality>0.95</commonality>
+                <commonality>0.50</commonality>
             </li>
             <li>
                 <categories>
                     <li>Offworld</li>
                 </categories>
-                <commonality>0.05</commonality>
+                <commonality>0.50</commonality>
             </li>
         </backstoryFilters>
         <geneticVariance>0.8</geneticVariance>
@@ -70,7 +70,10 @@
             <li>Base_Dynasty_Standard</li>
         </baseTraderKinds>
         <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
-        <raidLootMaker>OutlanderRaidLootMaker</raidLootMaker>
+        <raidLootMaker>
+            <li>OutlanderRaidLootMaker</li>
+            <li>EmpireRaidLootMaker</li>
+        </raidLootMaker>
         <maxPawnCostPerTotalPointsCurve>
             <points>
                 <li>(0,35)</li>
@@ -85,11 +88,11 @@
                 <kindDef>Combat</kindDef>
                 <options>
                     <RS_Servant>5</RS_Servant>
-                    <RS_Warrior>6</RS_Warrior>
-                    <RS_Samurai>7</RS_Samurai>
-                    <RS_Royal>10</RS_Royal>
-                    <RS_Shogun>10</RS_Shogun>
-                    <RS_WarHero>12</RS_WarHero>
+                    <RS_Warrior>7</RS_Warrior>
+                    <RS_Samurai>9</RS_Samurai>
+                    <RS_Royal>12</RS_Royal>
+                    <RS_Shogun>25</RS_Shogun>
+                    <RS_WarHero>25</RS_WarHero>
                 </options>
             </li>
             <li>
@@ -117,7 +120,6 @@
                     <RS_Warrior>6</RS_Warrior>
                     <RS_Samurai>7</RS_Samurai>
                     <RS_Royal>10</RS_Royal>
-                    <RS_Shogun>10</RS_Shogun>
                 </guards>
             </li>
             <li>
