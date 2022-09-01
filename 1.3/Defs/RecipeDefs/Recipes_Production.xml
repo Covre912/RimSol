@@ -5,7 +5,7 @@
         <RecipeDef>
             <defName>RS_Make_Absteel</defName>
             <label>make absteel</label>
-            <description>Make absteel.</description>
+            <description>Smelt Absteel by alloying steel together with durable tungsten to gain a material used mainly in solian buildings and equipment. It also looks very nice.</description>
             <jobString>Making absteel.</jobString>
             <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
             <effectWorking>Cook</effectWorking>
@@ -21,7 +21,7 @@
                             <li>Steel</li>
                         </thingDefs>
                     </filter>
-                    <count>40</count>
+                    <count>35</count>
                 </li>
                 <li>
                     <filter>
@@ -29,7 +29,7 @@
                             <li>RS_Tungsten</li>
                         </thingDefs>
                     </filter>
-                    <count>10</count>
+                    <count>15</count>
                 </li>
             </ingredients>
             <fixedIngredientFilter>
@@ -39,10 +39,10 @@
                 </thingDefs>
             </fixedIngredientFilter>
             <products>
-                <RS_Absteel>50</RS_Absteel>
+                <RS_Absteel>75</RS_Absteel>
             </products>
             <skillRequirements>
-                <Crafting>4</Crafting>
+                <Crafting>6</Crafting>
             </skillRequirements>
             <workSkill>Crafting</workSkill>
         </RecipeDef>
@@ -51,7 +51,7 @@
         <RecipeDef>
             <defName>RS_Make_BlocksAbstone</defName>
             <label>make abstone</label>
-            <description>Make abstone.</description>
+            <description>Mix tungsten into rock powder, pour and dry it into abstone, an exotic - albeit common on Solheim -, stony brick that is durable and also nice to look at.</description>
             <jobString>Making abstone.</jobString>
             <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
             <effectWorking>CutStone</effectWorking>
@@ -93,7 +93,7 @@
         <RecipeDef>
             <defName>RS_Make_BlocksAbstonefromBlocks</defName>
             <label>make abstone (blocks)</label>
-            <description>Make abstone.</description>
+            <description>Mix tungsten dust into rock powder, pour and dry it into abstone, an exotic - albeit common on Solheim -, stony brick that is durable and also nice to look at. Crushing the stone blocks is more time efficiant than entire chunks.</description>
             <jobString>Making abstone.</jobString>
             <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
             <effectWorking>CutStone</effectWorking>
@@ -109,7 +109,7 @@
                             <li>StoneBlocks</li>
                         </categories>
                     </filter>
-                    <count>20</count>
+                    <count>70</count>
                 </li>
                 <li>
                     <filter>
@@ -129,7 +129,7 @@
                 </thingDefs>
             </fixedIngredientFilter>
             <products>
-                <RS_BlocksAbstone>25</RS_BlocksAbstone>
+                <RS_BlocksAbstone>75</RS_BlocksAbstone>
             </products>
         </RecipeDef>
 
@@ -137,7 +137,7 @@
         <RecipeDef>
             <defName>RS_Make_Tungsten</defName>
             <label>make tungsten</label>
-            <description>Make tungsten.</description>
+            <description>Burn tungstalk under extreme heat and smelt the tungsten rich ashes into a more usable form suited for further refinement. You can however also press tungstalk more efficiently by using the solus compressor.</description>
             <jobString>Making tungsten.</jobString>
             <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
             <effectWorking>Cook</effectWorking>
@@ -153,7 +153,7 @@
                             <li>RS_RawTungstalk</li>
                         </thingDefs>
                     </filter>
-                    <count>20</count>
+                    <count>40</count>
                 </li>
             </ingredients>
             <fixedIngredientFilter>
@@ -162,7 +162,7 @@
                 </thingDefs>
             </fixedIngredientFilter>
             <products>
-                <RS_Tungsten>10</RS_Tungsten>
+                <RS_Tungsten>15</RS_Tungsten>
             </products>
         </RecipeDef>
 
