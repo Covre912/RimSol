@@ -4,11 +4,11 @@
     <FactionDef ParentName="PlayerFactionBase">
         <defName>RS_PlayerSolusColony</defName>
         <label>New Solus Colony</label>
-        <description>Colonists sent by the kingdom to inhabit the planet.</description>
+        <description>Colonists sent by the solian empire to inhabit the planet.</description>
         <isPlayer>true</isPlayer>
         <basicMemberKind>RS_Heian</basicMemberKind>
-        <pawnSingular>heian</pawnSingular>
-        <pawnsPlural>heians</pawnsPlural>
+        <pawnSingular>solian</pawnSingular>
+        <pawnsPlural>solians</pawnsPlural>
         <techLevel>Spacer</techLevel> 
         <backstoryFilters>
             <li>
@@ -24,6 +24,8 @@
         <geneticVariance>1</geneticVariance>
         <startingResearchTags> <!-- Adjust -->
             <li>ClassicStart</li>
+            <li>Hydroponics</li>
+            <li>Machining</li>
         </startingResearchTags>
         <startingTechprintsResearchTags> <!-- Adjust -->
             <li>ClassicStart</li>
@@ -35,6 +37,8 @@
         <apparelStuffFilter>
             <thingDefs> 
                 <li>Synthread</li>
+                <li>Devilstrand</li>
+                <li>Hyperweave</li>
             </thingDefs>
         </apparelStuffFilter>
     </FactionDef>
