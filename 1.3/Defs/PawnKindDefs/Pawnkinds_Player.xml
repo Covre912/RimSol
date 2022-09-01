@@ -11,22 +11,22 @@
 
     <PawnKindDef ParentName="RS_BasePlayerAbsolPawnKind">
         <defName>RS_Heian</defName>
-        <label>heian</label>
+        <label>solian</label>
         <defaultFactionType>RS_PlayerSolusColony</defaultFactionType>
-        <chemicalAddictionChance>0.06</chemicalAddictionChance>
+        <chemicalAddictionChance>0.03</chemicalAddictionChance>
         <apparelTags>
             <li>IndustrialBasic</li>
             <li>IndustrialAdvanced</li>
+		<li>SpacerBasic</li>
         </apparelTags>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
-        <apparelMoney>350~800</apparelMoney>
+        <apparelMoney>600~1600</apparelMoney>
         <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
 		<initialWillRange>10~20</initialWillRange>
 		<initialResistanceRange>10~15</initialResistanceRange>
-        <techHediffsChance>0.03</techHediffsChance>
-        <techHediffsMoney>50~800</techHediffsMoney>
+        <techHediffsChance>0.85</techHediffsChance>
+        <techHediffsMoney>50~2200</techHediffsMoney>
         <techHediffsTags>
-            <li>Poor</li>
             <li>Simple</li>
             <li>ImplantEmpireCommon</li>
         </techHediffsTags>
