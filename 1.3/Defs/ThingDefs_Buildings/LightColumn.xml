@@ -64,7 +64,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>RS_ShimenawaCollumn</defName>
 		<label>shimenawa collumn</label>
-		<description>A column capable of holding a roof. Does not block sight or movement and looks quite nice.</description>
+		<description>A column capable of holding a roof. Does not block sight or movement and looks quite nice. Decorated with traditional shimenawa.</description>
 		<designationCategory>Structure</designationCategory>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -98,7 +98,7 @@
 			<ai_chillDestination>false</ai_chillDestination>
 		</building>
 		<graphicData>
-			<drawSize>(1,1.25)</drawSize>
+			<drawSize>(1.5,1.1525)</drawSize>
 			<drawOffset>(0,0,0.2)</drawOffset>
 			<texPath>Things/Building/Furniture/ShimenawaColumn/ShimenawaColumn</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
