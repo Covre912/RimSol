@@ -3,13 +3,13 @@
 
     <ThingDef ParentName="LeatherBase">
         <defName>RS_Leather_Absol</defName>
-        <label>absol leather</label>
+        <label>Treated and polished Absol leather of questionable origin. Not the most usefull of leathers, albeit it is suited for the production of pockets and backpacks. Perchance.</label>
         <graphicData>
             <color>(100,60,175)</color>
         </graphicData>
         <stuffProps>
             <color>(100,60,175)</color>
-            <commonality>0.2</commonality>
+            <commonality>0</commonality>
         </stuffProps>
     </ThingDef>
 
