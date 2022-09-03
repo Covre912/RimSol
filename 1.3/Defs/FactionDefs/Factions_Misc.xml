@@ -22,7 +22,7 @@
         <factionIconPath>World/WorldObjects/Expanding/SolusTown</factionIconPath> 
         <factionNameMaker>NamerFactionDynasty</factionNameMaker>
         <settlementNameMaker>NamerSettlementDynasty</settlementNameMaker>
-        <techLevel>Ultratech</techLevel>
+        <techLevel>Ultra</techLevel>
         <allowedCultures><li>Rustican</li></allowedCultures>
         <disallowedMemes>
             <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
