@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="SculptureBase">
+        <defName>RS_CrystalStatueSmall</defName>
+        <label>crystal statue</label>
+        <description>A Crystal statue and beautiful light emit from the crystal.</description>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Building/Art/crystal-statue</texPath>
+        </graphicData>
+        <fillPercent>0.35</fillPercent>
+        <rotatable>false</rotatable>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <Mass>7</Mass>
+            <Beauty>100</Beauty>
+            <WorkToMake>30000</WorkToMake>
+        </statBases>
+        <recipeMaker>
+            <skillRequirements>
+                <Artistic>10</Artistic>
+            </skillRequirements>
+        </recipeMaker>
+        <costList>
+            <Uranium>50</Uranium>
+            <Solus_EnergyCrystal>1</Solus_EnergyCrystal>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerPlant</compClass>
+                <basePowerConsumption>-500</basePowerConsumption>
+                <transmitsPower>true</transmitsPower>
+            </li>
+            <li Class="CompProperties_Glower">
+                <glowRadius>3</glowRadius>
+                <glowColor>(194,86,252,0)</glowColor>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="SculptureBase">
+        <defName>RS_CrystalStatueLarge</defName>
+        <label>large crystal statue</label>
+        <description>A Large Crystal statue and beautiful light emit from the crystal.</description>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Building/Art/Large-crystal-statue</texPath>
+            <drawSize>(2.2,2.2)</drawSize>
+        </graphicData>
+        <fillPercent>0.5</fillPercent>
+        <rotatable>false</rotatable>
+        <size>(2,2)</size>
+        <statBases>
+            <MaxHitPoints>300</MaxHitPoints>
+            <Mass>28</Mass>
+            <Beauty>100</Beauty>
+            <WorkToMake>105000</WorkToMake>
+        </statBases>
+        <recipeMaker>
+            <skillRequirements>
+                <Artistic>10</Artistic>
+            </skillRequirements>
+        </recipeMaker>
+        <costList>
+            <Uranium>150</Uranium>
+            <Solus_EnergyCrystal>3</Solus_EnergyCrystal>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerPlant</compClass>
+                <basePowerConsumption>-2000</basePowerConsumption>
+                <transmitsPower>true</transmitsPower>
+            </li>
+            <li Class="CompProperties_Glower">
+                <glowRadius>5</glowRadius>
+                <glowColor>(194,86,252,0)</glowColor>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>
