@@ -561,6 +561,14 @@
                 <li>SolusMedium</li>
                 <li>SolusSMG</li>
             </weaponTags>
+
+            <!-- gotta need some balance if requied , just temporary -->
+
+            <costList>
+                <Plasteel>40</Plasteel>
+                <ComponentSpacer>3</ComponentSpacer>
+            </costList>
+
             <!--
             <tradeTags>
                 <li>ExoticMisc</li>
