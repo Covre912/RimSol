@@ -232,6 +232,15 @@
                     <cornerBR>Damage/Corner</cornerBR>
                 </damageData>
             </graphicData>
+            <building>
+                <buildingTags>
+                    <li>RitualFocus</li>
+                </buildingTags>
+            </building>
+            <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+            <placeWorkers>
+                <li>PlaceWorker_RitualFocus</li>
+            </placeWorkers>
             <uiIconScale>0.8</uiIconScale>
             <statBases>
                 <MaxHitPoints>100</MaxHitPoints>
@@ -319,4 +328,57 @@
                 <li>Electricity</li> <!-- Adjust -->
             </researchPrerequisites>
         </ThingDef>
+
+    <ThingDef ParentName="FurnitureWithQualityBase">
+        <defName>RS_1x2Traditionaltable</defName>
+        <label>Traditional low table</label>
+        <graphicData>
+            <texPath>Things/Building/Furniture/Traditional_low_table/Traditional_low_table</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(1.8,2.7)</drawSize>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+        <comps>
+            <li>
+                <compClass>CompGatherSpot</compClass>
+            </li>
+        </comps>
+        <building>
+            <buildingTags>
+                <li>RitualFocus</li>
+            </buildingTags>
+        </building>
+        <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+        <placeWorkers>
+            <li>PlaceWorker_RitualFocus</li>
+        </placeWorkers>
+        <uiIconScale>0.8</uiIconScale>
+        <socialPropernessMatters>true</socialPropernessMatters>
+        <canOverlapZones>false</canOverlapZones>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <staticSunShadowHeight>0.10</staticSunShadowHeight>
+        <surfaceType>Eat</surfaceType>
+        <statBases>
+            <MaxHitPoints>75</MaxHitPoints>
+            <WorkToBuild>750</WorkToBuild>
+            <Mass>5</Mass>
+            <Flammability>1.0</Flammability>
+            <Beauty>35</Beauty>
+        </statBases>
+        <size>(1,2)</size>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <castEdgeShadows>true</castEdgeShadows>
+        <pathCost>42</pathCost>
+        <costList>
+            <WoodLog>28</WoodLog>
+            <Jade>28</Jade>
+        </costList>
+    </ThingDef>
+    <!-- need shadow -->
 </Defs>
