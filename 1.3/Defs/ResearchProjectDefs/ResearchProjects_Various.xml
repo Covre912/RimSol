@@ -4,12 +4,12 @@
     <ResearchProjectDef>
         <defName>RS_RTGGenerator</defName>
         <label>RTG generator</label>
-        <description>.</description> <!-- Adjust -->
-        <baseCost>3000</baseCost> <!-- Adjust -->
+        <description>Use leftover uranium to power Radioisotopic Thermoelectric Generators for an easy, infine, albeit somewhat expensive to build of an energy source that can outlast your colony!</description> <!-- Adjust -->
+        <baseCost>2000</baseCost> <!-- Adjust -->
         <tab>RimSol</tab>
         <techLevel>Spacer</techLevel>
         <prerequisites> <!-- Adjust -->
-            <li>ChargedShot</li>
+            <li>RS_SolusTechnologyFundamentals</li>
         </prerequisites>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
@@ -22,12 +22,12 @@
     <ResearchProjectDef>
         <defName>RS_SolusTechnologyFundamentals</defName>
         <label>solus technology fundamentals</label>
-        <description>.</description> <!-- Adjust -->
+        <description>Unlocks the knowledge of utilizing solian ways of fabrication as a milestone to further gain more insight on the Absol's technologies.</description> <!-- Adjust -->
         <baseCost>3000</baseCost> <!-- Adjust -->
         <tab>RimSol</tab>
         <techLevel>Spacer</techLevel>
         <prerequisites> <!-- Adjust -->
-            <li>ChargedShot</li>
+            <li>AdvancedFabrication</li>
         </prerequisites>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
@@ -40,7 +40,7 @@
     <ResearchProjectDef>
         <defName>RS_SnowberryProcessing</defName>
         <label>snowberry processing</label>
-        <description>.</description> <!-- Adjust -->
+        <description>Utilize the healing properties of snowberries to fabricate snowberry solutions and medicine.</description> <!-- Adjust -->
         <baseCost>2000</baseCost> <!-- Adjust -->
         <tab>RimSol</tab>
         <techLevel>Spacer</techLevel>
@@ -58,7 +58,7 @@
     <ResearchProjectDef>
         <defName>RS_SolusMeleeArsenal</defName>
         <label>solus melee arsenal</label>
-        <description>.</description> <!-- Adjust -->
+        <description>Fabricate commonly utilized melee weapons of the Solus Dynasty for your own purpose.</description> <!-- Adjust -->
         <baseCost>3000</baseCost> <!-- Adjust -->
         <tab>RimSol</tab>
         <techLevel>Spacer</techLevel>
@@ -76,7 +76,7 @@
     <ResearchProjectDef>
         <defName>RS_SolusRangedArsenal</defName>
         <label>solus ranged arsenal</label>
-        <description>.</description> <!-- Adjust -->
+        <description>Fabricate commonly utilized firearms of the Solus Dynasty for your own purpose.</description> <!-- Adjust -->
         <baseCost>3000</baseCost> <!-- Adjust -->
         <tab>RimSol</tab>
         <techLevel>Spacer</techLevel>
@@ -94,7 +94,7 @@
     <ResearchProjectDef>
         <defName>RS_SolusBow</defName>
         <label>solus bow</label>
-        <description>.</description> <!-- Adjust -->
+        <description>Fabricate Solheim's iconic bow by fusing your knowledge of traditional bows with high-tech science and never get hurt while hunting again!</description> <!-- Adjust -->
         <baseCost>3000</baseCost> <!-- Adjust -->
         <tab>RimSol</tab>
         <techLevel>Spacer</techLevel>
@@ -113,10 +113,10 @@
     <ResearchProjectDef>
         <defName>RS_EnergyCrystals</defName>
         <label>energy crystals</label>
-        <description>.</description>
+        <description>Learn about the Absol's secret to stellar contendence, the cristaline supercomputers called energy crystals and learn how to create them yourself.</description>
         <baseCost>3000</baseCost>
         <tab>RimSol</tab>
-        <techLevel>Spacer</techLevel>
+        <techLevel>Ultra</techLevel>
         <prerequisites> <!-- Adjust -->
             <li>RS_SolusTechnologyFundamentals</li>
         </prerequisites>
@@ -131,10 +131,10 @@
     <ResearchProjectDef>
         <defName>RS_SamuraiArmour</defName>
         <label>samurai armour</label>
-        <description>.</description> <!-- Adjust -->
+        <description>Learn the secrets of solian high-tech craftsmanship and learn how to make samurai power armours for your S(m)ols!</description> <!-- Adjust -->
         <baseCost>3000</baseCost> <!-- Adjust -->
         <tab>RimSol</tab>
-        <techLevel>Spacer</techLevel>
+        <techLevel>Ultra</techLevel>
         <prerequisites> <!-- Adjust -->
             <li>RS_EnergyCrystals</li>
         </prerequisites>
@@ -149,7 +149,7 @@
     <ResearchProjectDef>
         <defName>RS_TradClothing</defName>
         <label>traditional clothing</label>
-        <description>.</description> <!-- Adjust -->
+        <description>Learn how to create traditional clothing made by the futuristic Absols, utilizing modern fabrication aswell as ancient terran craftsmanship.</description> <!-- Adjust -->
         <baseCost>500</baseCost> <!-- Adjust -->
         <tab>RimSol</tab>
         <techLevel>Spacer</techLevel>
