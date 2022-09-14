@@ -51,6 +51,7 @@
             </costList>
             <weaponTags>
                 <li>SolusMeleeWeapon</li>
+		<li>SolusHammer</li>
             </weaponTags>
             <thingSetMakerTags>
                 <li>RewardStandardLowFreq</li>
@@ -142,13 +143,16 @@
             </statBases>
             <recipeMaker>
                 <skillRequirements>
-                    <Crafting>6</Crafting>
+                    <Crafting>10</Crafting>
                 </skillRequirements>
             </recipeMaker>
             <costList>
-                <Plasteel>30</Plasteel>
+                <Plasteel>45</Plasteel>
 				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
+            <weaponTags>
+                <li>SolusClaw</li>
+            </weaponTags>
             <tools>
                 <li>
                     <label>claws</label>
@@ -156,7 +160,7 @@
                         <li>Cut</li>
                     </capacities>
                     <power>20</power>
-                    <armorPenetration>0.35</armorPenetration>
+                    <armorPenetration>0.45</armorPenetration>
                     <cooldownTime>1.2</cooldownTime>
                 </li>
                 <li>
@@ -165,7 +169,7 @@
                         <li>Stab</li>
                     </capacities>
                     <power>21</power>
-                    <armorPenetration>0.35</armorPenetration>
+                    <armorPenetration>0.45</armorPenetration>
                     <cooldownTime>1.6</cooldownTime>
                 </li>
             </tools>
@@ -188,13 +192,16 @@
             </equippedStatOffsets>
             <recipeMaker>
                 <skillRequirements>
-                    <Crafting>4</Crafting>
+                    <Crafting>10</Crafting>
                 </skillRequirements>
             </recipeMaker>
             <costList>
-                <Plasteel>40</Plasteel>
+                <Plasteel>75</Plasteel>
 				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
+	    <weaponTags>
+                <li>SolusScythe</li>
+            </weaponTags>
             <tools>
                 <li>
                     <label>handle</label>
@@ -241,13 +248,16 @@
             </statBases>
             <recipeMaker>
                 <skillRequirements>
-                    <Crafting>4</Crafting>
+                    <Crafting>8</Crafting>
                 </skillRequirements>
             </recipeMaker>
             <costList>
-                <Plasteel>40</Plasteel>
+                <Plasteel>60</Plasteel>
 				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
+	    <weaponTags>
+                <li>SolusSpear</li>
+            </weaponTags>
             <tools>
                 <li>
                     <label>handle</label>
@@ -256,23 +266,23 @@
                         <li>Poke</li>
                     </capacities>
                     <power>12</power>
-                    <cooldownTime>1.6</cooldownTime>
+                    <cooldownTime>1.4</cooldownTime>
                 </li>
                 <li>
                     <label>head</label>
                     <capacities>
                         <li>Stab</li>
                     </capacities>
-                    <power>25</power>
-                    <cooldownTime>1.6</cooldownTime>
+                    <power>28</power>
+                    <cooldownTime>1.4</cooldownTime>
                 </li>
                 <li>
                     <label>edge</label>
                     <capacities>
                         <li>Cut</li>
                     </capacities>
-                    <power>25</power>
-                    <cooldownTime>1.6</cooldownTime>
+                    <power>28</power>
+                    <cooldownTime>1.8</cooldownTime>
                 </li>
             </tools>
         </ThingDef>
