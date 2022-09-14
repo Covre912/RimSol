@@ -73,7 +73,7 @@
 				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
 	    <weaponTags>
-		    <li>SolusMedium</li>
+		    <li>SolusMediumRanged</li>
 		    <li>SolusAssault</li>
             </weaponTags>
             <verbs>
@@ -160,7 +160,7 @@
 				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
             <weaponTags>
-		    <li>SolusMedium</li>
+		    <li>SolusMediumRanged</li>
 		    <li>SolusBoltAction</li>
             </weaponTags>
             <verbs>
@@ -248,7 +248,6 @@
                 <HuntingStealth>0.85</HuntingStealth>
             </equippedStatOffsets>
             <weaponTags>
-                <li>SniperRifle</li>
                 <li>SolusBow</li>
                 <li>SolusRoyal</li>
             </weaponTags>
@@ -321,7 +320,7 @@
             </recipeMaker>
             <costList>
                 <Plasteel>80</Plasteel>
-                <ComponentSpacer>2</ComponentSpacer>
+                <ComponentSpacer>6</ComponentSpacer>
 				<Solus_EnergyCrystal>2</Solus_EnergyCrystal>
             </costList>
 	    <weaponTags>
@@ -406,7 +405,7 @@
                 <ComponentSpacer>1</ComponentSpacer>
             </costList>
 	    <weaponTags>
-		    <li>SolusLight</li>
+		    <li>SolusLightRanged</li>
 		    <li>SolusPistol</li>
             </weaponTags>
             <verbs>
@@ -487,7 +486,7 @@
 				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
 	    <weaponTags>
-		    <li>SolusMedium</li>
+		    <li>SolusMediumRanged</li>
 		    <li>SolusShotgun</li>
             </weaponTags>
             <verbs>
@@ -566,7 +565,7 @@
 
             <costList>
                 <Plasteel>40</Plasteel>
-                <ComponentSpacer>3</ComponentSpacer>
+                <ComponentSpacer>2</ComponentSpacer>
             </costList>
 
             <!--
@@ -612,7 +611,7 @@
             </graphicData>
             <projectile>
                 <damageDef>Bullet</damageDef>
-                <damageAmountBase>7</damageAmountBase>
+                <damageAmountBase>9</damageAmountBase>
                 <armorPenetrationBase>0.35</armorPenetrationBase>
                 <speed>70</speed>
             </projectile>
@@ -653,13 +652,12 @@
             </recipeMaker>
             <costList>
                 <Plasteel>50</Plasteel>
-                <ComponentSpacer>3</ComponentSpacer>
+                <ComponentSpacer>4</ComponentSpacer>
 				<Solus_EnergyCrystal>1</Solus_EnergyCrystal>
             </costList>
 	    <weaponTags>
 		    <li>SolusHeavy</li>
-		    <li>SolusSniperrifle</li>
-		    <li>SniperRifle</li>
+		    <li>SolusSniper</li>
             </weaponTags>
             <verbs>
                 <li>
@@ -736,8 +734,7 @@
             <equippedAngleOffset>45</equippedAngleOffset>
             <costList>
                 <Plasteel>120</Plasteel>
-                <ComponentSpacer>4</ComponentSpacer>
-                <Shell_AntigrainWarhead>1</Shell_AntigrainWarhead>
+                <ComponentSpacer>8</ComponentSpacer>
 				<Solus_EnergyCrystal>4</Solus_EnergyCrystal>
             </costList>
             <recipeMaker>
