@@ -3,7 +3,7 @@
 
     <ThingDef ParentName="LeatherBase">
         <defName>RS_Leather_Absol</defName>
-        <label>Treated and polished Absol leather of questionable origin. Not the most usefull of leathers, albeit it is suited for the production of pockets and backpacks. Perchance.</label>
+        <label>Absol leather</label>
         <graphicData>
             <color>(100,60,175)</color>
         </graphicData>
