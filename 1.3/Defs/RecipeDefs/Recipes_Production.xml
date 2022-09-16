@@ -109,7 +109,7 @@
                             <li>StoneBlocks</li>
                         </categories>
                     </filter>
-                    <count>70</count>
+                    <count>20</count>
                 </li>
                 <li>
                     <filter>
@@ -129,7 +129,7 @@
                 </thingDefs>
             </fixedIngredientFilter>
             <products>
-                <RS_BlocksAbstone>75</RS_BlocksAbstone>
+                <RS_BlocksAbstone>30</RS_BlocksAbstone>
             </products>
         </RecipeDef>
 
