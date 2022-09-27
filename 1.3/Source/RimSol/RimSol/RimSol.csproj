@@ -52,7 +52,6 @@
     <Compile Include="CompProperties_TargetEffect_AsteroidVectorizer.cs" />
     <Compile Include="CompProperties_Ruinseeker.cs" />
     <Compile Include="CompProperties_TargetEffect_Harvest.cs" />
-    <Compile Include="CompTargetable_AllNearbyPlantLife.cs" />
     <Compile Include="CompTargetEffect_Harvest.cs" />
     <Compile Include="CompTargetEffect_AsteroidVectorizer.cs" />
     <Compile Include="CompUseEffect_Ruinseeker.cs" />

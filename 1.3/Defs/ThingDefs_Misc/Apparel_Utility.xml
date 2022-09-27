@@ -131,7 +131,10 @@
                     <range>34.9</range>
                     <warmupTime>0.5</warmupTime>
                     <targetParams>
-                        <canTargetLocations>true</canTargetLocations>>
+                        <canTargetBuildings>true</canTargetBuildings>
+                        <canTargetPlants>true</canTargetPlants>
+                        <canTargetPawns>true</canTargetPawns>
+                        <canTargetItems>true</canTargetItems>
                     </targetParams>
                     <soundCast>PsychicShockLanceCast</soundCast>
                 </li>
