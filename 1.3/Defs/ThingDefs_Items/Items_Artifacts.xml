@@ -1,65 +1,70 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <!-- Archotech Ruinseeker -->
-        <ThingDef ParentName="ArtifactBase">
-            <defName>RS_ArchotechRuinseeker</defName>
-            <label>archotech ruinseeker</label>
-            <description>A device with an archotech tranciever, used for locating ancient ruin sites. Valued equally by researchers and treasure hunters throughout the Empire.</description>
-            <graphicData>
-                <texPath>Things/Item/Artifact/ArchotechRuinseeker</texPath>
-                <graphicClass>Graphic_Single</graphicClass>
-            </graphicData>
-            <resourceReadoutPriority>Middle</resourceReadoutPriority>
-            <stackLimit>1</stackLimit>
-            <tradeNeverStack>true</tradeNeverStack>
-            <useHitPoints>true</useHitPoints>
-            <statBases>
-                <MarketValue>1000</MarketValue>
-                <MaxHitPoints>80</MaxHitPoints>
-            </statBases>
-            <drawGUIOverlay>false</drawGUIOverlay>
-            <comps></comps> <!-- Adjust -->
-        </ThingDef>
+  <!-- Archotech Ruinseeker -->
+  <ThingDef ParentName="ArtifactBase">
+    <defName>RS_ArchotechRuinseeker</defName>
+    <label>archotech ruinseeker</label>
+    <description>A device with an archotech tranciever, used for locating ancient ruin sites. Valued equally by researchers and treasure hunters throughout the Empire.</description>
+    <graphicData>
+      <texPath>Things/Item/Artifact/ArchotechRuinseeker</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+    </statBases>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <comps>
+      <li Class="CompProperties_UseEffectArtifact">
+        <sound>PsychicAnimalPulserCast</sound>
+      </li>
+      <li Class="RimSol.CompProperties_Ruinseeker">
+      </li>
+    </comps>
+  </ThingDef>
 
+  <ThingDef>
+    <defName>AbsolJadePendant</defName>
+    <label>Jade Pendant</label>
+    <description>A Jade pendant.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Artifact1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>1</stackLimit>
+    <alwaysHaulable>true</alwaysHaulable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <techLevel>Industrial</techLevel>
 
-	<ThingDef>
-		<defName>AbsolJadePendant</defName>
-		<label>Jade Pendant</label>
-		<description>A Jade pendant.</description>
-		<graphicData>
-			<texPath>Things/Item/Resource/Artifact1</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<thingClass>ThingWithComps</thingClass>
-		<category>Item</category>
-		<resourceReadoutPriority>Middle</resourceReadoutPriority>
-		<useHitPoints>true</useHitPoints>
-		<selectable>true</selectable>
-		<altitudeLayer>Item</altitudeLayer>
-		<stackLimit>1</stackLimit>
-		<alwaysHaulable>true</alwaysHaulable>
-		<drawGUIOverlay>true</drawGUIOverlay>
-		<rotatable>false</rotatable>
-		<techLevel>Industrial</techLevel>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1</Mass>
+    </statBases>
 
-		<comps>
-			<li Class="CompProperties_Forbiddable"/>
-		</comps>
-		<statBases>
-			<MarketValue>1000</MarketValue>
-			<MaxHitPoints>100</MaxHitPoints>
-			<Mass>1</Mass>
-		</statBases>
-
-		<recipeMaker>
-			<recipeUsers>
-				<li>RS_SolusFabricationBench</li>
-			</recipeUsers>
-		</recipeMaker>
-		<costList>
-			<Jade>35</Jade>
-			<Gold>20</Gold>
-		</costList>
-	</ThingDef>
+    <recipeMaker>
+      <recipeUsers>
+        <li>RS_SolusFabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Jade>35</Jade>
+      <Gold>20</Gold>
+    </costList>
+  </ThingDef>
 </Defs>

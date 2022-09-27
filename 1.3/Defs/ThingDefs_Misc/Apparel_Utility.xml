@@ -55,9 +55,11 @@
                     <range>34.9</range>
                     <warmupTime>0.5</warmupTime>
                     <targetParams>
-                        <canTargetBuildings>true</canTargetBuildings>
-                        <onlyTargetPsychicSensitive>true</onlyTargetPsychicSensitive>
+                        <!-- <canTargetBuildings>true</canTargetBuildings> -->
+                        <!-- <onlyTargetPsychicSensitive>true</onlyTargetPsychicSensitive> -->
                         <neverTargetIncapacitated>true</neverTargetIncapacitated>
+                        <canTargetPlants>true</canTargetPlants>
+                        <canTargetPawns>false</canTargetPawns>
                     </targetParams>
                     <soundCast>PsychicShockLanceCast</soundCast>
                 </li>
@@ -70,7 +72,8 @@
                     <chargeNoun>charge</chargeNoun>
                     <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
                 </li>
-                
+                <li Class="RimSol.CompProperties_TargetEffect_Harvest">
+                  </li>
                 <!-- Adjust -->
             </comps>
         </ThingDef>
@@ -128,9 +131,7 @@
                     <range>34.9</range>
                     <warmupTime>0.5</warmupTime>
                     <targetParams>
-                        <canTargetBuildings>true</canTargetBuildings>
-                        <onlyTargetPsychicSensitive>true</onlyTargetPsychicSensitive>
-                        <neverTargetIncapacitated>true</neverTargetIncapacitated>
+                        <canTargetLocations>true</canTargetLocations>>
                     </targetParams>
                     <soundCast>PsychicShockLanceCast</soundCast>
                 </li>
@@ -143,7 +144,8 @@
                     <chargeNoun>charge</chargeNoun>
                     <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
                 </li>
-        
+                <li Class="RimSol.CompProperties_TargetEffect_AsteroidVectorizer">
+                </li>
             </comps>
         </ThingDef>
 

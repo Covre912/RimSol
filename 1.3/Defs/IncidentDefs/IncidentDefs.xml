@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <IncidentDef>
+        <defName>RS_SpaceDebrisImpactWithTarget</defName>
+        <label>space debris impact</label>
+        <category>Misc</category>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>RimSol.IncidentWorker_SpaceDebrisImpactWithTarget</workerClass>
+        <baseChance>0</baseChance>
+        <letterLabel>Meteorite</letterLabel>
+        <letterText>Space Debris has been pulled out of orbit and has struck ground in the area.</letterText>
+    </IncidentDef>
+</Defs>
