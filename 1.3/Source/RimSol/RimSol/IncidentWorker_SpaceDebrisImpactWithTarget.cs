@@ -23,8 +23,13 @@ namespace RimSol
             ThingDef fallingThing;
             if (Rand.Bool)
             {
-                fallingThing = ThingDefOf.MeteoriteIncoming;
-                list = ThingSetMakerDefOf.Meteorite.root.Generate();
+                fallingThing = ThingDefOf.MeteoriteIncoming;       
+                for (int i = 0; i < Rand.RangeInclusive(1, 5); i++)
+                {
+                    list = ThingSetMakerDefOf.Meteorite.root.Generate();
+                    SkyfallerMaker.SpawnSkyfaller(fallingThing, list, intVec.RandomAdjacentCell8Way().RandomAdjacentCell8Way().RandomAdjacentCell8Way(), map);
+                    //Funny but works lol
+                }
             }
             else
             {
@@ -33,8 +38,9 @@ namespace RimSol
                 {
                     list.Add(ThingMaker.MakeThing(ThingDefOf.ShipChunk));
                 }
+                SkyfallerMaker.SpawnSkyfaller(fallingThing, list, intVec, map);
             }
-            SkyfallerMaker.SpawnSkyfaller(fallingThing, list, intVec, map);
+
             LetterDef letterDef = LetterDefOf.PositiveEvent;
             string text = string.Format(this.def.letterText, list[0].def.label).CapitalizeFirst();
             base.SendStandardLetter(this.def.letterLabel + ": " + list[0].def.LabelCap, text, letterDef, parms, new TargetInfo(intVec, map, false), Array.Empty<NamedArgument>());
