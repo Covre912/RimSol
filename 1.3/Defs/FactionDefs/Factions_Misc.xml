@@ -4,7 +4,7 @@
     <FactionDef ParentName="FactionBase">
         <defName>RS_SolusDynasty</defName>
         <label>the solus dynasty</label>
-        <description>The absols are a traditional, but technologically extremely advanced humanoid alien species which settled here a few decades ago with the goal discover new worlds to inhabit and to salvage ancient technologies, aswell as artifacts found on the rimworlds and to collect the resources found abundantly and sometimes rarely on them. They are feared because of their ultratch Technology and high-end weapons.\n\nThey also intend to strengthen their race to protect it, while putting a high value on traditions, supporting those who help them, however...\n\nThe Dynasty is neutral against outsiders, yet very generous to those that earn their favor, yet very rough to its enemies and those that dare to stand in their way.</description>
+        <description>The Absols are spacefaring civilisation created by an major archotech. These humanoid canines settled here a few decades ago with the goal discover new worlds to inhabit and to salvage ancient technologies for the evolution of their species. They are feared by Humans and other species due to their clever use of ultratechnology and high-end weapons and space travel capabilities.\n\n They put a high value on their traditions which are very similar to both modern and ancient terran Japan. Absols are usally neutral and can become great friends, however...\n\n they are rather territorial and, as much as they are kind, will defend what is considered theirs.</description>
         <colorSpectrum>
             <li>(0.50, 0.30, 0.70)</li>
             <li>(0.60, 0.40, 0.80)</li>
@@ -18,7 +18,7 @@
         <canMakeRandomly>true</canMakeRandomly>
         <canSiege>true</canSiege>
         <canStageAttacks>true</canStageAttacks>
-        <leaderTitle>Daimio</leaderTitle>
+        <leaderTitle>planetary Daimio</leaderTitle>
         <factionIconPath>World/WorldObjects/Expanding/SolusTown</factionIconPath> 
         <factionNameMaker>NamerFactionDynasty</factionNameMaker>
         <settlementNameMaker>NamerSettlementDynasty</settlementNameMaker>
@@ -92,7 +92,7 @@
                     <RS_Samurai>9</RS_Samurai>
                     <RS_Royal>12</RS_Royal>
                     <RS_Shogun>25</RS_Shogun>
-                    <RS_WarHero>25</RS_WarHero>
+                    <RS_WarHero>1</RS_WarHero>
                 </options>
             </li>
             <li>
@@ -119,7 +119,7 @@
                     <RS_Servant>5</RS_Servant>
                     <RS_Warrior>6</RS_Warrior>
                     <RS_Samurai>7</RS_Samurai>
-                    <RS_Royal>10</RS_Royal>
+                    <RS_Royal>2</RS_Royal>
                 </guards>
             </li>
             <li>
