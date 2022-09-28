@@ -3,15 +3,15 @@
 	<ThingDef>
 		<defName>Solus_EnergyCrystal</defName>
 		<label>Energy Crystal</label>
-		<description>The energy crystal, also called crystal palace, is an extremely advanced, ultratech computer capable of hosting artificial intelligences comparable to personaes in a self-powered environment. It has the capability to programm itself for whatever purpose it has been given.\n\nEnergy crystals are an technological advancement unique to the Absol species, as it is the only one known to produce and utilize them. Comming in various sizes and forms, the capabilities of usage are tremendous, reaching from sentient toaster computers to architectual designers of orbital space stations, and have the capability to feel emotional and physical love as well.\n\nIt is not known to humans how this marvel of technology has been achieved, there are only rumors of an traveling archotechnological intelligence who gifted this knowledge to the absols, which believe the palaces house their kamies, hence the nickname.</description>
+		<description>The energy crystal - also called crystal palace - is an crystaline computer material capable of hosting artificial intelligences, from sub- to major personae, and strangely sometimes entities called archokamies, in an self-powered environment. It has the capability to programm itself for whatever purpose it has been given.\n\nEnergy crystals are an technological marvel unique to the Absol species, as they are the only ones known to produce and utilize them. Comming in various sizes and forms, the possibilities of usage are tremendous, reaching from sentient toaster computers to architectual designers of orbital space stations, at least when it is a personae. It is prooven that energy crystals can be emotional and feel physical love, but somtimes choose to disable these thoughts completely.\n\nIt is not known to humans how this technology came to be, there are only rumors of an archotech who gifted this knowledge to the Absols, which see the palaces as house for their kamies, hence the nickname.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/EnergyCrystal</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.8</drawSize>
+			<drawSize>0.9</drawSize>
 		</graphicData>
 		
 		<statBases>
-			<MarketValue>1450</MarketValue>
+			<MarketValue>1200</MarketValue>
 			<Mass>1</Mass>
 		</statBases>
 		
