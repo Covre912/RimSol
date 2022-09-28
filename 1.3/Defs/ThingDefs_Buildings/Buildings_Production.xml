@@ -182,6 +182,11 @@
             <Plasteel>75</Plasteel>
             <Solus_EnergyCrystal>1</Solus_EnergyCrystal>
         </costList>
+        <placeWorkers>
+            <li>PlaceWorker_DeepDrill</li>
+            <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+        </placeWorkers>
+        <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
         <researchPrerequisites>
             <li>RS_SolusTechnologyFundamentals</li>
         </researchPrerequisites>
@@ -201,8 +206,8 @@
                 <basePowerConsumption>200</basePowerConsumption>
             </li>
             <li Class="RimSol.CompProperties_SolusDrill">
-            <radius>5</radius>    
-            <miningSpeed>0.25</miningSpeed> <!-- % per seco4nd normal speed -->
+                <radius>5</radius>
+                <miningSpeed>0.25</miningSpeed> <!-- % per seco4nd normal speed -->
             </li>
             <li Class="CompProperties_CreatesInfestations" />
         </comps>

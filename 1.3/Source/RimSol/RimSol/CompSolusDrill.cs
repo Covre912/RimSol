@@ -137,7 +137,6 @@ namespace RimSol
 			{
 				yield return gizmo;
 			}
-			IEnumerator<Gizmo> enumerator = null;
 			if (Prefs.DevMode)
 			{
 				yield return new Command_Action
