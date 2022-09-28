@@ -5,7 +5,8 @@
   <ThingDef ParentName="ArtifactBase">
     <defName>RS_ArchotechRuinseeker</defName>
     <label>archotech ruinseeker</label>
-    <description>A device with an archotech tranciever, used for locating ancient ruin sites. Valued equally by researchers and treasure hunters throughout the Empire.</description>
+    <description>A device with a direct connection to the Archokami, who fulfill its request by locating ancient ruins. For Absol explorers and researchers, the tool is crucial for investigating human history and technology for further integration into the Absol infrastructure. As such, few are present in the Solus Dynasty at any one point.
+</description>
     <graphicData>
       <texPath>Things/Item/Artifact/ArchotechRuinseeker</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -15,7 +16,7 @@
     <tradeNeverStack>true</tradeNeverStack>
     <useHitPoints>true</useHitPoints>
     <statBases>
-      <MarketValue>1000</MarketValue>
+      <MarketValue>650</MarketValue>
       <MaxHitPoints>80</MaxHitPoints>
     </statBases>
     <drawGUIOverlay>false</drawGUIOverlay>
