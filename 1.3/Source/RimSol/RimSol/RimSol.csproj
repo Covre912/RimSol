@@ -47,11 +47,17 @@
       <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompProperties_SolusDrill.cs" />
     <Compile Include="CompProperties_TargetEffect_AsteroidVectorizer.cs" />
     <Compile Include="CompProperties_Ruinseeker.cs" />
     <Compile Include="CompProperties_TargetEffect_Harvest.cs" />
+    <Compile Include="CompSolusDrill.cs" />
     <Compile Include="CompTargetEffect_Harvest.cs" />
     <Compile Include="CompTargetEffect_AsteroidVectorizer.cs" />
     <Compile Include="CompUseEffect_Ruinseeker.cs" />
