@@ -197,7 +197,7 @@
         </statBases>
         <size>(2,1)</size>
         <costList>
-            <RS_Tungsten>200</RS_Tungsten>
+            <RS_Tungsten>125</RS_Tungsten>
             <ComponentIndustrial>10</ComponentIndustrial>
             <ComponentSpacer>2</ComponentSpacer>
         </costList>
@@ -214,9 +214,9 @@
         <comps>
             <li Class="CompProperties_Facility">
                 <statOffsets>
-                    <WorkTableWorkSpeedFactor>0.1</WorkTableWorkSpeedFactor>
+                    <WorkTableWorkSpeedFactor>0.15</WorkTableWorkSpeedFactor>
                 </statOffsets>
-                <maxSimultaneous>2</maxSimultaneous>
+                <maxSimultaneous>1</maxSimultaneous>
             </li>
         </comps>
         <placeWorkers>
@@ -228,7 +228,7 @@
         <ThingDef ParentName="BuildingBase">
             <defName>RS_ShimenawaKeystone</defName>
             <label>shimenawa keystone</label>
-            <description>A traditional keystone. Some people just call them glorified rocks. They are said to house spirits of the suroundings.</description> <!-- Adjust -->
+            <description>A traditional keystone. Some people just call them glorified rocks. They are said to house spirits of the suroundings. Can be rotated into different forms.</description> <!-- Adjust -->
             <size>(3,3)</size>
             <category>Building</category>
             <thingClass>Building</thingClass>
