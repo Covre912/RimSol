@@ -160,7 +160,7 @@
         <fillPercent>0.5</fillPercent>
         <designationCategory>Production</designationCategory>
         <designationHotKey>Misc12</designationHotKey>
-        <specialDisplayRadius>5</specialDisplayRadius> <!-- 21 closest cells, must be in sync with CompProperties_SolusDrill -->
+        <specialDisplayRadius>5</specialDisplayRadius> <!-- Must be in sync with CompProperties_SolusDrill -->
         <rotatable>true</rotatable>
         <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
         <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
