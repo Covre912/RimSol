@@ -4,7 +4,8 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>RS_BerneseMountainDog</defName>
 		<label>bernese mountain dog</label>
-		<description>A big, fluffy dog known for it's size and family friendlyness, known and loved on earth untill it's genetic downfall, rendering it unbreedable after a certain time, leading to the demise of the overall species. This kind of dog was not lost forever however, since some of the very last of their kind have found their way onto the outer rimworlds, where they lived and died till some lucky Absol exploration teams found the remains of one and visually reconstructed it. While nothing outstanding has been found, the animal has been seen as so adorable to the head explorer decided to reconstruct the species as a gift to the emperor who lived at that time, who,in fact, loved them and brought them everywhere he went, leading to a cultural love for these dogs valued for their companionship. After a series of genetic and psyonic enhancements, these dogs spark joy and will share it with everybody they find, if they like it or not. It appears that they somehow managed to grow in size quite a bit aswell...</description> <!-- Adjust -->
+		<description>These Berners are an genetically modified descendant of the Bernese Mountain Dog, favorite animal of the Luminary Solar Empress. The original stock was encountered on Empire human colonies and was brought back to Solheim as a gift for the royal family. Immediately smitten by their sheer friendliness, she opened a commission to enhance the creature, leading to bolstered vitality and increased intelligence. They are now found in military, government, and civilian services: some Absol say “It’s not home without a Berner!”
+</description> <!-- Adjust -->
 		<statBases>
 			<MoveSpeed>4.8</MoveSpeed>
 			<MarketValue>1200</MarketValue>
@@ -62,7 +63,7 @@
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Wolf</leatherDef>
 			<nameOnTameChance>1</nameOnTameChance>
-			<trainability>Intermediate</trainability>
+			<trainability>Advanced</trainability>
 			<wildness>0</wildness>
 			<nuzzleMtbHours>8</nuzzleMtbHours>
 			<gestationPeriodDays>20</gestationPeriodDays>
@@ -108,7 +109,7 @@
 		<defName>RS_BerneseMountainDog</defName>
 		<label>bernese mountain dog</label>
 		<race>RS_BerneseMountainDog</race>
-		<combatPower>120</combatPower>
+		<combatPower>100</combatPower>
 		<ecoSystemWeight>0.60</ecoSystemWeight>
 		<lifeStages>
 			<li>
