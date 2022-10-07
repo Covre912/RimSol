@@ -27,7 +27,7 @@
         <techHediffsChance>0.85</techHediffsChance>
         <techHediffsMoney>50~2200</techHediffsMoney>
         <techHediffsTags>
-            <li>Simple</li>
+            <li>Advanced</li>
             <li>ImplantEmpireCommon</li>
         </techHediffsTags>
     </PawnKindDef>
