@@ -164,7 +164,7 @@
         <fillPercent>0.5</fillPercent>
         <designationCategory>Production</designationCategory>
         <designationHotKey>Misc12</designationHotKey>
-        <specialDisplayRadius>5</specialDisplayRadius> <!-- 21 closest cells, must be in sync with CompProperties_SolusDrill -->
+        <specialDisplayRadius>5</specialDisplayRadius> <!-- Must be in sync with CompProperties_SolusDrill -->
         <rotatable>true</rotatable>
         <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
         <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
@@ -186,6 +186,11 @@
             <Plasteel>75</Plasteel>
             <Solus_EnergyCrystal>1</Solus_EnergyCrystal>
         </costList>
+        <placeWorkers>
+            <li>PlaceWorker_DeepDrill</li>
+            <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+        </placeWorkers>
+        <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
         <researchPrerequisites>
             <li>RS_SolusTechnologyFundamentals</li>
         </researchPrerequisites>
@@ -205,8 +210,8 @@
                 <basePowerConsumption>200</basePowerConsumption>
             </li>
             <li Class="RimSol.CompProperties_SolusDrill">
-            <radius>5</radius>    
-            <miningSpeed>0.25</miningSpeed> <!-- % per seco4nd normal speed -->
+                <radius>5</radius>
+                <miningSpeed>0.25</miningSpeed> <!-- % per seco4nd normal speed -->
             </li>
             <li Class="CompProperties_CreatesInfestations" />
         </comps>
