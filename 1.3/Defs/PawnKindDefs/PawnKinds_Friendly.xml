@@ -34,7 +34,6 @@
         <techHediffsChance>0.15</techHediffsChance>
         <techHediffsMoney>605~1900</techHediffsMoney>
         <techHediffsTags>
-            <li>Simple</li>
             <li>Advanced</li>
             <li>ImplantEmpireCommon</li>
         </techHediffsTags>
@@ -48,11 +47,12 @@
         <combatPower>175</combatPower>
         <isFighter>true</isFighter>
         <gearHealthRange>1~2</gearHealthRange>
-        <itemQuality>Normal,Good,Excellent</itemQuality>
+        <itemQuality>Good,Excellent</itemQuality>
         <apparelMoney>1700~2980</apparelMoney>
         <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>IndustrialMilitaryAdvanced</li>
+            <li>SpacerMilitary</li>
+            <li>IndustrialBasic</li>
             <li>BeltDefensePop</li>
         </apparelTags>
         <weaponMoney>1400~3800</weaponMoney>
@@ -61,7 +61,6 @@
         </weaponTags>
         <techHediffsMoney>400~1900</techHediffsMoney>
         <techHediffsTags>
-            <li>Simple</li>
             <li>Advanced</li>
             <li>ImplantEmpireCommon</li>
         </techHediffsTags>
@@ -80,19 +79,20 @@
         <apparelMoney>1500~2980</apparelMoney>
         <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>IndustrialMilitaryAdvanced</li>
+            <li>SpacerMilitary</li>
+            <li>IndustrialBasic</li>
             <li>BeltDefensePop</li>
         </apparelTags>
         <weaponMoney>1000~3800</weaponMoney>
         <weaponTags>
             <li>SolusKatana</li>
         </weaponTags>
-        <techHediffsMoney>400~900</techHediffsMoney>
+        <techHediffsMoney>900~1900</techHediffsMoney>
         <techHediffsTags>
-            <li>Simple</li>
+            <li>Advanced</li>
             <li>ImplantEmpireCommon</li>
         </techHediffsTags>
-        <techHediffsChance>0.45</techHediffsChance>
+        <techHediffsChance>0.85</techHediffsChance>
         <initialWillRange>10~15</initialWillRange>
         <initialResistanceRange>15~22</initialResistanceRange>
     </PawnKindDef>
@@ -107,7 +107,7 @@
         <apparelMoney>350~1280</apparelMoney>
         <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>IndustrialMilitaryAdvanced</li>
+            <li>SpacerMilitary</li>
             <li>BeltDefensePop</li>
         </apparelTags>
         <weaponMoney>865~1800</weaponMoney>
@@ -117,7 +117,6 @@
         </weaponTags>
         <techHediffsMoney>200~700</techHediffsMoney>
         <techHediffsTags>
-            <li>Poor</li>
             <li>Simple</li>
             <li>ImplantEmpireCommon</li>
         </techHediffsTags>
@@ -132,21 +131,21 @@
         <combatPower>35</combatPower>
         <isFighter>false</isFighter>
         <gearHealthRange>0.2~2</gearHealthRange>
-        <itemQuality>Poor</itemQuality>
+        <itemQuality>Normal</itemQuality>
         <apparelMoney>200~650</apparelMoney>
         <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>IndustrialAdvanced</li>
+            <li>IndustrialBasic</li>
         </apparelTags>
         <weaponMoney>605~1200</weaponMoney>
         <weaponTags>
             <li>SolusGun</li>
             <li>SolusMeleeWeapon</li>
         </weaponTags>
-        <techHediffsMoney>50~800</techHediffsMoney>
+        <techHediffsMoney>200~1200</techHediffsMoney>
         <techHediffsTags>
-            <li>Poor</li>
             <li>Simple</li>
+            <li>Advanced</li>
             <li>ImplantEmpireCommon</li>
         </techHediffsTags>
         <techHediffsChance>0.06</techHediffsChance>
@@ -164,7 +163,7 @@
         <apparelMoney>2000~4000</apparelMoney>
         <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>IndustrialMilitaryAdvanced</li>
+            <li>SpacerMilitary</li>
             <li>BeltDefensePop</li>
         </apparelTags>
         <weaponMoney>1500~2500</weaponMoney>
@@ -173,7 +172,6 @@
         </weaponTags>
         <techHediffsMoney>800~3300</techHediffsMoney>
         <techHediffsTags>
-            <li>Simple</li>
             <li>Advanced</li>
             <li>ImplantEmpireCommon</li>
             <li>ImplantEmpireRare</li>
@@ -212,13 +210,14 @@
     <PawnKindDef ParentName="RS_AbsolFriendlyBase">
         <defName>RS_Priest</defName>
         <label>solus priest</label>
-        <combatPower>10</combatPower>
+        <combatPower>45</combatPower>
         <isFighter>false</isFighter>
         <gearHealthRange>0.2~2</gearHealthRange>
         <itemQuality>Normal,Good</itemQuality>
-        <apparelMoney>200~1350</apparelMoney>
+        <apparelMoney>1200~1900</apparelMoney>
         <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
         <apparelTags>
+            <li>IndustrialMilitaryBasic</li>
             <li>IndustrialAdvanced</li>
         </apparelTags>
         <techHediffsMoney>200~2000</techHediffsMoney>
